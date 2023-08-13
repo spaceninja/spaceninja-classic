@@ -1,0 +1,10 @@
+---
+title: 'VICTOLY!'
+date: 2003-04-05
+authors:
+  - scott
+---
+
+I think I have fixed my CSS problem. I haven't actually sat down and coded it up yet, but I can see the solution in my head. The bad news is that as far as I can tell (along with the people on the CSS dev mailing list) you simply cannot replicate all features of table-based layouts using CSS. Not to bore you all with the details, but if one thing is working, another thing is not. The good news is that I was able to get around this hang-up by making a slight change to my old table-based layouts. So the new CSS versions won't be perfect adaptations, but I think the new speed and better code will help expand their effective lifetimes by quite a bit.
+
+**Geeky Details:** (for those who are so inclined). Basically, my problem is the holy grail of CSS layouts - perfectly replicating a table-based layout. This means a fluid multiple-column layout that can flex around itself, contains styling in the columns (not as a background to the table), allows any column to be the longest one, and has a header and a footer that flow around the content easily. The problem I was running into was tied into the styling. There are a few examples of CSS layouts that allow any column to be the longest, but I was unable to find any that did that \*and\* allowed me to have a background color that streched all the way down to the bottom of the "table" like the table-based layouts did. Essentially, with CSS, you could either have a layout that allowed any column to be longer, or you could have column backgrounds that stretched to the bottom. Not both. Well, the solution I finally found was to slightly alter my approach. By using the same background for the overlap area on the sidebar as for the mainbar, I can accomplish everything. It's not a perfect adaptation, but it'll be close enough that I think I can live with it, and it gets me to my CSS layouts, which I love so much. Anyways, that should be enough details for even the geekiest of you.

@@ -1,0 +1,9 @@
+---
+layout: layouts/page.njk
+title: Archive
+date: 2022-10-03
+tags:
+  - nav
+---
+{% set postList = collections.posts | reverse %}
+{% include "post-list.njk" %}

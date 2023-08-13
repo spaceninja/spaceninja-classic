@@ -1,0 +1,64 @@
+---
+title: 'Zoe is Four Months Old'
+date: 2007-07-04
+tags:
+  - annie
+  - babies
+  - family
+  - newsletter
+  - parenting
+  - scott
+  - zoe
+authors:
+  - scott
+---
+
+Hi Zoe, During your fourth month, we took you to new places. You went to the beach cabin in Twin Rocks for the first time, and you went camping with us for your great-grandma Bev's birthday. At the beach, we took you out to see the ocean a couple of times, but you were napping and seemed uninterested in the blustery wonders of the Oregon Coast. While camping, you enjoyed spending a lot of time outside playing on a blanket in the shade of a tree. You also got head-butted by your cousin Milo, who continues to get very excited whenever he sees you. You were not happy about the bonk he gave you, and after seeing you burst into tears and considering it for a minute, Milo realized that he didn't like it either and also started crying. We're trying to teach him some more appropriate ways to show his affection, such as with flowers or a witty greeting card.
+
+[![Tongue Out](/images/573954101_b62d3fe449.jpg)](http://www.flickr.com/photos/spaceninja/573954101/)
+
+In the last month you have developed quite an assortment of new skills. You figured out how to successfully jam your thumb or fingers into your mouth about 99% of the time, thus dramatically reducing the number of times each day where you jab yourself in the eye or gouge a huge scratch into your nose with a fingernail. When lying on your back, you will grab my thumbs and do a sit-up to get into sitting position, and then lie down again. If I put you up on your feet, you will support your weight for several seconds at a time. You even enjoy being in your johnny jump-up, though you're too small to actually jump in it yet. Mostly you just enjoy the novelty of being upright without anyone holding you up, and spin in slow, lazy circles in the doorway to the kitchen, chewing on the edge of the seat.
+
+Putting your fingers in your mouth deserves further mention. Last month, you were working your way towards this, but mostly just gummed on your knuckles or your wrist. Every once in awhile you would get a finger in there and start sucking furiously on it, until you randomly flailed with the hand you were sucking, yanking it out of your mouth and looking startled. Sometime in the last several weeks, you suddenly developed the ability to consistantly move your hand to your mouth and extend a digit into your open mouth, and you are thrilled by this. You spend every possible second chewing on your fingers, and the fact that you are chewing instead of sucking, for the most part, causes me to worry that you're going to start teething soon, which I'm not looking forward to.
+
+Still, the ability to move your hand in some predictable way is a huge development. You've even started expanding that into grabbing things, but unless we hold a toy in just the right position for your hand to grab it, you aren't quite coordinated enough yet to do it on your own - but you have a lot of fun grabbing onto your mom's shirt, or a burp rag, or any other bit of cloth that's near you. I never thought about it before, but I suppose that a big piece of cloth would be much easier to grab than a rattle.
+
+Your personality continues to evolve at a steady pace. You still love your mom and me, and you light up whenever your recognize our faces or hear our voices, but you've also become much more insulated. Unless you're in a really good mood, you generally start fussing whenever anyone but us is holding you for more than a few minutes. And there are a few people who cause you to burst into tears almost immediately - not least of which is your Grandpa Ted. We were hanging out in the backyard the other day, and you seemed to be in a good mood otherwise, but anytime grandpa got anywhere near you, you would make the most exaggerated frowny face I've ever seen, sticking out your trembling lower lip for a second before screaming until your mom or I picked you up. We would calm you down, and then try again, with the same results. He tried to laugh about it, but I'm pretty sure he's at home writing you out of his will right now, so you might want to work on your people skills a bit.
+
+[![Zoe Wants To Eat The Camera](/images/573731848_d42f915da6_s.jpg)](http://www.flickr.com/photos/spaceninja/573731848/) [![Looking Out The Window](/images/573982453_e32c0877fc_s.jpg)](http://www.flickr.com/photos/spaceninja/573982453/) [![Cooing](/images/573728108_e9ecf6c595_s.jpg)](http://www.flickr.com/photos/spaceninja/573728108/) [![Chewing on her hands](/images/573979991_2fefe7fec1_s.jpg)](http://www.flickr.com/photos/spaceninja/573979991/) [![Blowing Bubbles](/images/573978703_8629da0782_s.jpg)](http://www.flickr.com/photos/spaceninja/573978703/)
+
+On the other hand, you have become fascinated by the outdoors, especially by trees. If you are upset, I can almost always calm you down by walking outside under the tree in the backyard. You instantly stop crying, and stare intently upwards at the leaves rippling in the breeze. If I put you in the front pack and take you for a walk to get you to sleep, I have to make sure you're wearing a hat, or you spend the entire time lifing your head up so you can look at all the stuff going on around you. Bright colors especially interest you, and if I stop in front of a rose bush or some other flowers, you will happily stare at the blooms for minutes at a time.
+
+You still have a mixed relationship with your car seat. Most of the time, you're a great car baby, and will happily fall asleep if we're in the car for more than just a few minutes. Sean has sat in the backseat with you and got some great photos of you, just sitting quietly in your carseat. But if we put you in at the wrong time, or if you're in even a bit of a bad mood, you get very angry. My theory is that you don't like the restraints because they prevent you from waving your legs around. I can't say I blame you, but it's sad to hear you crying back there. For the most part, the magic speed seems to be around 30 miles per hour - once we top that, the vibrations of the car seem to sooth you, and you'll patiently wait for us to get where we're going - but every now and then, there's no consoling you, and you'll just cry yourself to sleep, which is heartbreaking.
+
+[![Zoe is Unimpressed](/images/582520755_a01b876d11.jpg)](http://www.flickr.com/photos/spaceninja/582520755/)
+
+You're still growing, though it's not as dramatic as the first couple months. At your four-month checkup a few days ago, the doctor told us that you're 23½ inches long and 13 pounds, 6 ounces, which puts you in the 50th percentile for weight and 25th percentile for height. Your eyes are still blue, and your hair is still dark. It's getting longer on top of your head, but you're also finally getting that reverse-monk haircut where the hair on the back and sides of your head is thinner because you spend so much time on your back. Your mom and I still debate about what you're going to look like as you get older, but I'm putting my money on blue eyes like your mom, and straight dark hair like your dad. Oh, and based on that 25th percentile in length, I'm guessing you're going to follow in our footsteps in the height department, but it's too early to tell.
+
+Last month I mentioned the puking, and it's gotten a little better. I think it's because you're getting much better at burping yourself. We used to have to work pretty hard to get a burp out of you, and now about half the time, all I have to do is turn you upright. Of course, the problem is that when you do puke, it still goes down your neck, so as often as not, you smell vaguely of vomit and spoiled milk - which means that your mom tries to give you a quick bath every few days.
+
+[![Howdy!](/images/626320171_4cb36a8bd2.jpg)](http://www.flickr.com/photos/spaceninja/626320171/)
+
+You don't seem to have made up your mind about baths yet. You seem indifferent to them. You enjoy being naked, but you also dislike being manhandled the way we have to in the bath. I suspect that once you have enough motor control to figure out how to splash, and sit up on your own, you'll enjoy them a lot more.
+
+Your typical day hasn't changed much, except that you're awake much more, and you reliably sleep through the night. Which is sort of like saying that the way I get to work hasn't changed much, except I drive a Ferrari instead of taking the bus.
+
+[![Nuzzling](/images/573720682_0cfce91ab0.jpg)](http://www.flickr.com/photos/spaceninja/573720682/)
+
+You typically wake up sometime between 5 and 6am, at which point your mom gets you out of **your** crib in **your** room and brings you back to bed with us, where you nurse and then fall asleep cuddled up with your Mom. She keeps you on the far side of the bed from me, because apparently I am a flailer. When I wake up to go to work at 7am, you are lightly sleeping - I can tell because every time I make a noise or step on the creaky bit of the floor, you startle and flail your arms - apparently it's genetic.
+
+You and your mom sleep in until sometime between 8 and 9am, depending on when you decide it's time to get up. You let your mother know it's time to get up by squawking and chirping and laughing and generally sounding like you're having such a good time that she eventually feels guilty and gets up. You only stay awake for about an hour in the morning, but it's one of the best times of the day, because you're well-rested, fed, and happy. Your mom tries to get you to do some tummy time and plays with you until you get tired, and then she puts you in the front pack, where you stay for most of the day, napping and eating on and off.
+
+[![Family snapshot in the Columbia Gorge](/images/619651922_c13c6d4974_s.jpg)](http://www.flickr.com/photos/spaceninja/619651922/) [![Annie is Unimpressed](/images/582517019_023468c8ec_s.jpg)](http://www.flickr.com/photos/spaceninja/582517019/) [![Teething Already?](/images/573690050_31b959e4c5_s.jpg)](http://www.flickr.com/photos/spaceninja/573690050/) [![Sleeping with Momma](/images/562550975_3fe4201717_s.jpg)](http://www.flickr.com/photos/spaceninja/562550975/) [![Johnny jump up](/images/545074744_389ad55438_s.jpg)](http://www.flickr.com/photos/spaceninja/545074744/)
+
+When I get home in the evening, you're usually very excited to see me, and I try to get some good face time with you. I bounce you on my knee, and we babble at each other. I change your diaper and blow raspberries on your belly and you laugh at me. Your mom and I are trying to be good about eating dinner at the table, but since you usually want to eat or be held, we end up eating in the basement in front of the TV instead. Most nights, you fall asleep after eating for a half-hour or so, and then your mom puts you to bed in your crib in your room around 8pm. Lately, this takes a couple tries, and frequently you end up coming back downstairs to eat some more before being put to bed for real around 9pm.
+
+[![Sleeping on Grandma](/images/573957639_52b76f2d7a.jpg)](http://www.flickr.com/photos/spaceninja/573957639/)
+
+Now, here's the magical part. Remember when I said that you sleep through the night? I meant it. It wasn't an exaggeration, like saying you sleep for four or five hours in there. I mean we put you down in there by 9pm, and you sleep straight through until you wake up around 6am - and even then, you go back to sleep for another few hours! You are an amazing sleeping baby, and we love you for it. We get together with other parents, who tell us about how their babies will only sleep in their bed, or still wake up every few hours all night, or just don't sleep well, or whatever, and we feel somewhat guilty that our baby is so incredibly easy. Not too guilty, though. It's hard to feel all that guilty when you're this well-rested. The flip side of this though, is that your mom can't lay you down to nap during the day - you'll only sleep in a front pack. I keep reminding her to enjoy this phase as it won't last long.
+
+A couple of months ago, I wrote "hopefully in the next newsletter I’ll be able to tell you about what an easygoing little girl you are, and how simple it’s been to put you to sleep every evening. Fingers crossed!" That worked out rather well for me, so I'm going to go ahead and predict now that you are going to grow up to be some incredibly talented something-or-other who will make lots of money, and allow your parents to live the lifestyle they've always dreamed of - Making drinks with umbrellas and throwing fancy dinner parties on our James-Bond-style-Island-Hideout. Oh, and throw in a zeppelin for your Uncle Sean, would you?
+
+As your momma used to say to me, I love you two pizzas!
+
+[![Happy Birthday!](/images/573945503_31b0e1886b.jpg)](http://www.flickr.com/photos/spaceninja/573945503/)

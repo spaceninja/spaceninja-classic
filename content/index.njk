@@ -1,0 +1,25 @@
+---
+layout: layouts/base.njk
+date: 2022-10-01
+teaseCount: 5
+---
+<h1>{{ metadata.title }}</h1>
+<p>{{ metadata.description }}</p>
+
+{% set postList = collections.posts | reverse | head(teaseCount, 1) %}
+{% set latestPost = collections.posts | last %}
+{% set totalCount = collections.posts | length %}
+{% set previousCount = totalCount | min(teaseCount) %}
+{% set moreCount = totalCount - teaseCount - 1 %}
+
+<h2>Most Recent Post</h2>
+{% include "latest-post.njk" %}
+
+<h2>Previous {{ previousCount }} Posts</h2>
+{% include "post-list.njk" %}
+
+{% if moreCount > 0 %}
+  <p>
+    More posts can be found in <a href="/archive/">the archive</a>.
+  </p>
+{% endif %}

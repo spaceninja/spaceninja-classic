@@ -1,0 +1,24 @@
+<ol class="post-list">
+{% for post in postList %}
+	<li class="post-list__item{% if post.url == url %} is-active{% endif %}">
+    <p class="post-list__meta">
+    {% if post.data.postNumber %}
+      <span class="post-list__number">Ep {{ post.data.postNumber }}:</span>
+    {% endif %}
+		<a href="{{ post.url }}" class="post-list__link">
+      {%- if post.data.title -%}
+        {{ post.data.title }}
+      {%- else -%}
+        <code>{{ post.url }}</code>
+      {%- endif -%}
+    </a>
+		<time class="post-list__date" datetime="{{ post.date | htmlDateString }}">
+      {{ post.date | readableDate("DD") }}
+    </time>
+    </p>
+    <p class="post-list__description">
+      {{ post.data.description }}
+    </p>
+	</li>
+{% endfor %}
+</ol>

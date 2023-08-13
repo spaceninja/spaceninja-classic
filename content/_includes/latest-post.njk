@@ -1,0 +1,24 @@
+<div class="post-list">
+	<div class="post-list__item">
+    <p class="post-list__meta">
+    {% if latestPost.data.postNumber %}
+      <span class="post-list__number">Ep {{ latestPost.data.postNumber }}:</span>
+    {% endif %}
+		<a href="{{ latestPost.url }}" class="post-list__link">
+      {%- if latestPost.data.title -%}
+        {{ latestPost.data.title }}
+      {%- else -%}
+        <code>{{ latestPost.url }}</code>
+      {%- endif -%}
+    </a>
+		<time class="post-list__date" datetime="{{ latestPost.date | htmlDateString }}">
+      {{ latestPost.date | readableDate("DD") }}
+    </time>
+    </p>
+    <div class="post-list__description">
+      {% if latestPost.page.excerpt %}
+        {{ latestPost.page.excerpt | markdown | safe }}
+      {% endif %}
+    </div>
+	</div>
+</div>

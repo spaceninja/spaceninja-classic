@@ -1,0 +1,12 @@
+---
+title: 'Chinese River Pirate Dream'
+date: 2007-01-02
+tags:
+  - dreams
+authors:
+  - scott
+---
+
+I found this on a backup disc while looking for something else. The text file, dated June 29, 2003, was titled chinese river pirate dream.txt. Based on the freeform style of the notes, I'm guessing that I woke up from the dream and walked over to the computer to write it down while it was still fresh in my mind, intending to flesh these notes out later on. I never did, and now it makes as little sense to me as it does to you.
+
+> Chinese river pirate lets me join crew on the deck dock stuck under push with stick must do it by hand running along bank he won't let me dangerous grab with hand he jumps on board floats downriver hiding in tall grass river patrol boats they spot us come over with threshers to cut grass we have to run I am going to get caught running down middle of road through patrol duck when they start shooting bullets wizz overhead kill each other wait for man to pick me up and put me on body cart never does sneak away, meet up with crew doesn't come back I remember he told me to tell his kids standing outside his cabin a station wagon pulls up with three kids and a mom the kids all have remote controls driving little RC vehicles advanced remind me of the ship (looks like nautilus) I mention this kids says "we built it" I tell mom I have to tell kids something open front door crouch down "I'm sorry I have to tell you that your father "Is alive and well! boisterous amazed he's alive tells me we're in trouble river patrols coming soon must get biscuits "What do you need biscuits for? We've got alcohol? Why would pirates need more than booze? Makes no sense to me he would risk it all again for these "What good is alcohol without caffeine? biscuits like hardtack but caffeinated enter cabin (just me) look around find nothing pry up floorboards drop down short area- three feet? crouch walk furnished well this is hide-out another room - nursery? lower floor, can stand up (familiar - beach cabin dream?) now used as storage not here on way out I see table covered with luggage open it up, filled with ziplock bags full of biscuits my mom comes to help carry them explains that she's been living here the room was much smaller before she knocked out the back wall to extend the room which I thought would ruin the hideout because it would be obvious from the outside.
