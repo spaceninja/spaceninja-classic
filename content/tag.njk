@@ -1,0 +1,21 @@
+---
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+  filter:
+    - all
+    - nav
+    - posts
+  addAllPagesToCollections: true
+layout: layouts/page.njk
+eleventyComputed:
+  title: Posts tagged “{{ tag }}”
+date: 2022-10-05
+permalink: /tags/{{ tag | slugify }}/
+eleventyExcludeFromCollections: true
+---
+{% set postList = collections[ tag ] | reverse %}
+{% include "post-list.njk" %}
+
+<p>See <a href="/tags/">all tags</a>.</p>

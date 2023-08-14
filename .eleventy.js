@@ -94,10 +94,20 @@ module.exports = function (eleventyConfig) {
   });
 
   // Return all the tags used in a collection, except some
-  eleventyConfig.addFilter('filterTagList', function filterTagList(tags) {
+  eleventyConfig.addFilter('filterTagList', (tags) => {
     return (tags || []).filter(
       (tag) => ['all', 'nav', 'posts'].indexOf(tag) === -1,
     );
+  });
+
+  // Get the posts by author
+  eleventyConfig.addFilter('getPostsByAuthor', (posts, author) => {
+    return posts.filter((post) => post.data.authors.includes(author));
+  });
+
+  // Get the author object
+  eleventyConfig.addFilter('getAuthor', (authors, label) => {
+    return authors.filter((author) => author.key === label)[0];
   });
 
   // Render Markdown content

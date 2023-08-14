@@ -1,21 +1,17 @@
 ---
-pagination:
-  data: collections
-  size: 1
-  alias: tag
-  filter:
-    - all
-    - nav
-    - posts
-  addAllPagesToCollections: true
+permalink: /tags/
 layout: layouts/page.njk
-eleventyComputed:
-  title: Posts tagged “{{ tag }}”
-date: 2022-10-05
-permalink: /tags/{{ tag | slugify }}/
-eleventyExcludeFromCollections: true
+title: Tags
+date: 2022-10-04
+tags:
+  - nav
 ---
-{% set postList = collections[ tag ] | reverse %}
-{% include "post-list.njk" %}
-
-<p>See <a href="/tags/">all tags</a>.</p>
+<ul class="tag-cloud">
+{% for tag in collections.posts | getAllTags | filterTagList %}
+	{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+	<li class="tag-cloud__item" style="--font-adjust: {{ collections[tag].length }}">
+    <a href="{{ tagUrl }}" class="tag-cloud__link">{{ tag }}</a>
+    <span class="tag-cloud__count">({{ collections[tag].length }})</span>
+  </li>
+{% endfor %}
+</ul>

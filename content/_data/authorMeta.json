@@ -1,0 +1,51 @@
+[
+  {
+    "key": "scott",
+    "name": "Scott Vandehey",
+    "bio": "CSS Ninja, last of the freelance hackers, greatest sword fighter in the world.",
+    "website": "https://spaceninja.com",
+    "photo": "/images/avatars/scott48.jpg"
+  },
+  {
+    "key": "annie",
+    "name": "Annie Vandehey",
+    "bio": "I'm the only girl.",
+    "website": "https://strawberrystudios.org",
+    "photo": "/images/avatars/annie48.jpg"
+  },
+  {
+    "key": "kt",
+    "name": "KT Prew",
+    "photo": "/images/avatars/kt48.jpg"
+  },
+  {
+    "key": "miles",
+    "name": "Miles Johnson",
+    "bio": "10:15, personal note: It's fair to say I'm stepping out on a limb, but I am on the edge and that's where it happens.",
+    "website": "http://isometric.sixsided.org/",
+    "photo": "/images/avatars/miles48.jpg"
+  },
+  {
+    "key": "steve",
+    "name": "Steve Havelka",
+    "bio": "my simian compatriots never make things easy for me.",
+    "photo": "/images/avatars/spaceninja.gif"
+  },
+  {
+    "key": "ryan",
+    "name": "Ryan Vandehey",
+    "photo": "/images/avatars/guyalpha48.jpg"
+  },
+  {
+    "key": "sean",
+    "name": "Sean Vandehey",
+    "website": "https://ultralaser.tumblr.com",
+    "photo": "/images/avatars/sean48.jpg"
+  },
+  {
+    "key": "zach",
+    "name": "Zach Archer",
+    "website": "http://zacharcher.com",
+    "photo": "/images/avatars/zach48.jpg"
+  }
+]
