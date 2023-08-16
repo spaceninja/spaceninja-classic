@@ -13,4 +13,10 @@ authors:
   - scott
 ---
 
-> **KT:** Does Zoe like Lost? **Scott:** Zoe's likes include eating and sleeping **Scott:** and wiggling and waving her arms around spastically **Scott:** She is indifferent at best to everything else **Scott:** She usually sleeps through Galactica **Scott:** I suppose that could be taken as a criticism. **KT:** hmm
+> **KT:** Does Zoe like Lost?
+> **Scott:** Zoe's likes include eating and sleeping
+> **Scott:** and wiggling and waving her arms around spastically
+> **Scott:** She is indifferent at best to everything else
+> **Scott:** She usually sleeps through Galactica
+> **Scott:** I suppose that could be taken as a criticism.
+> **KT:** hmm

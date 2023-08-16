@@ -4,9 +4,14 @@ const pluginRss = require('@11ty/eleventy-plugin-rss');
 const pluginSyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const markdownIt = require('markdown-it');
 
-const md = new markdownIt({
+const markdownOptions = {
   html: true,
-});
+  breaks: true,
+  linkify: true,
+  typographer: true,
+};
+
+const md = new markdownIt(markdownOptions);
 
 /**
  * Based on Eleventy Base Blog v8
@@ -31,6 +36,8 @@ module.exports = function (eleventyConfig) {
     preAttributes: { tabindex: 0 },
   });
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
+
+  eleventyConfig.setLibrary('md', markdownIt(markdownOptions));
 
   // Parse excerpts from contents
   eleventyConfig.setFrontMatterParsingOptions({

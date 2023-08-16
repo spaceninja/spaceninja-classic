@@ -11,6 +11,7 @@ authors:
   - miles
 ---
 
+```
                         CH3
                          |
                          N
@@ -23,6 +24,7 @@ authors:
                     N    C
                     |   ||
                    CH3   O
+```
 
 That's caffeine. Caffeine is my very close friend right now. Yes, I am finishing another one of my many incompletes from last year.
 

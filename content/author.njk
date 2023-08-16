@@ -9,13 +9,14 @@ eleventyComputed:
    title: "{{author.name}}"
 ---
 
-<h2>{{ author.name }}</h2>
-
+{% if author.website %}
 <p>
 Website: <a href="{{author.website}}" target="_new">{{author.website}}</a><br/>
 </p>
+{% endif %}
 
-<img src="{{author.photo}}" style="float:left; max-height: 300px; padding-right: 10px">
+<img src="{{author.photo}}" width="24" height="24" alt="">
+
 <p>
 {{author.bio}}
 </p>
