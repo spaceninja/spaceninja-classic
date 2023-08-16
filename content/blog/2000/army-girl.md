@@ -20,7 +20,7 @@ tags:
   - rachel
   - sex
 authors:
-  - scott
+  - anon
 ---
 
 Following the break-up, I move on with my life. It was the summer following my senior year, and I spent a good chunk of time cutting off all ties with all my old friends. By the end of my senior year, I hated everything about high school. With just a couple exceptions, I stopped talking to everyone from my high school.

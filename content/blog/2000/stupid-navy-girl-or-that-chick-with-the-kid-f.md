@@ -15,7 +15,7 @@ tags:
   - sex
   - truthordare
 authors:
-  - scott
+  - anon
 ---
 
 \-or- That Chick With The Kid

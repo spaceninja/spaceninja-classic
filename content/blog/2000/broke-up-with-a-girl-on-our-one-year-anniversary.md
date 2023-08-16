@@ -16,7 +16,7 @@ tags:
   - outdoorschool
   - sex
 authors:
-  - scott
+  - anon
 ---
 
 \-or- The Girl Who Made High School Suck

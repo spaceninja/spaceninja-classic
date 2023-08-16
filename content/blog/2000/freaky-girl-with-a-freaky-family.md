@@ -18,7 +18,7 @@ tags:
   - sex
   - weed
 authors:
-  - scott
+  - anon
 ---
 
 \-or- How I Narrowly Avoiding Having Good Sex With An Attractive Woman

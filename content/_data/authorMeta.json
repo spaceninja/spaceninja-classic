@@ -47,5 +47,10 @@
     "name": "Zach Archer",
     "website": "http://zacharcher.com",
     "photo": "/images/avatars/zach48.jpg"
+  },
+  {
+    "key": "anon",
+    "name": "Anonymous Coward",
+    "photo": "/images/avatars/anon.png"
   }
 ]
