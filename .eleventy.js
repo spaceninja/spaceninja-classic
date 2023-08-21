@@ -103,7 +103,7 @@ module.exports = function (eleventyConfig) {
   // Return all the tags used in a collection, except some
   eleventyConfig.addFilter('filterTagList', (tags) => {
     return (tags || []).filter(
-      (tag) => ['all', 'nav', 'posts'].indexOf(tag) === -1,
+      (tag) => ['all', 'nav', 'blog'].indexOf(tag) === -1,
     );
   });
 

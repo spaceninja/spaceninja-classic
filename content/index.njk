@@ -6,9 +6,9 @@ teaseCount: 5
 <h1>{{ metadata.title }}</h1>
 <p>{{ metadata.description }}</p>
 
-{% set postList = collections.posts | reverse | head(teaseCount, 1) %}
-{% set latestPost = collections.posts | last %}
-{% set totalCount = collections.posts | length %}
+{% set postList = collections.blog | reverse | head(teaseCount, 1) %}
+{% set latestPost = collections.blog | last %}
+{% set totalCount = collections.blog | length %}
 {% set previousCount = totalCount | min(teaseCount) %}
 {% set moreCount = totalCount - teaseCount - 1 %}
 

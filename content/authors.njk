@@ -11,7 +11,7 @@ tags:
 	{% set authorUrl %}/authors/{{ author.key }}/{% endset %}
 	<li class="tag-cloud__item">
     <a href="{{ authorUrl }}">{{ author.name }}</a>
-    <span>({{ collections.posts | getPostsByAuthor(author.key) | length }})</span>
+    <span>({{ collections.blog | getPostsByAuthor(author.key) | length }})</span>
   </li>
 {% endfor %}
 </ul>
