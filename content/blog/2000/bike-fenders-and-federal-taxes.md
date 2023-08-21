@@ -3,7 +3,6 @@ title: 'Bike Fenders and Federal Taxes'
 date: 2000-11-27
 tags:
   - bicycles
-  - biking
   - ellensburg
   - federal
   - fenders

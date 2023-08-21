@@ -2,7 +2,7 @@
 title: 'If Microsoft is Big Brother...'
 date: 2001-05-30
 tags:
-  - 1984
+  - '1984'
   - apple
   - bigbrother
   - books

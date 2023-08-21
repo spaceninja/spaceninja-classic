@@ -2,7 +2,7 @@
 title: 'My Days as a Bike Messenger'
 date: 2001-06-25
 tags:
-  - bikes
+  - bicycles
   - books
   - careers
   - cars

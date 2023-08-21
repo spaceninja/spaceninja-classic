@@ -2,7 +2,7 @@
 title: 'One Time I Peed on a Guy'
 date: 2001-02-24
 tags:
-  - bathroom
+  - bathrooms
   - camp
   - hatelife
   - outdoorschool

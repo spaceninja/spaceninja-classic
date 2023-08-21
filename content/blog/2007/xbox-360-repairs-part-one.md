@@ -2,7 +2,7 @@
 title: 'Xbox 360 Repairs - Part One'
 date: 2007-07-08
 tags:
-  - 360
+  - '360'
   - games
   - microsoft
   - repairs

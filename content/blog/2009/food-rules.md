@@ -2,7 +2,7 @@
 title: 'Food Rules'
 date: 2009-10-08
 tags:
-  - apples
+  - apple
   - food
   - health
   - quotes

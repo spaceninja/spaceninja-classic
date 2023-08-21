@@ -2,7 +2,7 @@
 title: 'How to Hire a Front-End Web Developer'
 date: 2009-12-17
 tags:
-  - applicants
+  - applications
   - comps
   - css
   - developers

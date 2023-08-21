@@ -2,7 +2,7 @@
 title: 'Autocompletion'
 date: 2000-09-14
 tags:
-  - autocompletion
+  - autocomplete
   - killingmachines
   - killingmachines
 authors:

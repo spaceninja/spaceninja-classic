@@ -2,7 +2,7 @@
 title: 'Post-Taliban Celebration'
 date: 2001-11-13
 tags:
-  - 911
+  - '911'
   - beards
   - celebration
   - culture

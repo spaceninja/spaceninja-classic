@@ -2,7 +2,7 @@
 title: 'Halo 3 Legendary Map Pack: One Paragraph Review'
 date: 2008-04-17
 tags:
-  - 360
+  - '360'
   - bungie
   - games
   - halo

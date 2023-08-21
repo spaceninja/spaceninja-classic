@@ -2,7 +2,7 @@
 title: 'Happy Birthday, Brothers!'
 date: 2001-05-02
 tags:
-  - birthdays
+  - birthday
   - brothers
   - comments
   - family

@@ -2,7 +2,7 @@
 title: 'I have Wood for Sheep'
 date: 2007-04-30
 tags:
-  - 360
+  - '360'
   - arcade
   - catan
   - games

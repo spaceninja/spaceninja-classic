@@ -2,7 +2,7 @@
 title: 'Defining War'
 date: 2001-09-24
 tags:
-  - 911
+  - '911'
   - politics
   - terrorism
   - vocabulary

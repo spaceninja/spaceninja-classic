@@ -3,7 +3,7 @@ title: 'Red Elvises Are Your New Favorite Band'
 date: 1999-12-04
 tags:
   - annie
-  - beingjohnmalkovich
+  - beingjohnmalkovitch
   - classes
   - concerts
   - dancing

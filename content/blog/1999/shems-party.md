@@ -10,7 +10,7 @@ tags:
   - annie
   - ants
   - arthistory
-  - beard
+  - beards
   - bras
   - classes
   - computerlabs

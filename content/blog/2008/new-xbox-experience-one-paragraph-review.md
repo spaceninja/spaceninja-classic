@@ -2,7 +2,7 @@
 title: 'New Xbox Experience: One Paragraph Review'
 date: 2008-11-20
 tags:
-  - 360
+  - '360'
   - avatars
   - microsoft
   - movies

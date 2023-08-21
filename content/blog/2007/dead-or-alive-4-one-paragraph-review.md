@@ -2,7 +2,7 @@
 title: 'Dead or Alive 4: One Paragraph Review'
 date: 2007-04-09
 tags:
-  - 360
+  - '360'
   - brucelee
   - deadoralive
   - games

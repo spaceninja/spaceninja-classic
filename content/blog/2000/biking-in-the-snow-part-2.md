@@ -3,7 +3,6 @@ title: 'Biking in the Snow, Part 2'
 date: 2000-12-15
 tags:
   - bicycles
-  - biking
   - cars
   - cold
   - danger

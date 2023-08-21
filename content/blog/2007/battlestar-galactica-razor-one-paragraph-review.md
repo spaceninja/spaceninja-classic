@@ -3,10 +3,8 @@ title: 'Battlestar Galactica: Razor: One Paragraph Review'
 date: 2007-11-19
 tags:
   - adama
-  - battlestar
-  - bsg
+  - battlestargalactica
   - cain
-  - galactica
   - pegasus
   - razor
   - reviews

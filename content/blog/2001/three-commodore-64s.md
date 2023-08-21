@@ -2,7 +2,7 @@
 title: 'Three Commodore 64s'
 date: 2001-02-15
 tags:
-  - 486
+  - '486'
   - astronauts
   - commodore64
   - microsoft

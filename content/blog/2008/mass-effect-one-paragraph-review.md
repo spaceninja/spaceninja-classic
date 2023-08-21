@@ -2,7 +2,7 @@
 title: 'Mass Effect: One Paragraph Review'
 date: 2008-07-09
 tags:
-  - 360
+  - '360'
   - alignment
   - bioware
   - chaoticevil

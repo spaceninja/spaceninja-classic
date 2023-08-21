@@ -2,7 +2,7 @@
 title: 'Zoe Eats the Bottom First'
 date: 2009-09-09
 tags:
-  - birthdays
+  - birthday
   - children
   - cupcakes
   - parenting
