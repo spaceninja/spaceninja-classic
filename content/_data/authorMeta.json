@@ -10,20 +10,20 @@
   {
     "key": "sean",
     "name": "Sean",
-    "full_name": "Sean Vandehey",
+    "full_name": "Sean",
     "website": "https://ultralaser.tumblr.com",
     "photo": "/images/avatars/sean48.jpg"
   },
   {
     "key": "ryan",
     "name": "Ryan",
-    "full_name": "Ryan Vandehey",
+    "full_name": "Ryan",
     "photo": "/images/avatars/guyalpha48.jpg"
   },
   {
     "key": "annie",
     "name": "Annie",
-    "full_name": "Annie Vandehey",
+    "full_name": "Annie",
     "bio": "I'm the only girl.",
     "website": "https://strawberrystudios.org",
     "photo": "/images/avatars/annie48.jpg"
@@ -31,13 +31,13 @@
   {
     "key": "kt",
     "name": "KT",
-    "full_name": "KT Prew",
+    "full_name": "KT",
     "photo": "/images/avatars/kt48.jpg"
   },
   {
     "key": "miles",
     "name": "Miles",
-    "full_name": "Miles Johnson",
+    "full_name": "Miles",
     "bio": "10:15, personal note: It's fair to say I'm stepping out on a limb, but I am on the edge and that's where it happens.",
     "website": "http://isometric.sixsided.org/",
     "photo": "/images/avatars/miles48.jpg"
@@ -45,21 +45,21 @@
   {
     "key": "steve",
     "name": "Steve",
-    "full_name": "Steve Havelka",
+    "full_name": "Steve",
     "bio": "my simian compatriots never make things easy for me.",
     "photo": "/images/avatars/spaceninja.gif"
   },
   {
     "key": "zach",
     "name": "Zach",
-    "full_name": "Zach Archer",
+    "full_name": "Zach",
     "website": "http://zacharcher.com",
     "photo": "/images/avatars/zach48.jpg"
   },
   {
     "key": "anon",
     "name": "Anonymous",
-    "full_name": "Anonymous Coward",
+    "full_name": "Anonymous",
     "photo": "/images/avatars/anon.png"
   }
 ]
