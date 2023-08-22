@@ -13,18 +13,18 @@ authors:
 >
 > **Andy Samberg:** You're talking about a gun, right?
 >
-> **BH:** Yes. I come to work with a gun.
+> **Bill:** Yes. I come to work with a gun.
 >
-> **AS:** Under your belt?
+> **Andy:** Under your belt?
 >
 > **Kristen Wiig:** You can't print that.
 >
-> **BH:** I mean, I've got a license for it. I use it for an intimidation tool. It's not loaded. "Oh really? You don't like that sketch?"
+> **Bill:** I mean, I've got a license for it. I use it for an intimidation tool. It's not loaded. "Oh really? You don't like that sketch?"
 >
-> **AS:** "Well, I've got a piece underneath my belt."
+> **Andy:** "Well, I've got a piece underneath my belt."
 >
-> **BH:** I'm just putting my guns on the table, I'm just saying.
+> **Bill:** I'm just putting my guns on the table, I'm just saying.
 >
-> **KW:** We're all required to bring some sort of weapon.
+> **Kristen:** We're all required to bring some sort of weapon.
 >
 > — From "[The New Faces of Saturday Night Live](http://www.avclub.com/content/node/46057)" in The A.V. Club

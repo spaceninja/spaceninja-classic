@@ -21,4 +21,6 @@ So with that comes many discussions about gender, body parts, and bodily functio
 
 Lucky for Zoe, her cousin Milo is almost the same age as her. During a recent visit, they were both going potty (Potty Party!) and talking with each other about it, and I heard the following exchange from the next room:
 
-> **Milo:** Zoe, Do you have a penis? **Zoe:** No, I have a NOT-Penis! I have 'GINA!
+> **Milo:** Zoe, Do you have a penis?
+>
+> **Zoe:** No, I have a NOT-Penis! I have 'GINA!

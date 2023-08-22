@@ -11,6 +11,8 @@ authors:
   - scott
 ---
 
-> **Vanessa:** "There is no fun in my life!" **Dr. Huxtable** "As you get older, it gets worse."
+> **Vanessa:** "There is no fun in my life!"
+>
+> **Dr. Huxtable** "As you get older, it gets worse."
 >
 > — The Cosby Show

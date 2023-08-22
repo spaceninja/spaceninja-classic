@@ -14,6 +14,8 @@ authors:
   - scott
 ---
 
-> **Annie:** "I just wanted to let you know that I was right, she was pooping." **Scott:** "This is the weirdest phone call I've ever received."
+> **Annie:** "I just wanted to let you know that I was right, she was pooping."
+>
+> **Scott:** "This is the weirdest phone call I've ever received."
 >
 > — Annie called me about ten minutes after I left the house to tell me this.

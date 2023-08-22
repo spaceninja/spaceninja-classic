@@ -12,4 +12,6 @@ authors:
   - scott
 ---
 
-> **TV:** Too blah in the bedroom? Try role-playing! **Zach:** I roll a D6! I'm a mummy!
+> **TV:** Too blah in the bedroom? Try role-playing!
+>
+> **Zach:** I roll a D6! I'm a mummy!

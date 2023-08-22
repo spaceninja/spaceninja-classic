@@ -10,13 +10,33 @@ authors:
   - scott
 ---
 
-> **Kirk:** "How long to re-fit?" **Scotty:** "Eight weeks. But you don't have eight weeks, so I'll do it for you in two." **Kirk:** "Do you always multiply your repair estimates by a factor of four?" **Scotty:** "How else to maintain my reputation as a miracle worker?" **Kirk:** "Your reputation is safe with me."
+> **Kirk:** "How long to re-fit?"
+>
+> **Scotty:** "Eight weeks. But you don't have eight weeks, so I'll do it for you in two."
+>
+> **Kirk:** "Do you always multiply your repair estimates by a factor of four?"
+>
+> **Scotty:** "How else to maintain my reputation as a miracle worker?"
+>
+> **Kirk:** "Your reputation is safe with me."
 >
 > — From Star Trek III
 
 I started this post awhile back with the idea of advocating Scotty's "miracle worker" method of work estimates. In a nutshell, Scotty's approach is to _under-promise, over-deliver_. On the surface, this sounds like a great idea. If you constantly pad your estimates, it gives you lots of wiggle-room when things inevitably go wrong, and it means that if the project takes the amount of time you thought, you look like a hero.
 
-> **Scotty:** "Starfleet captains are like children. They want everything right now and they want it their way. But the secret is to give them only what they need, not what they want." **Geordi:** "Yeah, well, I told the captain I'd have this analysis done in an hour." **Scotty:** "How long will it really take?" **Geordi:** "An hour." **Scotty:** "You didn't tell him now long it would really take, did you?" **Geordi:** "Of course I did." **Scotty:** "Laddie, you got a lot to learn if you want people to think of you as a miracle worker!"
+> **Scotty:** "Starfleet captains are like children. They want everything right now and they want it their way. But the secret is to give them only what they need, not what they want."
+>
+> **Geordi:** "Yeah, well, I told the captain I'd have this analysis done in an hour."
+>
+> **Scotty:** "How long will it really take?"
+>
+> **Geordi:** "An hour."
+>
+> **Scotty:** "You didn't tell him now long it would really take, did you?"
+>
+> **Geordi:** "Of course I did."
+>
+> **Scotty:** "Laddie, you got a lot to learn if you want people to think of you as a miracle worker!"
 >
 > — From the Next Generation episode "Relics"
 
