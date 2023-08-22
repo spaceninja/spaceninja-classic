@@ -8,7 +8,7 @@ tags:
   - books
   - computers
   - culture
-  - geek
+  - geeks
   - goldstein
   - johnsundman
   - microsoft

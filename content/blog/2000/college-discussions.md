@@ -4,7 +4,7 @@ date: 2000-07-16
 tags:
   - college
   - conversations
-  - debates
+  - debate
   - discussion
   - education
   - school

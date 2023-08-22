@@ -10,6 +10,7 @@ tags:
   - fonts
   - google
   - html5
+  - html
   - mozilla
   - typekit
   - typography

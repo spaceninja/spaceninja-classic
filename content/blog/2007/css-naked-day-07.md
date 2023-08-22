@@ -7,7 +7,7 @@ tags:
   - design
   - dustindiaz
   - holidays
-  - naked
+  - nude
   - standards
 authors:
   - scott

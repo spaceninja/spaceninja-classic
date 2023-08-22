@@ -5,8 +5,8 @@ tags:
   - drama
   - family
   - marriage
-  - molly
-  - newyork
+  - molli
+  - nyc
   - nyc
   - ryan
 authors:

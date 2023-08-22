@@ -9,7 +9,7 @@ tags:
   - hops
   - pilsener
   - quotes
-  - review
+  - reviews
   - reviews
   - tasting
 authors:

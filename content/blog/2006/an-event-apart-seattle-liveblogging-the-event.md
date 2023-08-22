@@ -3,6 +3,7 @@ title: 'An Event Apart Seattle: Liveblogging the Event!'
 date: 2006-09-18
 tags:
   - aeaseattle06
+  - aneventapart
   - alexrobinson
   - aneventapart
   - clients

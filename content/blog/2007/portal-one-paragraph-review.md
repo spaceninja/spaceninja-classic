@@ -7,7 +7,7 @@ tags:
   - portal
   - puzzles
   - reviews
-  - theorangebox
+  - orangebox
   - valve
 authors:
   - scott

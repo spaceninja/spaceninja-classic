@@ -5,7 +5,7 @@ tags:
   - anniversary
   - mural
   - paintbynumber
-  - party
+  - parties
   - popart
   - postits
   - video

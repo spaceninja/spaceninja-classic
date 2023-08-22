@@ -3,8 +3,8 @@ title: 'I Am A Big Nerd'
 date: 2008-06-05
 tags:
   - comics
-  - geek
-  - nerd
+  - geeks
+  - nerds
   - popart
   - wolverine
 authors:

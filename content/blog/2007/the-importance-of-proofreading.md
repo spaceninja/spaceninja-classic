@@ -3,7 +3,7 @@ title: 'The Importance of Proofreading'
 date: 2007-04-02
 tags:
   - advertising
-  - newyorktimes
+  - nytimes
   - proofreading
   - typo
 authors:

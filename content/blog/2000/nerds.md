@@ -2,7 +2,7 @@
 title: 'Nerds'
 date: 2000-07-21
 tags:
-  - dungeonsanddragons
+  - dnd
   - miles
   - programming
   - roleplaying

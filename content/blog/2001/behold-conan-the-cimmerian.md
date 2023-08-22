@@ -6,7 +6,7 @@ tags:
   - bombast
   - comics
   - conan
-  - geeky
+  - geeks
   - greed
 authors:
   - miles

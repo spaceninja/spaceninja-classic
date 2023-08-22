@@ -2,7 +2,7 @@
 title: 'New Year, New Job!'
 date: 2010-01-09
 tags:
-  - career
+  - careers
   - freelancing
   - jobs
   - metaltoad

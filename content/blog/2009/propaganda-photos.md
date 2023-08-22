@@ -7,7 +7,7 @@ tags:
   - college
   - miles
   - obey
-  - photography
+  - photos
   - propaganda
   - scott
   - steve

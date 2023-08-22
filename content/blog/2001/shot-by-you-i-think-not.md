@@ -2,7 +2,7 @@
 title: 'Shot by you? I think not.'
 date: 2001-02-21
 tags:
-  - homer
+  - homersimpson
   - insults
   - mrburns
   - quotes

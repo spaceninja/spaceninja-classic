@@ -2,7 +2,7 @@
 title: 'Rusty Becomes Rusted'
 date: 2001-07-07
 tags:
-  - changes
+  - change
   - killingmachines
   - names
   - rusted

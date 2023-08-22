@@ -3,7 +3,7 @@ title: 'Geek News'
 date: 2002-01-02
 tags:
   - computers
-  - geek
+  - geeks
   - it
   - microsoft
   - qwest

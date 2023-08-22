@@ -4,7 +4,7 @@ date: 2002-01-14
 categories:
   - personal
 tags:
-  - desktop
+  - desktops
   - microsoft
   - screenshots
   - windows

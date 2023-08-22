@@ -2,7 +2,7 @@
 title: 'It’s Not That We’re Against Pornography'
 date: 2000-04-28
 tags:
-  - pornography
+  - porn
   - steve
 authors:
   - scott

@@ -6,7 +6,7 @@ categories:
 tags:
   - css
   - howto
-  - internation
+  - international
   - jquery
   - language
   - selector

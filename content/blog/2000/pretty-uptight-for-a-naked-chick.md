@@ -4,10 +4,10 @@ date: 2000-11-03
 tags:
   - bible
   - eden
-  - naked
+  - nude
   - quotes
   - religion
-  - simpson
+  - simpsons
   - uptight
 authors:
   - scott

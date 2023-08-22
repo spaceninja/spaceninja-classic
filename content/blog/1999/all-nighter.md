@@ -3,7 +3,7 @@ title: 'All Nighter'
 date: 1999-03-19
 tags:
   - allnighter
-  - computerlab
+  - computerlabs
   - games
   - miles
   - muttonkombat

@@ -2,7 +2,7 @@
 title: 'Rocket in my Pocket'
 date: 2000-10-01
 tags:
-  - burns
+  - mrburns
   - pockets
   - rockets
   - simpsons

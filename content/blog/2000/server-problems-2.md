@@ -8,7 +8,7 @@ tags:
   - gifts
   - kt
   - myst
-  - server
+  - servers
   - steve
   - studiofojar
   - themes

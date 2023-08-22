@@ -6,7 +6,7 @@ tags:
   - cssnakedday
   - dustindiaz
   - holidays
-  - naked
+  - nude
   - standards
 authors:
   - scott

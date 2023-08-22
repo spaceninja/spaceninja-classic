@@ -7,7 +7,7 @@ tags:
   - homicide
   - hubris
   - movies
-  - newyorkcity
+  - nyc
   - original
   - scientists
   - scifi

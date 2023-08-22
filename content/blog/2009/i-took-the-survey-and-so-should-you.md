@@ -5,10 +5,10 @@ categories:
   - personal
 tags:
   - alistapart
-  - career
+  - careers
   - data
   - industry
-  - survey
+  - surveys
 authors:
   - scott
 ---

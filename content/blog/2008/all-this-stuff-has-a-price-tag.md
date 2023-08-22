@@ -7,7 +7,7 @@ tags:
   - politics
   - quotes
   - roads
-  - schools
+  - school
   - services
   - taxes
   - vanityfair

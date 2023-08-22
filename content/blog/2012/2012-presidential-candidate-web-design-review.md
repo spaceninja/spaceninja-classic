@@ -9,7 +9,7 @@ tags:
   - design
   - politics
   - president
-  - review
+  - reviews
 authors:
   - scott
 ---

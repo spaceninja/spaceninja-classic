@@ -5,7 +5,7 @@ tags:
   - cesspool
   - davidletterman
   - merylstreep
-  - newyork
+  - nyc
   - nyc
   - quotes
 authors:

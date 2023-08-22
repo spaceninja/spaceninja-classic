@@ -12,7 +12,6 @@ tags:
   - military
   - personality
   - philosophy
-  - stupid
   - stupidity
 authors:
   - scott

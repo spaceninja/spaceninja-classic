@@ -9,7 +9,7 @@ tags:
   - mac
   - macintosh
   - osx
-  - skin
+  - skins
 authors:
   - scott
 ---

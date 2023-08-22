@@ -2,7 +2,7 @@
 title: 'Jesus is Cool'
 date: 2000-10-30
 tags:
-  - jesuschrist
+  - jesus
   - jesuschristsuperstar
   - movies
   - musicals

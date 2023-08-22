@@ -6,7 +6,7 @@ tags:
   - baltar
   - cylons
   - finale
-  - galactica
+  - battlestargalactica
   - reviews
   - scifi
   - season3

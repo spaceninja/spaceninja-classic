@@ -6,7 +6,7 @@ tags:
   - martialarts
   - movies
   - reviews
-  - theblade
+  - blade
   - tsuihark
 authors:
   - miles

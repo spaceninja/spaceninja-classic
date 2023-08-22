@@ -6,8 +6,7 @@ tags:
   - camp
   - hatelife
   - outdoorschool
-  - peeing
-  - urination
+  - urine
 authors:
   - scott
 ---

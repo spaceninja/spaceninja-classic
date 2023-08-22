@@ -10,7 +10,7 @@ tags:
   - bookofbug
   - religion
   - spaceninja
-  - whitleystreiber
+  - whitleystrieber
   - yellow5
 authors:
   - scott

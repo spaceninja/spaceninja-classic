@@ -2,8 +2,8 @@
 title: 'The Second Law of Thermodynamics'
 date: 2007-02-20
 tags:
-  - geeky
-  - joke
+  - geeks
+  - jokes
   - physics
   - quotes
   - science

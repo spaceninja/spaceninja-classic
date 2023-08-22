@@ -13,7 +13,7 @@ tags:
   - fireworks
   - games
   - gifts
-  - lanparty
+  - lanparties
   - millennium
   - bookofbug
   - parties

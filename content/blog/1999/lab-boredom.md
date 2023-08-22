@@ -4,7 +4,7 @@ date: 1999-04-01
 tags:
   - annie
   - bus
-  - computerlab
+  - computerlabs
   - drcolossus
   - games
   - longdistance

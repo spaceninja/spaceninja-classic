@@ -5,7 +5,7 @@ tags:
   - anthems
   - beer
   - britain
-  - declaration
+  - declarationofindependence
   - england
   - football
   - guns

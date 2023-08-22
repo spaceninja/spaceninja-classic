@@ -4,8 +4,9 @@ date: 2010-10-11
 tags:
   - evercookie
   - hakonwiumlie
+  - html
   - html5
-  - newyorktimes
+  - nytimes
   - pamdixon
   - privacy
   - samykamkar

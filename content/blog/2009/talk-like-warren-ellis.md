@@ -8,7 +8,7 @@ tags:
   - coding
   - comics
   - design
-  - milesjohnson
+  - miles
   - projects
   - twitter
   - warrenellis

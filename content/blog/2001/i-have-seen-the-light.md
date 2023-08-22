@@ -12,7 +12,7 @@ tags:
   - kt
   - miles
   - pat
-  - pornography
+  - porn
   - religion
   - salvation
   - steve

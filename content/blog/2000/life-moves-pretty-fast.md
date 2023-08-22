@@ -2,7 +2,7 @@
 title: 'Life Moves Pretty Fast'
 date: 2000-09-27
 tags:
-  - ferrisbeuller
+  - ferrisbueller
   - life
   - philosophy
 authors:

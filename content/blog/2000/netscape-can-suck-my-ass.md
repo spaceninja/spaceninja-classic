@@ -2,7 +2,7 @@
 title: 'Netscape Can Suck My Ass'
 date: 2000-09-28
 tags:
-  - browser
+  - browsers
   - frustration
   - netscape
   - standards

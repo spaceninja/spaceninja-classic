@@ -5,7 +5,7 @@ tags:
   - blogging
   - blogs
   - confusion
-  - definition
+  - definitions
   - ironic
   - killingmachines
   - links

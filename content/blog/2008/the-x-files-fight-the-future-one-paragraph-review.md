@@ -4,7 +4,7 @@ date: 2008-07-23
 tags:
   - aliens
   - bees
-  - conspiracies
+  - conspiracy
   - davidduchovny
   - gilliananderson
   - movies

@@ -2,7 +2,7 @@
 title: 'Zoe is Talking'
 date: 2008-06-14
 tags:
-  - baby
+  - babies
   - talking
   - video
   - zoe

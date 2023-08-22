@@ -14,7 +14,7 @@ tags:
   - lists
   - microfame
   - networking
-  - ranking
+  - rankings
   - social
   - twitter
 authors:

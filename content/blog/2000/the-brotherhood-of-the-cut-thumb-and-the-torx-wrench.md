@@ -8,7 +8,7 @@ tags:
   - jobs
   - macintosh
   - miles
-  - repair
+  - repairs
 authors:
   - miles
 ---

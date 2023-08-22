@@ -7,11 +7,12 @@ tags:
   - dogs
   - games
   - ie6
+  - ie
   - messages
   - microsoft
   - moving
   - netscape
-  - octopi
+  - octopus
   - outlook
   - portland
   - psychics

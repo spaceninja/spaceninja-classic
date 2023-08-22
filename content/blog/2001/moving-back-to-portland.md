@@ -4,7 +4,7 @@ date: 2001-02-01
 tags:
   - ataris
   - daniel
-  - debts
+  - debt
   - ellensburg
   - games
   - jester

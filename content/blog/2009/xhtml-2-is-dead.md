@@ -3,6 +3,7 @@ title: 'XHTML 2 is Dead'
 date: 2009-07-02
 tags:
   - html5
+  - html
   - markup
   - standards
   - w3c

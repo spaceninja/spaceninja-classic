@@ -4,7 +4,7 @@ date: 2000-12-11
 tags:
   - axewomen
   - dragons
-  - dungeonsanddragons
+  - dnd
   - dwarves
   - elves
   - gamers
@@ -14,7 +14,7 @@ tags:
   - reviews
   - roleplaying
   - rpgs
-  - thiefs
+  - thieves
 authors:
   - miles
 ---

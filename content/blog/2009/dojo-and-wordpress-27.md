@@ -4,7 +4,7 @@ date: 2009-02-25
 tags:
   - dojo
   - themes
-  - updates
+  - upgrades
   - wordpress
 authors:
   - scott

@@ -9,7 +9,7 @@ tags:
   - hammerspace
   - history
   - isometric
-  - journal
+  - journals
   - kmorg
   - killingmachines
   - movabletype

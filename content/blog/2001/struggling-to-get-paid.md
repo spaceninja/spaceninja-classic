@@ -4,7 +4,7 @@ date: 2001-03-03
 tags:
   - careers
   - enlightenment
-  - frustrations
+  - frustration
   - jessica
   - jobs
   - money

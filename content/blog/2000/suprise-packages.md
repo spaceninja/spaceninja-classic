@@ -3,10 +3,9 @@ title: 'Suprise Packages'
 date: 2000-10-28
 tags:
   - buddychrist
-  - christ
   - dogma
   - ellensburg
-  - jesuschrist
+  - jesus
   - movies
   - packages
   - pat

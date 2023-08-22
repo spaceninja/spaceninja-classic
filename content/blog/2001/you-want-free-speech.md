@@ -9,7 +9,7 @@ tags:
   - president
   - quotes
   - rights
-  - theamericanpresident
+  - americanpresident
 authors:
   - annie
 ---

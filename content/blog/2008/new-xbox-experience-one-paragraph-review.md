@@ -10,7 +10,7 @@ tags:
   - nxe
   - reviews
   - software
-  - upgrade
+  - upgrades
   - xbox
 authors:
   - scott

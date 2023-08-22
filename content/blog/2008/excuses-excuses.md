@@ -5,7 +5,6 @@ tags:
   - catastrophe
   - crisis
   - excuses
-  - pee
   - poop
   - puke
   - urine

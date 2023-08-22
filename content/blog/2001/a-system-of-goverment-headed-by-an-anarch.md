@@ -9,7 +9,7 @@ tags:
   - monarchy
   - politics
   - quotes
-  - stupid
+  - stupidity
 authors:
   - scott
 ---

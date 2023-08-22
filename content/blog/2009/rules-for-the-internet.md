@@ -9,7 +9,7 @@ tags:
   - heatherchamp
   - internet
   - lists
-  - naked
+  - nude
   - online
   - rules
 authors:

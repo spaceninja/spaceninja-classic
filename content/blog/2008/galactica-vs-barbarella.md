@@ -4,11 +4,10 @@ date: 2008-04-08
 tags:
   - barbarella
   - boomer
-  - bsg
-  - galactica
+  - battlestargalactica
   - gq
   - parody
-  - photography
+  - photos
   - scifi
   - six
   - starbuck

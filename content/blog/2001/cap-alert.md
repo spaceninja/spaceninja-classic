@@ -5,7 +5,7 @@ categories:
   - personal
 tags:
   - capalert
-  - christians
+  - christian
   - fightclub
   - fundamentalism
   - matrix

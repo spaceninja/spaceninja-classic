@@ -17,7 +17,7 @@ tags:
   - snl
   - startrek
   - television
-  - thekiller
+  - killer
   - wyattearp
 authors:
   - scott

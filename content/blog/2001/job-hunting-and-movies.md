@@ -11,7 +11,7 @@ tags:
   - networksolutions
   - sean
   - steve
-  - themummy
+  - mummy
   - tombraider
 authors:
   - scott

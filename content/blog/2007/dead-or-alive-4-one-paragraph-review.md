@@ -7,7 +7,7 @@ tags:
   - deadoralive
   - games
   - microsoft
-  - review
+  - reviews
   - reviews
   - videogames
   - xbox

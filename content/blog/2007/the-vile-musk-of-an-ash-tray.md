@@ -4,7 +4,7 @@ date: 2007-12-21
 tags:
   - ban
   - khoivinh
-  - newyork
+  - nyc
   - nyc
   - paris
   - quotes

@@ -9,7 +9,7 @@ tags:
   - politics
   - religion
   - repression
-  - schools
+  - school
   - society
   - values
 authors:

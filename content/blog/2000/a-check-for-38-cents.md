@@ -5,7 +5,7 @@ tags:
   - cable
   - checks
   - comcast
-  - stupid
+  - stupidity
   - utilities
 authors:
   - scott

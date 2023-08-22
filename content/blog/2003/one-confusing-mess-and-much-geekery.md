@@ -6,7 +6,7 @@ tags:
   - cords
   - dsl
   - fojar
-  - geekery
+  - geeks
   - internet
   - networking
   - qwest

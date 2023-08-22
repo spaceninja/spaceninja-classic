@@ -5,7 +5,7 @@ tags:
   - beach
   - beamer
   - hatelife
-  - job
+  - jobs
   - schedule
   - techteam
   - weddings

@@ -5,7 +5,7 @@ tags:
   - andysamberg
   - controversy
   - markwahlberg
-  - newyorkpost
+  - nypost
   - parody
   - snl
   - video

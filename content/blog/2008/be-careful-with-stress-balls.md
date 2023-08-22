@@ -4,7 +4,7 @@ date: 2008-10-02
 tags:
   - chrisschenk
   - coworkers
-  - explosion
+  - explosions
   - glitter
   - stressball
 authors:

@@ -6,7 +6,6 @@ tags:
   - games
   - gearsofwar
   - microsoft
-  - review
   - reviews
   - videogames
   - xbox

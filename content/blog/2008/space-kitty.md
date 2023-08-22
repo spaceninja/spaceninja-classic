@@ -5,7 +5,7 @@ tags:
   - flash
   - games
   - kitties
-  - milesjohnson
+  - miles
   - physics
   - reviews
   - space

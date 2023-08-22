@@ -4,7 +4,7 @@ date: 2007-07-10
 tags:
   - heat
   - portland
-  - temperatures
+  - temperature
   - weather
 authors:
   - scott

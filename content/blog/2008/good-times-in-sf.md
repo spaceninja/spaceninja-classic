@@ -4,7 +4,7 @@ date: 2008-08-19
 tags:
   - aeasf08
   - aneventapart
-  - conference
+  - conferences
   - ears
   - giraffe
   - sanfrancisco

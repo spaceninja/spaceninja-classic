@@ -7,7 +7,7 @@ tags:
   - donateblood
   - killingmachines
   - news
-  - newyork
+  - nyc
   - numb
   - nyc
   - redcross

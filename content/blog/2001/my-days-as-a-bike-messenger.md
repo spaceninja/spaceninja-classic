@@ -17,7 +17,7 @@ tags:
   - pirates
   - portland
   - skitching
-  - theimmortalclass
+  - immortalclass
   - traffic
 authors:
   - miles

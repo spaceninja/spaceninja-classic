@@ -2,7 +2,7 @@
 title: 'It was clear Wi-Fi had'
 date: 2003-10-21
 tags:
-  - conference
+  - conferences
   - joenacchio
   - pcforum
   - quotes

@@ -7,7 +7,7 @@ tags:
   - ellensburg
   - entrapment
   - familyguy
-  - fearandloathinginlasvegas
+  - fearandloathing
   - jessie
   - movies
   - bookofbug

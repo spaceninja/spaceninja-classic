@@ -3,7 +3,7 @@ title: 'Last FM Charts'
 date: 2007-11-30
 tags:
   - andrewgodwin
-  - chart
+  - charts
   - data
   - graph
   - lastfm

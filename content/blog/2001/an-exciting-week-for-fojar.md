@@ -13,7 +13,7 @@ tags:
   - photos
   - redesign
   - rusted
-  - server
+  - servers
   - viruses
 authors:
   - scott

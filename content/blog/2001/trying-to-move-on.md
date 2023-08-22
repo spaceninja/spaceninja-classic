@@ -6,8 +6,8 @@ tags:
   - aftermath
   - attack
   - comments
-  - distractions
-  - newyork
+  - distraction
+  - nyc
   - nyc
   - terrorism
 authors:

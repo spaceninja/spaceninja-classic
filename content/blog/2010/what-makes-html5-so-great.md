@@ -6,6 +6,7 @@ categories:
 tags:
   - guidelines
   - html5
+  - html
   - principles
   - w3c
 authors:

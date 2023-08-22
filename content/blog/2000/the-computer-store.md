@@ -5,7 +5,7 @@ tags:
   - apple
   - computers
   - computerstore
-  - description
+  - descriptions
   - macintosh
   - miles
   - office
