@@ -22,7 +22,7 @@ authors:
 
 [![Columbus Tower](/images/2795113450_1681dbbe3b.jpg)](http://www.flickr.com/photos/spaceninja/2795113450/)
 
-I've managed to attend An Event Apart [every](http://spaceninja.local/an-event-apart-seattle-liveblogging-the-event/) [year](http://spaceninja.local/an-event-apart-seattle-2007/) so far, and this year was particularly exciting because the nearest location was in San Francisco. I went to Seattle the last two times, which was fine, but I know Seattle pretty well, so the opportunity to play tourist in a new city was very appealing to me. Luckily, my coworker Libby was coming with me, and she used to work in "the City" so I had the advantage of a guide.
+I've managed to attend An Event Apart [every](/blog/2006/an-event-apart-seattle-liveblogging-the-event/) [year](/blog/2007/an-event-apart-seattle-2007/) so far, and this year was particularly exciting because the nearest location was in San Francisco. I went to Seattle the last two times, which was fine, but I know Seattle pretty well, so the opportunity to play tourist in a new city was very appealing to me. Luckily, my coworker Libby was coming with me, and she used to work in "the City" so I had the advantage of a guide.
 
 (While I was there, I took hundreds of photos, and even after whittling it down, I still uploaded more than 100 to flickr. Rather than bore you with them, I'll keep this post limited to discussion of the conference, and if you want to see dozens of photos of beautiful architecture, you can check out [the photo set](http://flickr.com/photos/spaceninja/sets/72157606932652142/).)
 

@@ -7,7 +7,7 @@ authors:
   - scott
 ---
 
-- [Portfolio](http://spaceninja.local/port/) Redesign - the design mockup is finished, I just need to convert it to CSS and upload. I'm actually aiming to have this one done tomorrow.
+- [Portfolio](http://spaceninja.com/port/) Redesign - the design mockup is finished, I just need to convert it to CSS and upload. I'm actually aiming to have this one done tomorrow.
 - [WordPress](http://www.wordpress.org/) Installation - I'm looking to convert my blog, newsbeat, and Sean's site to wordpress, but I need to do a bit of experimenting with it first to ensure I can do what I need with it.
 - [NewsBeat](http://www.newsbeat.org/) - Poor, neglected Newsbeat. Jill will murder me and hide my body in the woods if I don't finish everything I'm supposed to do. A complete overhaul to wordpress and a brand new design and logotype are in the works.
 - [Dysnomia](http://dysnomia.spaceninja.com/) - David asked for a few minor design tweaks, which I should really sit down and take care of, since they will only take 15 minutes.

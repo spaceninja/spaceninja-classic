@@ -50,14 +50,14 @@ Steve starts drawing [Pokey the Penguin](http://www.yellow5.com/pokey/)
 
 **1999**
 [Napster](http://www.napster.com/) is created.
-Scott and Miles purchase [SpaceNinja.com](http://spaceninja.local/)
+Scott and Miles purchase [SpaceNinja.com](http://spaceninja.com/)
 Steve purchases [hatelife.org](http://www.hatelife.org/)
 
 **2000**
 [Y2K](http://www.y2k.gov/) fizzles.
 [The human genome is mapped](http://www.wired.com/news/technology/0,1282,35479,00.html).
 Scott purchases [KillingMachines.org](http://www.killingmachines.org/)
-Scott starts drawing propaganda art for [Obey Fojar](http://spaceninja.local/site-archives/obey/v2/).
+Scott starts drawing propaganda art for [Obey Fojar](http://spaceninja.com/site-archives/obey/v2/).
 
 **2001**
 [Napster](http://www.napster.com/) is closed by courts.

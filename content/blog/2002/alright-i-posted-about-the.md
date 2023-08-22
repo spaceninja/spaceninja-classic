@@ -12,4 +12,4 @@ If you haven't already, go watch [The Matrix Reloaded teaser trailer one](http:/
 
 Good thing I have Attack of the Clones to keep my mind occupied.
 
-[See the "old school" skin in the archives](http://spaceninja.local/site-archives/kmorg/skins/terminal.html). [See the "old school blue" skin in the archives](http://spaceninja.local/site-archives/kmorg/skins/bluetext.html). [See the "mac" skin in the archives](http://spaceninja.local/site-archives/kmorg/skins/mac.html). [See the "trinity" skin in the archives](http://spaceninja.local/site-archives/kmorg/skins/trinity.html).
+[See the "old school" skin in the archives](http://spaceninja.com/site-archives/kmorg/skins/terminal.html). [See the "old school blue" skin in the archives](http://spaceninja.com/site-archives/kmorg/skins/bluetext.html). [See the "mac" skin in the archives](http://spaceninja.com/site-archives/kmorg/skins/mac.html). [See the "trinity" skin in the archives](http://spaceninja.com/site-archives/kmorg/skins/trinity.html).

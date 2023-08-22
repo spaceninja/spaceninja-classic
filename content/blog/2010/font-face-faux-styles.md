@@ -25,7 +25,7 @@ First, to clarify: A _font_ is a file containing a particular _typeface_, which 
 
 The problem, as you can see in this screenshot, is that if you only load one font into the family, then the browser doesn't know what to do when it's asked to render a bold or italic section using that font. It solves this by creating a faux-bold style by stretching the letters horizontally, and a faux-italic style by slanting the letters.
 
-[![comparing the browser's faux italic and bold styles to the true fonts](/images/problem.png)](http://spaceninja.local/projects/font-face/)
+[![comparing the browser's faux italic and bold styles to the true fonts](/images/problem.png)](http://spaceninja.com/projects/font-face/)
 
 fig a: comparison of faux browser styles and true typefaces
 
@@ -96,7 +96,7 @@ The common technique shared by many font services like FontSquirrel or WebINK is
 
 However, doing that actually results in what you see here, where the browser still applies its own faux bold and italic styles on top of the hard-coded bold and italic fonts you defined.
 
-[![double-italic and bold styles](/images/worst.png)](http://spaceninja.local/projects/font-face/)
+[![double-italic and bold styles](/images/worst.png)](http://spaceninja.com/projects/font-face/)
 
 fig b: faux browser styles applied on top of proper italic and bold fonts
 
@@ -123,7 +123,7 @@ To solve that problem, you reset `font-weight` and `font-style` on the nested st
 
 And it seems to work perfectly! Your custom bold and italic fonts are loaded properly, and the faux styles are nowhere to be seen! The problem is that if your custom font doesn't load for some reason, the browser is no longer applying bold or italic styles to the fallback font.
 
-[![fallback font with no bold or italics](/images/wrong.png)](http://spaceninja.local/projects/font-face/)
+[![fallback font with no bold or italics](/images/wrong.png)](http://spaceninja.com/projects/font-face/)
 
 fig c: no bold or italic styles if custom font fails to load
 
@@ -182,7 +182,7 @@ Instead of defining separate `font-family` values for each font, You can use sam
 
 Then all you need to do is apply that single `font-family` to your target, and any nested bold or italic styles will _automatically_ use the correct font, and still apply bold and italic styles if your custom font fails to load.
 
-[![correct fonts, with fallback styles](/images/right.png)](http://spaceninja.local/projects/font-face/)
+[![correct fonts, with fallback styles](/images/right.png)](http://spaceninja.com/projects/font-face/)
 
 fig d: properly defined italic and bold fonts with fallback styles
 

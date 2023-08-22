@@ -23,7 +23,7 @@ Steve got the photos from our beach trip last weekend posted, and I thought I'd 
       <td valign="top">
         Here's Annie and I in the car on the way to the beach. I'm wearing my
         crummy cafepress
-        <a href="http://spaceninja.local/">spaceninja</a> shirt. Oddly enough,
+        <a href="http://spaceninja.com/">spaceninja</a> shirt. Oddly enough,
         this is one of the better photos taken of Annie and I in the last couple
         years.
       </td>

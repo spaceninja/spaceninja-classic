@@ -9,4 +9,4 @@ Do you like Buddy Icons for programs like [Trillian](http://www.trillian.cc/), A
 
 Do you like [Thumb Wars](http://www.thumb.com/)? ...Sure you do!
 
-Then be sure to check out the set of [Thumb Wars Buddy Icons](http://spaceninja.local/thumbs/) I just made!
+Then be sure to check out the set of [Thumb Wars Buddy Icons](http://spaceninja.com/thumbs/) I just made!

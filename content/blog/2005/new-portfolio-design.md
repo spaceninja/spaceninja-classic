@@ -7,7 +7,7 @@ authors:
   - scott
 ---
 
-[![new_portfolio.jpg](/images/new_portfolio.jpg)](http://spaceninja.local/port/)
+[![new_portfolio.jpg](/images/new_portfolio.jpg)](http://spaceninja.com/port/)
 
 It's done! There are some minor details to clean up, such as actually writing the description for each entry, and updating my resume to the new design, but the hard work (processing all the graphics and writing the new CSS code) is done! Yay me!
 
@@ -17,4 +17,4 @@ I'm particularly proud of this design. An online portfolio not only needs to sho
 
 This is one of those designs where I followed the traditional design workup path of research, sketches, mockups, photography, and final assembly. There's at least five false starts on my hard drive, and I'd guess around 20 hours of work in the final version of the design. I think the work shows, and it's a clean, professional design that I'd be proud to show to potential employers as an example of how I work.
 
-Like all my web design lately, this is XHTML 1.0 transitional and standards-compliant. [Check it out!](http://spaceninja.local/port/)
+Like all my web design lately, this is XHTML 1.0 transitional and standards-compliant. [Check it out!](http://spaceninja.com/port/)

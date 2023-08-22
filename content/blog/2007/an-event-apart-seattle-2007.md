@@ -21,7 +21,7 @@ authors:
   - scott
 ---
 
-Last year, I attended [An Event Apart 2006 in Seattle](http://spaceninja.local/2006/09/an-event-apart-seattle-liveblogging-the-event/). It was a great event, although I remember it being really rushed, because they seven sessions packed into one day. So when I heard that they were coming back to Seattle, and had changed the format to two days, I signed up right away. I'm happy to tell you that the new format is a huge improvement. The event no longer feels rushed, and even though there are six sessions every day, there's a 15 minute break between each one, and a 1½ hour lunch. That might sound insignificant, but if you've ever been to an all-day tech conference, you'll understand what a lifesaver those breaks can be.
+Last year, I attended [An Event Apart 2006 in Seattle](/blog/2006/an-event-apart-seattle-liveblogging-the-event/). It was a great event, although I remember it being really rushed, because they seven sessions packed into one day. So when I heard that they were coming back to Seattle, and had changed the format to two days, I signed up right away. I'm happy to tell you that the new format is a huge improvement. The event no longer feels rushed, and even though there are six sessions every day, there's a 15 minute break between each one, and a 1½ hour lunch. That might sound insignificant, but if you've ever been to an all-day tech conference, you'll understand what a lifesaver those breaks can be.
 
 [![Downtown and Docks](/images/592590745_22688bef0d.jpg)](http://www.flickr.com/photos/spaceninja/592590745/)
 

@@ -15,7 +15,7 @@ authors:
   - scott
 ---
 
-I made a tough decision today. I removed the links to [Killing Machines](http://spaceninja.local/site-archives/kmorg/v3/), [Obey Fojar](http://spaceninja.local/site-archives/obey/v2/) and [Hatelife](http://www.hatelife.org/) from the [Space Ninja Design examples](http://spaceninja.local/design/examples.html) page.
+I made a tough decision today. I removed the links to [Killing Machines](http://spaceninja.com/site-archives/kmorg/v3/), [Obey Fojar](http://spaceninja.com/site-archives/obey/v2/) and [Hatelife](http://www.hatelife.org/) from the [Space Ninja Design examples](http://spaceninja.com/design/examples.html) page.
 
 Why did I do this? Well, to put it briefly, I've gotten two remarks lately that some people, when viewing a list of links, and see a link to something called KILLING machines, or HATElife, or a site about propaganda art, make some assumptions about my character. Now, admittedly, these are ignorant assumptions, and it reflects poorly on the people who make them more than myself, but the fact remains that some people do make them.
 

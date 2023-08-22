@@ -9,7 +9,7 @@ authors:
 
 I started restoring sites yesterday.
 
-[Spaceninja.com](http://spaceninja.local/)/[.net](http://www.spaceninja.net/) is restored, though I will probably redesign it as I don't think I'm offering web design services anymore. It'll probably become more of a portfolio site for me.
+[Spaceninja.com](http://spaceninja.com/)/[.net](http://www.spaceninja.net/) is restored, though I will probably redesign it as I don't think I'm offering web design services anymore. It'll probably become more of a portfolio site for me.
 
 [Strawberrystudios.org](http://www.strawberrystudios.org/) is back up, and I will probably be reworking it a bit to give annie a photo gallery program to post photos to.
 

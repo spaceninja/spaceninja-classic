@@ -7,4 +7,4 @@ authors:
 
 Woo! I have a new toy business tool!
 
-\[http://spaceninja.local/site-archives/yellow5/v2/y5cam.html\]
+\[http://spaceninja.com/site-archives/yellow5/v2/y5cam.html\]

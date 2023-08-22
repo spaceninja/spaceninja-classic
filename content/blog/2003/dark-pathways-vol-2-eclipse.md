@@ -7,4 +7,4 @@ authors:
 
 It is done.
 
-\[[http://spaceninja.local/port/darkpathways.php](http://spaceninja.local/port/darkpathways.php)\]
+http://spaceninja.com/port/darkpathways.php

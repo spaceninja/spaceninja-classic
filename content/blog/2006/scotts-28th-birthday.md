@@ -7,7 +7,7 @@ authors:
 
 [![Scott](/images/pirate-bar/Pirates+at+the+Maritime-13.JPG)](/images/pirate-bar/Pirates+at+the+Maritime-13.JPG)
 
-Hooray! [Today is my 28th birthday!](http://spaceninja.local/projects/dates/?sort=date)
+Hooray! Today is my 28th birthday!
 
 I was going to eat a ton of sushi for free at Todai for lunch today, but I can't go because we're having a lunchtime presentation at work today (boo!), so I'll have to go another time and actually pay for my food. Annie slipped a card into my bag this morning, and is coming by the office this afternoon to say happy birthday, but oddly enough I don't have any plans for tonight, because all my birthday plans are for the weekend.
 

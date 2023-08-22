@@ -11,4 +11,4 @@ I barricaded myself in my office this weekend and cranked out the new design for
 
 Now I just need to get the login cookies working again. For some reason, they stopped working when I uploaded the new design.
 
-[See this design in the archives](http://spaceninja.local/site-archives/kmorg/v3/).
+[See this design in the archives](http://spaceninja.com/site-archives/kmorg/v3/).

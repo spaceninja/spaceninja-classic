@@ -7,4 +7,4 @@ authors:
 
 Another [Viridian Contest](http://www.viridianrepository.com/) Entry...
 
-[Here's my submission](http://spaceninja.local/viridian/notebook.html) for the [Global Civil Society Contest](http://www.viridianrepository.com/GlobalCivil/default.htm).
+[Here's my submission](http://spaceninja.com/viridian/notebook.html) for the [Global Civil Society Contest](http://www.viridianrepository.com/GlobalCivil/default.htm).
