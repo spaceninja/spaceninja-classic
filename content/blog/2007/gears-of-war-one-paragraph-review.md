@@ -2,7 +2,7 @@
 title: 'Gears of War: One Paragraph Review'
 date: 2007-04-09
 tags:
-  - '360'
+  - xbox360
   - games
   - gearsofwar
   - microsoft

@@ -2,7 +2,7 @@
 title: 'Halo 3 Beta: One Paragraph Review'
 date: 2007-05-18
 tags:
-  - '360'
+  - xbox360
   - bungie
   - games
   - halo

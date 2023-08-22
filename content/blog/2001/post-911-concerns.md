@@ -2,7 +2,7 @@
 title: 'Post 9/11 Concerns'
 date: 2001-11-13
 tags:
-  - '911'
+  - '9/11'
   - culture
   - hatelife
   - history

@@ -10,6 +10,7 @@ tags:
   - steve
 authors:
   - miles
+  - steve
 ---
 
 This is a test of KMOedit. If you are reading this miles has just gained 5,000 XP and a sword +1 of PHP/SQL

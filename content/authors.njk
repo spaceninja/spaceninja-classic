@@ -6,12 +6,4 @@ date: 2022-10-04
 tags:
   - nav
 ---
-<ul>
-{% for author in authorMeta %}
-	{% set authorUrl %}/authors/{{ author.key }}/{% endset %}
-	<li class="tag-cloud__item">
-    <a href="{{ authorUrl }}">{{ author.name }}</a>
-    <span>({{ collections.blog | getPostsByAuthor(author.key) | length }})</span>
-  </li>
-{% endfor %}
-</ul>
+{% include "author-list.njk" %}

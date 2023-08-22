@@ -2,7 +2,7 @@
 title: 'Xbox 360 Repairs - Part Four'
 date: 2008-02-18
 tags:
-  - '360'
+  - xbox360
   - microsoft
   - redringofdeath
   - repairs

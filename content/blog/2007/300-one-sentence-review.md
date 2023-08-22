@@ -2,7 +2,7 @@
 title: '300: One Sentence Review'
 date: 2007-05-16
 tags:
-  - '300'
+  - '300movie'
   - comics
   - frankmiller
   - history

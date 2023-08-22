@@ -2,7 +2,7 @@
 title: 'Viva Pinata: One Paragraph Review'
 date: 2007-04-12
 tags:
-  - '360'
+  - xbox360
   - billgates
   - games
   - microsoft

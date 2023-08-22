@@ -5,8 +5,9 @@ pagination:
    size: 1
    alias: author
 permalink: "/authors/{{author.key}}/"
+hideAuthor: true
 eleventyComputed:
-   title: "{{author.name}}"
+   title: "Posts by {{author.full_name}}"
 ---
 
 {% if author.website %}
@@ -26,8 +27,4 @@ Website: <a href="{{author.website}}" target="_new">{{author.website}}</a><br/>
 <h2>Posts by Author</h2>
 
 {% set postList = collections.blog | getPostsByAuthor(author.key) %}
-<ul>
-{% for post in postList %}
-	<li><a href="{{post.url}}">{{post.data.title}}</a></li>
-{% endfor %}
-</ul>
+{% include "post-list.njk" %}

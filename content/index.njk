@@ -6,20 +6,24 @@ teaseCount: 5
 <h1>{{ metadata.title }}</h1>
 <p>{{ metadata.description }}</p>
 
-{% set postList = collections.blog | reverse | head(teaseCount, 1) %}
-{% set latestPost = collections.blog | last %}
-{% set totalCount = collections.blog | length %}
-{% set previousCount = totalCount | min(teaseCount) %}
-{% set moreCount = totalCount - teaseCount - 1 %}
+<h2>Posts by Year</h2>
 
-<h2>Most Recent Post</h2>
-{% include "latest-post.njk" %}
+{% include "yearly-chart.njk" %}
 
-<h2>Previous {{ previousCount }} Posts</h2>
-{% include "post-list.njk" %}
+<h2>Posts by Author</h2>
 
-{% if moreCount > 0 %}
-  <p>
-    More posts can be found in <a href="/archive/">the archive</a>.
-  </p>
-{% endif %}
+{% include "author-list.njk" %}
+
+<h2>Most Used Tags</h2>
+
+<ol>
+{% for tag, posts in collections.postsByTag %}
+  {% if posts.length > 25 %}
+    {% include "tag-list-item.njk" %}
+  {% endif %}
+{% endfor %}
+</ol>
+
+<p>
+  More tags can be found on the <a href="/tags/">tags page</a>.
+</p>

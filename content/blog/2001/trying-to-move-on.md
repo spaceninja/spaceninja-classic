@@ -2,7 +2,7 @@
 title: 'Trying to Move On'
 date: 2001-09-15
 tags:
-  - '911'
+  - '9/11'
   - aftermath
   - attack
   - comments

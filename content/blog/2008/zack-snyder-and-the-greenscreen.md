@@ -2,7 +2,7 @@
 title: 'Zack Snyder and the Greenscreen'
 date: 2008-07-18
 tags:
-  - '300'
+  - '300movie'
   - cgi
   - greenscreen
   - mightygodking

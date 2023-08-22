@@ -2,7 +2,7 @@
 title: 'Xbox 360 Repairs - Part Three'
 date: 2007-08-03
 tags:
-  - '360'
+  - xbox360
   - content
   - dlc
   - downloads

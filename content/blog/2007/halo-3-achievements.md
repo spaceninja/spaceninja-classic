@@ -2,7 +2,7 @@
 title: 'Halo 3 Achievements'
 date: 2007-07-19
 tags:
-  - '360'
+  - xbox360
   - achievements
   - bungie
   - games

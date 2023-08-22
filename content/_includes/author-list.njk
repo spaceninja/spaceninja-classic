@@ -1,0 +1,14 @@
+<ul>
+{% for author in authorMeta %}
+	{% set authorUrl %}/authors/{{ author.key }}/{% endset %}
+	<li class="tag-cloud__item">
+    <a href="{{ authorUrl }}"><img
+      src="{{author.photo}}" width="24" height="24" alt=""></a>
+    <a href="{{ authorUrl }}">{{ author.full_name }}</a>
+    <span>
+      ({{ collections.blog | getPostsByAuthor(author.key) | length }}
+      post{{ "s" if posts.length !== 1 }})
+    </span>
+  </li>
+{% endfor %}
+</ul>

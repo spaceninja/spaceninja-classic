@@ -6,12 +6,9 @@ date: 2022-10-04
 tags:
   - nav
 ---
-<ul class="tag-cloud">
-{% for tag in collections.blog | getAllTags | filterTagList %}
-	{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-	<li class="tag-cloud__item" style="--font-adjust: {{ collections[tag].length }}">
-    <a href="{{ tagUrl }}" class="tag-cloud__link">{{ tag }}</a>
-    <span class="tag-cloud__count">({{ collections[tag].length }})</span>
-  </li>
+
+<ol>
+{% for tag, posts in collections.postsByTag %}
+  {% include "tag-list-item.njk" %}
 {% endfor %}
-</ul>
+</ol>

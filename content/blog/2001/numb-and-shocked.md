@@ -2,7 +2,7 @@
 title: 'Numb and Shocked'
 date: 2001-09-12
 tags:
-  - '911'
+  - '9/11'
   - attack
   - donateblood
   - killingmachines

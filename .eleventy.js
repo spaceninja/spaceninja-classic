@@ -37,13 +37,57 @@ module.exports = function (eleventyConfig) {
   });
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 
+  // Pass markdown options through to MarkdownIt
   eleventyConfig.setLibrary('md', markdownIt(markdownOptions));
 
-  // Parse excerpts from contents
-  eleventyConfig.setFrontMatterParsingOptions({
-    excerpt: true,
-    // Optional, default is "---"
-    // excerpt_separator: '<!-- excerpt -->',
+  // Add Markdown filter using the same options
+  eleventyConfig.addFilter('markdown', (content) => {
+    return md.render(content);
+  });
+
+  // Posts by tag
+  // @see https://lea.verou.me/blog/2023/11ty-indices/#dynamic-postsbytag-collection
+  eleventyConfig.addCollection('postsByTag', (collectionApi) => {
+    const posts = collectionApi.getFilteredByTag('blog');
+    let tags = {};
+    for (let post of posts) {
+      for (let tag of post.data.tags) {
+        if (tag === 'blog') continue;
+        tags[tag] ??= [];
+        tags[tag].push(post);
+      }
+    }
+    // sort and restructure the tags
+    tags = Object.fromEntries(
+      Object.entries(tags).sort((a, b) => b[1].length - a[1].length),
+    );
+    return tags;
+  });
+
+  // Posts by month
+  eleventyConfig.addCollection('postsByMonth', (collectionApi) => {
+    const posts = collectionApi.getFilteredByTag('blog').reverse();
+    const months = {};
+    for (let post of posts) {
+      let key = DateTime.fromJSDate(post.date, {
+        zone: 'utc',
+      }).toFormat('yyyy-LL'); // YYYY-MM
+      months[key] ??= [];
+      months[key].push(post);
+    }
+    return months;
+  });
+
+  // Posts by year
+  eleventyConfig.addCollection('postsByYear', (collectionApi) => {
+    const posts = collectionApi.getFilteredByTag('blog').reverse();
+    const years = {};
+    for (let post of posts) {
+      let key = post.date.getFullYear();
+      years[key] ??= [];
+      years[key].push(post);
+    }
+    return years;
   });
 
   // Date formatting (human readable)
@@ -61,17 +105,14 @@ module.exports = function (eleventyConfig) {
   });
 
   // Get the first `n` elements of a collection.
-  eleventyConfig.addFilter('head', (array, n, offset = 0) => {
+  eleventyConfig.addFilter('head', (array, n) => {
     if (!Array.isArray(array) || array.length === 0) {
       return [];
     }
     if (n < 0) {
-      if (offset) {
-        return array.slice(n - offset, offset * -1);
-      }
       return array.slice(n);
     }
-    return array.slice(offset, n + offset);
+    return array.slice(0, n);
   });
 
   // Return the smallest number argument
@@ -79,32 +120,9 @@ module.exports = function (eleventyConfig) {
     return Math.min.apply(null, numbers);
   });
 
-  // Return all the tags used in a collection
-  eleventyConfig.addFilter('getAllTags', (collection) => {
-    let tagSet = new Set();
-    let tagCount = {};
-    for (let item of collection) {
-      (item.data.tags || []).forEach((tag) => {
-        tagCount[tag] = tagCount[tag] ? tagCount[tag] + 1 : 1;
-        tagSet.add(tag);
-      });
-    }
-    return (
-      // At least one tag, sort by count, then alphabetically
-      Array.from(tagSet)
-        .filter((tag) => tagCount[tag] > 1)
-        .sort() // alfa(7), golf(3), xray(7)
-        .reverse() // xray(7), golf(3), alfa(7)
-        .sort((a, b) => tagCount[a] - tagCount[b]) // golf(3), xray(7), alfa(7)
-        .reverse() // alfa(7), xray(7), golf(3)
-    );
-  });
-
   // Return all the tags used in a collection, except some
   eleventyConfig.addFilter('filterTagList', (tags) => {
-    return (tags || []).filter(
-      (tag) => ['all', 'nav', 'blog'].indexOf(tag) === -1,
-    );
+    return (tags || []).filter((tag) => ['all', 'blog'].indexOf(tag) === -1);
   });
 
   // Get the posts by author
@@ -115,11 +133,6 @@ module.exports = function (eleventyConfig) {
   // Get the author object
   eleventyConfig.addFilter('getAuthor', (authors, label) => {
     return authors.filter((author) => author.key === label)[0];
-  });
-
-  // Render Markdown content
-  eleventyConfig.addFilter('markdown', (content) => {
-    return md.render(content);
   });
 
   // Current year shortcode
