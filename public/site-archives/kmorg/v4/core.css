@@ -1,0 +1,27 @@
+/*
+
+core.css
+killingmachines.org core stylesheet
+January 11, 2003
+by Scott Vandehey
+
+This is the core stylesheet for all KMorg journals
+and forums. It specifies padding and margins for
+some classes to make the pages have the proper
+amount of white space around them. I've removed
+all of the actual formatting, to be included in
+a different stylesheet, so that this one is as
+universal as possible.
+
+*/
+
+/* ADD PROPER WHITE SPACING AROUND CERTAIN ELEMENTS */
+.header { margin: 10px auto; }
+.options { margin-bottom: 10px; }
+.entryheader, .queueheader { padding-top: 3px; }
+.entry { padding-left: 15px; margin: 10px 0; }
+.threads { margin-bottom: 15px; }
+.replylinks { padding-bottom: 7px; }
+.inreplyto { margin-bottom: 15px; }
+.quote { margin-left: 15px; }
+.forumlist { padding-bottom: 5px; }

@@ -1,0 +1,219 @@
+/* ====================================================================
+box layout
+-------------------------------------------------------------------- */
+#columns-float
+	{
+	float				: left;
+	width				: 100%;
+	}
+#column-one
+	{
+	width				: 110px;
+	float				: left;
+	}
+#column-two
+	{
+	width				: 490px;
+	float				: left;
+	}
+#sitefooter
+	{
+	clear				: both;
+	}
+
+/* ====================================================================
+box styling
+-------------------------------------------------------------------- */
+#container
+	{
+	padding				: 0px;
+	color				  : #000000;
+	background-color	: #cccccc;
+	width         : 600px;
+	}
+#siteheader
+	{
+	margin				: 0px;
+	padding				: 0px;
+	color				  : #000000;
+	background-color	: #996699;
+	border				: none;
+	}
+#sitefooter
+	{
+	margin				: 0px;
+	padding				: 0px;
+	color		  		: #000000;
+	background-color	: #999966;
+	border				: none;
+	}
+#columns-float
+  {
+ 	background    : #ead6bb url(../images/rustbg110.jpg) repeat-y;
+  }
+#column-one-content
+	{
+	background		: #a88d6b;
+	margin-top		: 41px;
+	margin-bottom	: 41px;
+	border-bottom : 1px solid #eeeeee;
+	padding				: 0px;
+	}
+#column-two-content
+	{
+	background		: #ffffff;
+	margin				: 10px;
+	padding				: 10px;
+	border				: 1px solid #000000;
+	}
+
+/* the relative positioning is required by IEs 5 + 6 (PC) - NN4 crashes if it sees them while other browsers don't seem to mind - hence the Caio hack */
+/* CSS HACK:  position:relative needed by IE6 otherwise the header and col 2 don't show up on initial rendering - they're there but you have to minimise the window or switch to another app and back to see the full effect. But IE5(pc) doesn't like it. And nor does NN4.
+NB. the use of pos:rel has to go way beyond skin-deep - any nested element that needs a background colour appears to require to be be relatively positioned */
+/*/*/
+#container, #siteheader, #datebar, #columns-float, #column-one, #column-two, h2, .sidebar-title, #sitefooter
+	{ p\osition: relative; }
+/* */
+
+/* ====================================================================
+other styling
+-------------------------------------------------------------------- */
+a {text-decoration: none;}
+a:link {color: #993300;}
+a:visited {color: #993300;}
+a:active {color: #ee3300;}
+a:hover {color: #ee3300;}
+
+body
+	{
+	margin				: 0px;
+	padding: 0px;
+	font-family			: verdana, helvetica, arial, sans-serif;
+	font-size			: 12px;
+	background-color	: #999999;
+	color				: #000000;
+	}
+div
+	{
+	margin				: 0px;
+	padding				: 0px;
+	}
+h1
+	{
+	margin				: 0px;
+	padding				: 0px;
+	}
+h2
+	{
+	margin				: 0px 0px 9px 0px;
+	padding				: 0px 3px 0px 3px;
+	color				: #ffffff;
+	background-color	: #000000;
+	font-size			: 1em;
+	font-weight			: bold;
+	}
+/*
+p
+	{
+	margin				: 0px;
+	}
+*/
+#siteheader {
+  background: #574b40;
+  color: #ffffff;
+  }
+#sitetitle-graphic {
+  border-bottom: 1px solid white;
+  }
+#datebar {
+  padding: 2px;
+  margin: 0;
+  background: #333333;
+  color: #cccccc;
+  text-align: right;
+  font-size: 10px;
+  border-bottom: 1px solid white;
+  }
+#column-one-content ul {
+  list-style: none;
+  margin: 0;
+  padding: 4px;
+  line-height: 1.5;
+  font-size: 10px;
+  }
+#column-one-content a {
+  color: #dddddd;
+  text-decoration: none;
+  font-weight: bold;
+  }
+#column-one-content a:hover {
+  color: white;
+  }
+.sidebar-title {
+  padding: 2px;
+  margin: 0;
+  background: #333333;
+  color: #cccccc;
+  text-align: center;
+  font-size: 10px;
+  font-weight: bold;
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  }
+.banner
+	{
+	background			: #cccccc;
+	margin				: 10px;
+	padding				: 0px;
+	border				: 1px solid #000000;
+	}
+#sitefooter {
+  clear: both;
+  padding: 4px;
+  background: #333333;
+  color: #cccccc;
+  font-size: 10px;
+  border-top: 1px solid white;
+  }
+#sitefooter a {
+  background: transparent;
+  color: #cccccc;
+  text-decoration: none;
+  }
+#sitefooter a:hover {
+  background: transparent;
+  color: #eeeeee;
+  text-decoration: none;
+  }
+
+/* DISPLAY STYLES */
+.entryheader { font-size: 10px; }
+.username { font-weight: bold; text-transform: uppercase; color: #993300; }
+.title { font-weight: bold; font-size: 12px; color: #993300; }
+blockquote { color: #555555; }
+.header { margin-bottom: 15px; }
+.headline { font-weight: bold; }
+.options { border-bottom: 1px solid #505050; }
+.entryheader, .queueheader { border-top: 1px solid #cccccc; }
+.link, .navlink, .replylinks { font-size: 11px; }
+.accountNav { border-top: 1px solid #cccccc; }
+
+/* QUOTED POSTS */
+.quote { font-style: italic; }
+
+/* ASIDES, TANGENTS, SEGUES */
+span.hidelink { color: #993300; }
+span.hidelink:hover { color: #ee3300; }
+span.hidelink span.hidden { display: none; }
+span.hidelink:hover span.hidden { display: inline; color: #993300; font-style: italic; }
+
+/* OTHER MISC. STYLES */
+.small { font-size: 9px; }
+.error { color: red; background: transparent; }
+.success {}
+.center { text-align: center; }
+.border { border: 1px solid black; }
+
+/* BROWSER UPGRADE CAMPAIGN */
+/* this bit of code hides a "please upgrade your lousy browser" message, so it will only display to people using browsers that do not understand CSS2, such as Netscape 4.7 */
+.ahem { display: none; }

@@ -1,0 +1,570 @@
+/*
+
+	Motorcycle Hero - motohero.css
+	A colorful design using image replacement and png transparency by Scott Vandehey
+	Last modified 2005-11-14
+
+*/
+
+
+/*
+
+	LAYOUT
+	The following rules are all that is required for a two-column layout.
+	To switch the sidebar to the other side, just reverse the sidebar
+	and body floats from left to right (or vice-versa)
+	This layout is based heavily on work by Alex Robinson.
+	[http://www.fu2k.org/alex/css/layouts/3Col_NN4_FFFF.mhtml]
+
+*/
+
+body {
+	text-align: center;
+	}
+hr {
+	display: none;
+	}
+#page {
+	margin: auto;
+	text-align: left;
+	width: 850px;
+	}
+#container {
+	width: 750px;
+	margin: auto;
+	}
+#body {
+	width: 480px;
+	float: left;
+	}
+#sidebar {
+	width: 205px;
+	float: right;
+	}
+#footer {
+	clear: both;
+	}
+.ahem {
+	display: none;
+	}
+
+
+/*
+
+  DESIGN STYLES
+  Now that we have our layout, all the following rules are pure style.
+
+*/
+
+/* base typography */
+
+body {
+	background: #667183;
+	color: #132742;
+	/* font sizing in ems, baby. if you want to change anything, just change this.*/
+	font: 80%/1.8 "trebuchet ms", verdana, sans-serif;
+	margin: 0;
+	padding: 0;
+	}
+a {
+	text-decoration: none;
+	border-bottom: 1px solid #cac39b;
+	font-weight: bold;
+	}
+a:link {
+	color: #054A73;
+	}
+a:visited {
+	color: #4176A2;
+	}
+a:active {
+	color: #f00;
+	}
+a:hover {
+	color: #c00;
+	}
+h1, h2, h3, h4, h5, h6, ol, ul, li, p {
+	margin: 1.2em 0em 1.2em 0em;
+	}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+	}
+h1 {
+	font-size: 2.0em;
+	margin-top: 0em;
+	margin-bottom: 0em;
+	}
+h2 {
+	font-size: 1.7em;
+	}
+h3 {
+	font-size: 1.4em;
+	}
+h4 {
+	font-size: 1.2em;
+	}
+h5 {
+	font-size: 1.0em;
+	}
+h6 {
+	font-size: 0.8em;
+	}
+ol, ul, li, p {
+	font-size: 1em;
+	line-height: 1.8em;
+	}
+ol, ul, li {
+	margin-top: 0.2em;
+	margin-bottom: 0.1em;
+	}
+li > p {
+	margin-top: 0.2em;
+	}
+.entry p {
+/*
+	line-height: 1.25;
+*/
+	}
+pre, code, kbd, tt {
+	font: 1em "andale mono", monospace;
+	}
+strong, b {
+	font-weight: bold;
+	}
+em, i {
+	font-style: italic;
+	}
+acronym, abbr, .info {
+	border-bottom: 1px dotted #222;
+	cursor: help;
+	}
+img {
+	border: 0;
+	}
+.center {
+	display: block;
+	margin: auto;
+	}
+.aligncenter {
+	text-align: center;
+	}
+.alignright {
+	text-align: right;
+	}
+.alignleft {
+	text-align: left;
+	}
+.floatright {
+	float: right;
+	}
+.floatleft {
+	float: left;
+	}
+.valigntop {
+	vertical-align: top;
+	}
+.valignmiddle {
+	vertical-align: middle;
+	}
+.valignbottom {
+	vertical-align: bottom;
+	}
+blockquote {
+	font-family: georgia, serif;
+	font-style: italic;
+	color: #465663;
+	background: url(images/motohero/quotes.png) no-repeat center center;
+	}
+.pullquote {  /* update this style at some point - it's boring */
+	display: block;
+	float: right;
+	width: 175px;
+	margin: 10px 15px;
+	padding: 7px 12px;
+	font-size: 1.2em;
+	font-family: georgia;
+	font-style: italic;
+	font-weight: bold;
+	background: #eee;
+	}
+
+
+/* page design */
+
+#page {
+	background: #ece9d8 url(images/motohero/page-bg.gif);
+	}
+
+/* header */
+
+#header {
+	/* background image for the entire header */
+	background: #667183 url(images/motohero/header.jpg) no-repeat;
+	color: #fff;
+	margin: 0;
+	padding: 0 65px;
+	text-align: left;
+	font-size: .95em;
+	line-height: 1;
+	height: 180px;
+	position: relative;
+	}
+#header h1 {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	}
+#header h1 a {
+	/* hide text, display menu items as images */
+	float: left;
+	padding-top: 101px;
+	overflow: hidden;
+	text-indent: -9999px;
+	height: 0px !important;
+	border: 0;
+	position: absolute;
+	top: 0;
+	left: 70px;
+	width: 66px;
+	background: url(images/motohero/logo.png) no-repeat;
+	}
+* html #header h1 a { /* IE only */
+	background: url(images/motohero/logo.gif) no-repeat;
+}
+#header h1 a:hover {
+	/* offset the background image to replicate a rollover */
+	background-position: 0 -101px;
+	}
+p.tagline {
+	display: none;
+	}
+#navbar {
+	/* turn off our lists */
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: absolute;
+	top: 0;
+	right: 50px;
+	}
+#navbar li {
+	/* display list items inline */
+	display: inline;
+	margin: 0;
+	padding: 0;
+	}
+#navbar a {
+	/* hide text, display menu items as images */
+	float: left;
+	padding-top: 101px;
+	padding-left: 25px;
+	overflow: hidden;
+	text-indent: -9999px;
+	height: 0px !important;
+	border: 0;
+	}
+#navbar a:hover {
+	/* offset the background image to replicate a rollover */
+	background-position: 0 -101px;
+	}
+/* individual styles for each button */
+#navbarBlog a {
+	width: 43px;
+	background: url(images/motohero/navbar-blog.png) no-repeat;
+	}
+* html #navbarBlog a { /* IE only */
+	background: url(images/motohero/navbar-blog.gif) no-repeat;
+	}
+#navbarArchives a {
+	width: 73px;
+	background: url(images/motohero/navbar-archives.png) no-repeat;
+	}
+* html #navbarArchives a { /* IE only */
+	background: url(images/motohero/navbar-archives.gif) no-repeat;
+	}
+#navbarPortfolio a {
+	width: 81px;
+	background: url(images/motohero/navbar-portfolio.png) no-repeat;
+	}
+* html #navbarPortfolio a { /* IE only */
+	background: url(images/motohero/navbar-portfolio.gif) no-repeat;
+	}
+#navbarGallery a {
+	width: 67px;
+	background: url(images/motohero/navbar-gallery.png) no-repeat;
+	}
+* html #navbarGallery a { /* IE only */
+	background: url(images/motohero/navbar-gallery.gif) no-repeat;
+	}
+#navbarAbout a {
+	width: 51px;
+	background: url(images/motohero/navbar-about.png) no-repeat;
+	}
+* html #navbarAbout a { /* IE only */
+	width: 51px;
+	background: url(images/motohero/navbar-about.gif) no-repeat;
+	}
+.blog #navbarBlog a,
+.archives #navbarArchives a,
+.portfolio #navbarPortfolio a,
+.gallery #navbarGallery a,
+.about #navbarAbout a {
+	background-position: 0 -101px;
+	}
+
+
+/* body */
+
+#body {
+	padding: 10px 22px;
+	}
+.content {
+	margin: 0 10px;
+	}
+.entry {
+	clear: both;
+	padding-bottom: 2em;
+	}
+.title {
+	background: #fefdf9;
+	margin: 0 -10px;
+	padding: 10px;
+	padding-right: 3em;
+	position: relative;
+	}
+.title h2, .title p {
+	margin: 0;
+	padding: 0;
+	line-height: 1;
+	}
+.title h2 {
+	font-size: 1.2em;
+	margin-bottom: 8px
+	}
+.title h2 a {
+	color: #e00;
+	}
+.title h2 a:hover {
+	color: #f00;
+	}
+.title a {
+	border-bottom: 1px solid #ece9d8;
+	}
+.byline {
+	font-size: .85em;
+	font-weight: normal;
+	}
+.byline a {
+	font-weight: normal;
+	}
+.footnotes {
+	font-size: .9em;
+	}
+
+
+/* photos */
+
+.border {
+	border: 1px solid #ccc;
+	margin: 3px;
+	}
+.thumb {
+	background: #fff;
+	padding: 4px;
+	border: 1px solid #ccc;
+	margin: 5px;
+	}
+.photo {
+	background: #fff;
+	padding: 4px;
+	border: 1px solid #ccc;
+	display: block;
+	margin: auto;
+	}
+.gallery-post p {
+	clear: both;
+	}
+.gallery-post .thumb {
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 10px;
+	}
+
+
+/* comments */
+
+.alt, .postmetadata, .authorcomment {
+	background-color: #dad5b7;
+	border-top: 1px solid #cac39b;
+	border-bottom: 1px solid #cac39b;
+	}
+.authorcomment {
+	background-color: #fefdf9;
+	}
+.postmetadata {
+	margin: 30px;
+	padding: 10px;
+	}
+.commentlist cite, .commentlist cite a {
+	font-style: normal;
+	}
+.commentlist {
+	margin: 0;
+	padding: 0;
+	}
+.commentlist li {
+	margin: 10px;
+	padding: 0px;
+	list-style: none;
+	}
+.commentlist p {
+	margin: 10px;
+	}
+.commentmetadata a {
+	font-weight: normal
+	}
+.commentsform form {
+	}
+.commentsform input {
+	width: 170px;
+	padding: 2px;
+	}
+.commentsform textarea {
+	width: 425px;
+	padding: 2px;
+	}
+.commentsform #submit {
+	margin: 0;
+	}
+
+
+/* previous and next navigation */
+
+.navigation {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	}
+.navigation a {
+	font-weight: normal;
+	font-size: .9em;
+	}
+.navigation li {
+	display: block;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 50%;
+	height: 100px;
+	text-align: center;
+	}
+li.prev {
+	float: left;
+	background: url(images/motohero/nav-left.png) no-repeat center left;
+	}
+* html li.prev { /* IE only */
+	background: url(images/motohero/nav-left.gif) no-repeat center left;
+	}
+li.next {
+	float: right;
+	background: url(images/motohero/nav-right.png) no-repeat center right;
+	}
+* html li.next {
+	background: url(images/motohero/nav-right.gif) no-repeat center right;
+	}
+
+
+/* sidebar */
+
+#sidebar {
+	background: #dad5b7;
+	padding: 10px;
+	font-size: .95em;
+	}
+#sidebar form, #sidebar table, #sidebar ul, #sidebar h2 {
+	margin: 0 0 1.5em 0;
+	}
+#sidebar h2 {
+	background: #cac39b;
+	margin: 0 -10px .5em -10px;
+	padding: 0 10px;
+	font-size: 1.3em;
+	}
+#sidebar ul {
+	padding-left: 15px;
+	margin-left: 0;
+	}
+.latestactivity, .latestactivity li {
+	margin: 0;
+	padding: 0;
+	}
+.latestactivity small {
+	display: block;
+	margin: 0;
+	padding: 0;
+	margin-left: 10px;
+	}
+#sidebar .latestactivity small a {
+	font-weight: normal;
+	}
+
+
+/* footer */
+
+#footer {
+	/* background image for the entire footer */
+	background: #667183 url(images/motohero/footer.jpg) no-repeat;
+	color: #fff;
+	margin: 0;
+	padding: 5px 65px;
+	text-align: left;
+	font-size: .95em;
+	line-height: 1;
+	height: 149px;
+	}
+#footer a {
+	color: #fff;
+	border-bottom: 1px solid #f49397;
+	}
+#footer p {
+	margin: .5em 0;
+	padding: 0;
+	}
+#footer ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	}
+#footer li {
+	display: inline;
+	padding: 0 10px 0 0;
+	margin: 0;
+	}
+#footer li a {
+	/* change those links to "buttons" */
+	padding: 3px 5px;
+	border: 1px solid #f49397;
+	text-decoration: none;
+	color: #fbd6d7;
+	}
+#footer li a:hover {
+	background: #e83037;
+	color: #fff;
+	}
+#footer #ninjapower {
+	float: right;
+	margin: 6px 5px 0 0;
+	padding: 0;
+	width: 80px;
+	/* more image replacement */
+	text-indent: -9999px;
+	padding-top: 80px;
+	height: 0px !important;
+	background: url(images/motohero/ninjapower.png) no-repeat;
+	/* turn off underlines or we get an odd line stretching offscreen */
+	border: 0;
+	text-decoration: none;
+	}
+* html #footer #ninjapower { /* IE only */
+	background: url(images/motohero/ninjapower.gif) no-repeat;
+	}

@@ -1,0 +1,310 @@
+/* ====================================================================
+box layout
+-------------------------------------------------------------------- */
+#columns-float
+	{
+	float				: left;
+	width				: 100%;
+	}
+#column-one
+	{
+	width				: 175px;
+	float				: left;
+	}
+#column-two
+	{
+	width				: 525px;
+	float				: left;
+	}
+#sitefooter
+	{
+/*	clear				: both; */
+	}
+
+/* ====================================================================
+box styling
+-------------------------------------------------------------------- */
+#container
+	{
+	padding				: 0px;
+	color				  : #ededed;
+	background-color	: #678592;
+	width         : 700px;
+	}
+#siteheader
+	{
+	margin				: 0px;
+	padding				: 0px;
+	color				  : #ededed;
+	background-color	: #678592;
+	border				: none;
+	}
+#sitefooter
+	{
+	margin				: 0px;
+	padding				: 0px;
+	color		  		: #ededed;
+	background-color	: #678592;
+	border				: none;
+	}
+#columns-float
+  {
+ 	background    : #678592 url(../images/pipes2.jpg) repeat-y;
+  }
+#column-one-content
+	{
+	background		: #a88d6b;
+	margin-top		: 41px;
+	margin-bottom	: 41px;
+	border-bottom : 1px solid #eeeeee;
+	padding				: 0px;
+	}
+#column-two-content
+	{
+	background		: #ffffff;
+	margin				: 10px;
+	padding				: 10px;
+	border				: 1px solid #000000;
+	}
+
+/* the relative positioning is required by IEs 5 + 6 (PC) - NN4 crashes if it sees them while other browsers don't seem to mind - hence the Caio hack */
+/* CSS HACK:  position:relative needed by IE6 otherwise the header and col 2 don't show up on initial rendering - they're there but you have to minimise the window or switch to another app and back to see the full effect. But IE5(pc) doesn't like it. And nor does NN4.
+NB. the use of pos:rel has to go way beyond skin-deep - any nested element that needs a background colour appears to require to be be relatively positioned */
+/*/*/
+#container, #siteheader, #datebar, #columns-float, #column-one, #column-two, h2, .sidebar-title, #sitefooter
+	{ p\osition: relative; }
+/* */
+
+/* ====================================================================
+other styling
+-------------------------------------------------------------------- */
+a {text-decoration: none;}
+a:link {color: #993300;}
+a:visited {color: #993300;}
+a:active {color: #ee3300;}
+a:hover {color: #ee3300;}
+
+body
+	{
+	margin				: 0px;
+	padding: 0px;
+	font-family			: verdana, helvetica, arial, sans-serif;
+	font-size			: 12px;
+	background-color	: #999999;
+	color				: #000000;
+	}
+div
+	{
+	margin				: 0px;
+	padding				: 0px;
+	}
+h1
+	{
+	margin				: 0px;
+	padding				: 0px;
+	}
+h2
+	{
+	margin				: 0px 0px 9px 0px;
+	padding				: 0px 3px 0px 3px;
+	color				: #ffffff;
+	background-color	: #000000;
+	font-size			: 1em;
+	font-weight			: bold;
+	}
+/*
+p
+	{
+	margin				: 0px;
+	}
+*/
+#siteheader {
+  background: #574b40;
+  color: #ffffff;
+  }
+#sitetitle-graphic {
+  border-bottom: 1px solid white;
+  }
+#datebar {
+  padding: 2px;
+  margin: 0;
+  background: #333333;
+  color: #cccccc;
+  text-align: right;
+  font-size: 10px;
+  border-bottom: 1px solid white;
+  }
+#column-one-content ul {
+  list-style: none;
+  margin: 0;
+  padding: 4px;
+  line-height: 1.5;
+  font-size: 10px;
+  }
+#column-one-content a {
+  color: #dddddd;
+  text-decoration: none;
+  font-weight: bold;
+  }
+#column-one-content a:hover {
+  color: white;
+  }
+.sidebar-title {
+  padding: 2px;
+  margin: 0;
+  background: #333333;
+  color: #cccccc;
+  text-align: center;
+  font-size: 10px;
+  font-weight: bold;
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  }
+.banner
+	{
+	background			: #cccccc;
+	margin				: 10px;
+	padding				: 0px;
+	border				: 1px solid #000000;
+	}
+#sitefooter {
+  clear: both;
+  padding: 4px;
+  background: #333333;
+  color: #cccccc;
+  font-size: 10px;
+  border-top: 1px solid white;
+  }
+#sitefooter a {
+  background: transparent;
+  color: #cccccc;
+  text-decoration: none;
+  }
+#sitefooter a:hover {
+  background: transparent;
+  color: #eeeeee;
+  text-decoration: none;
+  }
+
+/* DISPLAY STYLES */
+.entryheader { font-size: 10px; }
+.username { font-weight: bold; text-transform: uppercase; color: #993300; }
+.title { font-weight: bold; font-size: 12px; color: #993300; }
+blockquote { color: #555555; }
+.header { margin-bottom: 15px; }
+.headline { font-weight: bold; }
+.options { border-bottom: 1px solid #505050; }
+.entryheader, .queueheader { border-top: 1px solid #cccccc; }
+.link, .navlink, .replylinks { font-size: 11px; }
+.accountNav { border-top: 1px solid #cccccc; }
+
+/* QUOTED POSTS */
+.quote { font-style: italic; }
+
+/* ASIDES, TANGENTS, SEGUES */
+span.hidelink { color: #993300; }
+span.hidelink:hover { color: #ee3300; }
+span.hidelink span.hidden { display: none; }
+span.hidelink:hover span.hidden { display: inline; color: #993300; font-style: italic; }
+
+/* OTHER MISC. STYLES */
+.small { font-size: 9px; }
+.error { color: red; background: transparent; }
+.success {}
+.center { text-align: center; }
+.border { border: 1px solid black; }
+
+/* BROWSER UPGRADE CAMPAIGN */
+/* this bit of code hides a "please upgrade your lousy browser" message, so it will only display to people using browsers that do not understand CSS2, such as Netscape 4.7 */
+.ahem { display: none; }
+
+
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+wwwKMorg.css
+www.killingmachines.org stylesheet
+January 11, 2003
+by Scott Vandehey
+
+This is the secondary stylesheet for KMorg, which
+contains all the stylistic formatting that was
+excluded from core.css
+
+Notes: do not specify font-family anywhere except
+in the body tag, to allow for proper "cascading."
+specifying font sizes is fine.
+
+Also, be careful of floating elements. the login
+bar is floated to the right, and could cause
+problems with elements that are floated, fixed
+width, or clear: both;
+
+I have tried to include all the CSS classes used
+on KMorg in this document, even if they are left
+undefined, so that this can serve as a reference
+in the future.
+
+*/
+
+/* BASE STYLES */
+body { margin: 0; background: #bec9ce url(../images/checks.gif); color: #666666; font-family: verdana, sans-serif; font-size: 13px; }
+a { color: #678592; background: transparent; text-decoration: none; }
+a:link { color: #678592; background: transparent; }
+a:visited { color: #999999; background: transparent; }
+a:hover { color: #375562; background: transparent; }
+a:active { color: #cc0000; background: transparent; }
+
+/* LAYOUT STYLES (IN ORDER OF APPEARANCE) */
+
+#container { width: 700px; margin: 0 auto; background: #678592; color: #ededed; border-bottom: 1px solid #678592; border-left: 1px solid #678592; -moz-float-edge: border-box; }
+
+#sidebar { float: left; width: 175px; background: #678592; color: #ededed; padding: 0; margin: 0; line-height: 1.5; vertical-align: top; }
+#sidebar a { color: #bec9ce; background: transparent; text-decoration: none; }
+#sidebar a:link { color: #bec9ce; background: transparent; }
+#sidebar a:visited { color: #bec9ce; background: transparent; }
+#sidebar a:hover { color: #ededed; background: transparent; }
+#sidebar a:active { color: #ffffff; background: transparent; }
+.navigation { padding: 10px; margin-top: 82px; border-bottom: 1px solid #bec9ce; border-top: 1px solid #bec9ce; }
+.logininfo { padding: 10px; border-bottom: 1px solid #bec9ce; }
+.recentjournals, .recentforums { padding: 10px; border-bottom: 1px solid #bec9ce; }
+
+#mainbar { width: 521px; margin: 0 0 0 175px; border-left: 3px solid #ff9900; border-right: 1px solid #678592; background: #ededed url(images/pipes2.gif); color: #666666; vertical-align: top;}
+
+.sitetitle {  padding: 10px;margin: 0; text-align: center; }
+.header { padding: 10px; margin: 0; text-align: center; }
+.headline { font-weight: bold; font-size: 13px; }
+.footnote { font-size: 11px; }
+
+.content { padding: 10px; }
+.options { border-bottom: 1px solid #505050; }
+.post, .queue {}
+.entryheader, .queueheader { border-top: 1px solid #cccccc; }
+.username { font-weight: bold; }
+.title { font-weight: bold; font-size: 13px; }
+.date { font-size: 11px; }
+.entry {}
+.threads {}
+.link, .navlink, .replylinks { font-size: 11px; }
+.accountNav { border-top: 1px solid #cccccc; }
+
+#footer { padding: 10px; margin: 0; text-align: center; border-top: 1px solid #aaaaaa; }

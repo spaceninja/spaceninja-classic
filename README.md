@@ -5,10 +5,12 @@ A collection of legacy posts from my old blog
 ## TODO
 
 - [x] restore 404
-- [ ] restore `/site-archives`, update links
-- [ ] redirect `/projects`
-- [ ] redirect `/downloads`
-- [ ] redirect `/port` to `/portfolio`
-- [ ] check remaining spaceninja.com links
-- [ ] check for kmorg, hatelife, etc links
+- [x] restore `/site-archives`, update links
+- [x] redirect `/projects`
+- [x] restore `/downloads`
+- [x] redirect `/port` to `/portfolio`
+- [ ] check for broken images that should be images/blog-photos
+- [x] check remaining spaceninja.com links
 - [ ] add syntax highlighting theme
+- [ ] Fix site archives landing pages
+- [ ] Fix PHP site archives entries

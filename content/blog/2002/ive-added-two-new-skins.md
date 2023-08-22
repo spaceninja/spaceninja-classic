@@ -9,4 +9,4 @@ I've added two new skins to the site. You can access them on the [Viewing Option
 
 **Edit 10/26/2005:** The options page has been discontinued.
 
-[See the "old school terminal" skin in the archives](http://spaceninja.com/site-archives/kmorg/skins/terminal.html). [See the "bluebucket" skin in the archives](http://spaceninja.com/site-archives/kmorg/skins/bluebucket.html).
+[See the "old school terminal" skin in the archives](/site-archives/kmorg/skins/terminal.html). [See the "bluebucket" skin in the archives](/site-archives/kmorg/skins/bluebucket.html).

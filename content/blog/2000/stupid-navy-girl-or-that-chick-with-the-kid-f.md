@@ -15,7 +15,7 @@ tags:
   - sex
   - truthordare
 authors:
-  - anon
+  - obeso
 ---
 
 \-or- That Chick With The Kid

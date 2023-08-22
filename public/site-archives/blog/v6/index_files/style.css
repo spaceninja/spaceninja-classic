@@ -1,0 +1,24 @@
+/*
+Theme Name: Dojo2
+Theme URI: http://www.spaceninja.com/dojo/
+Description: Standards-compliant minimalist XHTML theme.
+Version: 2.0
+Author: Scott Vandehey
+Author URI: http://www.spaceninja.com/
+
+	Dojo v2.0
+	http://www.spaceninja.com/dojo/
+	last updated 2005-08-30
+
+	Probably no one will see this, but so you know, it's based on Kubrick.
+	I've tweaked some of the default code, moved some things around, and
+	changed some things to suit my needs. The main changes are to get the
+	XHTML divs to match my modus operandi, so that it would be easier for
+	me to design my blog. Kubrick was alright, but I've evolved a way of
+	doing things that works for me, so now I have Dojo. Feel free to take
+	it and mess around with it, there's nothing revolutionary in the HTML
+	itself - the fun comes when you apply a CSS file.
+
+*/
+
+@import url(motohero.css);

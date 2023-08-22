@@ -5,7 +5,7 @@ authors:
   - scott
 ---
 
-The first (of three) CD design for [Crunch Pod Media](http://www.crunchpodmedia.com/) is done! You can view the [front cover](http://www.deviantart.com/deviation/803932), or a preview of the [whole CD package](http://www.deviantart.com/deviation/803875), or you can view some [larger versions](http://spaceninja.com/port/darkpathways.php).
+The first (of three) CD design for [Crunch Pod Media](http://www.crunchpodmedia.com/) is done! You can view the [front cover](http://www.deviantart.com/deviation/803932), or a preview of the [whole CD package](http://www.deviantart.com/deviation/803875), or you can view some [larger versions](/downloads/darkpathways/).
 
 Just two more to go, and they should be easier. The design and layout will be very similar, but the color scheme will change for each one (there will be a blue one and a red one).
 

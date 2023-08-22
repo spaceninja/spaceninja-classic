@@ -18,7 +18,7 @@ authors:
 
 **scott:** what?
 
-**Jester:** Well, he'd looked at your [obey fojar](http://spaceninja.com/site-archives/obey/v2/) stuff, and there's one [image](http://spaceninja.com/site-archives/obey/v2/files/tanks.m.php) of Steve with one fist raised.
+**Jester:** Well, he'd looked at your [obey fojar](/site-archives/obey/v2/) stuff, and there's one [image](/site-archives/obey/v2/files/tanks.m.php) of Steve with one fist raised.
 
 **scott (seeing where this is going):** \*laughing\* oh, no...
 

@@ -1,0 +1,105 @@
+file format: seven fields, enclosed in curly braces.\n
+{Scott}
+{I seek the Grail}
+{Green}
+{scott@spaceninja.com}
+{www.spaceninja.com/home/}
+{Scotland}
+{2000.05.30  04:42 PM}
+{Just testing out the new guestbook}
+{Aaron}
+{To seek-out the air-speed velocity of an unladen swallow.}
+{Yellow. No! Blu....aaiieeee!}
+{aaronb@pdx.edu}
+{http://web.pdx.edu/~aaronb/}
+{HOWL [Until I develop it.]}
+{2000.05.30  05:53 PM}
+{I really like the webpage design.
+
+Goo job, Grog, you\'ve done well!}
+{Sean(your brother)}
+{To seek the Holy Grail!}
+{I\'d say a sort of dark red, but my monitor won\'t display red right now(damn technology!) so I\'ll go w/my OTHER fav. color, green.  Mostly forest green.}
+{jaime_respirer@yahoo.com}
+{http://plastic.spaceninja.com}
+{untitled as of yet}
+{2000.05.31  12:34 AM}
+{Nice site!  Not much else to say that I haven\'t said to you already on ICQ.  Thanks for linking to my page!}
+{Urn}
+{I seek the holy grail (of screensavers)}
+{purple}
+{urn42@yahoo.com}
+{urn.spaceninja.com}
+{Alternate 3rd Tursdays}
+{2000.05.31  08:59 AM}
+{Wow, and I thought the voices and I had some strange ones.... :)}
+{Rye Bread}
+{to seek my inner cool and get mad chicks}
+{green}
+{ryan@fojar.com}
+{toaster.fojar.com}
+{the Magical Flying Boy Press}
+{2000.06.01  02:36 AM}
+{Very slick.
+
+We share some of your aspirations, which are evidenced by some of the changes in our own website.
+
+incidentally, you keep linking to it as \"toast.spaceninja.com\" when it\'s \"toaster.spaceninja.com\"
+
+mr. bread has spoken thusly}
+{Pat Todd}
+{I seek the Grail}
+{Blue...No Green!  (aaahhhhh!)}
+{ptodd@mailandnews.com}
+{http://redrival.com/toddsville}
+{Toddsville}
+{2000.06.02  01:24 AM}
+{Well, damn, look who made another web page!}
+{Matthew Graybeal}
+{to find eternal peace}
+{teal}
+{manic@manicthunder.com}
+{http://www.manicpoet.com/}
+{Manic Poet}
+{2000.06.02  04:40 PM}
+{Does a void contain comments?  Or is there a resting place for bonded entities?  What?  You want a survey?  Sure, I want a credit card.  Fuck that.}
+{KT}
+{Quest!? No one said anything about a quest!}
+{lavendar}
+{KPrew95164@aol.com}
+{I don\'t have one}
+{I don\'t have one}
+{2000.06.05  07:18 PM}
+{I don\'t have one}
+{test}
+{test}
+{test}
+{test}
+{test}
+{test}
+{2000.07.06  03:29 PM}
+{test}
+{test}
+{test}
+{test}
+{test}
+{}
+{test}
+{2000.07.06  03:37 PM}
+{test}
+{test}
+{test}
+{test}
+{}
+{}
+{test}
+{2000.07.06  03:38 PM}
+{test}
+{test}
+{test}
+{}
+{}
+{}
+{test}
+{2000.07.06  03:38 PM}
+{test}

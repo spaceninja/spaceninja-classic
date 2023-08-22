@@ -16,7 +16,7 @@ authors:
   - scott
 ---
 
-Lots of crazy stuff going on lately. The [Myst 3 themes](http://spaceninja.com/downloads/myst3/) contract got approved, and this weekend I was putting the finishing touches on the themes. Just a couple more tiny touches, and they'll be complete! I'll post screenshots for people to see when they're done.
+Lots of crazy stuff going on lately. The [Myst 3 themes](/downloads/myst3/) contract got approved, and this weekend I was putting the finishing touches on the themes. Just a couple more tiny touches, and they'll be complete! I'll post screenshots for people to see when they're done.
 
 Obviously, (to anyone who visits the site frequently), the server was down for awhile recently. I got a panicked ICQ message from Steve asking if I could pitch in for a new motherboard. To our relief, we found out the next night that the server wasn't dead at all, just the ISP had switched his IP number without telling him. So a couple days later, things were fine.
 

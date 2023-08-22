@@ -16,7 +16,7 @@ tags:
   - outdoorschool
   - sex
 authors:
-  - anon
+  - obeso
 ---
 
 \-or- The Girl Who Made High School Suck

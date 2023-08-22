@@ -20,4 +20,4 @@ I figured better to have a website that's online and functional, even if it's no
 
 Oh, and there may not be any new content on these for a few days, since the owners of these weblogs are probably hearing about it at the same time you are, but keep your eye on them, and you'll see more changes coming soon, and more quickly this time.
 
-Next change in the pipe: Relocating Rusted to spaceninja.com/blog - But there's a few details I need to work out first.
+Next change in the pipe: Relocating Rusted to spaceninja.com - But there's a few details I need to work out first.

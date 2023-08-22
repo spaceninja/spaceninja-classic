@@ -25,4 +25,4 @@ And as well as being logically archived, MT saves a file for each archive, meani
 
 Now that I'm happy with the back end, and have my archives all structured the way I want, I can focus on cleaning up the HTML code a bit, and work on some design issues. I'm getting pretty tired of the blue and gray color scheme.
 
-**Edit 10/26/2005:** Ironically, I'm making this edit nearly two years later, as I again reorganize my archives. These early attempts were instrumental, but ultimately unsucessful in their attempts to make the archives easier to use. Needless to say, the above links no longer work. Instead, you can find the archives at [spaceninja.com/archives/](/archives/).
+**Edit 10/26/2005:** Ironically, I'm making this edit nearly two years later, as I again reorganize my archives. These early attempts were instrumental, but ultimately unsucessful in their attempts to make the archives easier to use. Needless to say, the above links no longer work. Instead, you can find the archives at [spaceninja.com/site-archives/](/site-archives/).

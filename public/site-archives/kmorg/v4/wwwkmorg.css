@@ -1,0 +1,106 @@
+/*
+
+wwwKMorg.css
+www.killingmachines.org stylesheet
+January 11, 2003
+by Scott Vandehey
+
+This is the secondary stylesheet for KMorg, which
+contains all the stylistic formatting that was
+excluded from core.css
+
+Notes: do not specify font-family anywhere except
+in the body tag, to allow for proper "cascading."
+specifying font sizes is fine.
+
+Also, be careful of floating elements. the login
+bar is floated to the right, and could cause
+problems with elements that are floated, fixed
+width, or clear: both;
+
+I have tried to include all the CSS classes used
+on KMorg in this document, even if they are left
+undefined, so that this can serve as a reference
+in the future.
+
+*/
+
+/* BASE STYLES */
+body { margin: 0; background: #bec9ce url(checks.gif); color: #666666; font-family: verdana, sans-serif; font-size: 13px; }
+a { text-decoration: none; }
+a:link { color: #678592; background: transparent; }
+a:visited { color: #999999; background: transparent; }
+a:hover { color: #375562; background: transparent; }
+a:active { color: #cc0000; background: transparent; }
+
+/* LAYOUT STYLES (IN ORDER OF APPEARANCE) */
+
+#container { width: 700px; margin: 0 auto; background: #678592; color: #ededed; border-bottom: 1px solid #678592; border-left: 1px solid #678592; -moz-float-edge: border-box; }
+
+#sidebar { float: left; width: 175px; background: #678592; color: #ededed; padding: 0; margin: 0; line-height: 1.5; vertical-align: top; }
+#sidebar a { color: #bec9ce; background: transparent; text-decoration: none; }
+#sidebar a:link { color: #bec9ce; background: transparent; }
+#sidebar a:visited { color: #bec9ce; background: transparent; }
+#sidebar a:hover { color: #ededed; background: transparent; }
+#sidebar a:active { color: #ffffff; background: transparent; }
+.navigation { padding: 10px; margin-top: 82px; border-bottom: 1px solid #bec9ce; border-top: 1px solid #bec9ce; }
+.logininfo { padding: 10px; border-bottom: 1px solid #bec9ce; }
+.recentjournals, .recentforums { padding: 10px; border-bottom: 1px solid #bec9ce; }
+
+#mainbar { width: 521px; margin: 0 0 0 175px; border-left: 3px solid #ff9900; border-right: 1px solid #678592; background: #ededed url(pipes2.gif); color: #666666; vertical-align: top;}
+
+.sitetitle {  padding: 10px;margin: 0; text-align: center; }
+.header { padding: 10px; margin: 0; text-align: center; }
+.headline { font-weight: bold; font-size: 13px; }
+.footnote { font-size: 11px; }
+
+.content { padding: 10px; }
+.options { border-bottom: 1px solid #505050; }
+.post, .queue {}
+.entryheader, .queueheader { border-top: 1px solid #cccccc; }
+.username { font-weight: bold; }
+.title { font-weight: bold; font-size: 13px; }
+.date { font-size: 11px; }
+.entry {}
+.threads {}
+.link, .navlink, .replylinks { font-size: 11px; }
+.accountNav { border-top: 1px solid #cccccc; }
+
+#footer { padding: 10px; margin: 0; text-align: center; border-top: 1px solid #aaaaaa; }
+
+/* QUOTED POSTS */
+.inreplyto {}
+.quote { font-style: italic; }
+
+/* ASIDES, TANGENTS, SEGUES */
+span.hidelink { color: #678592; }
+span.hidelink:hover { color: #375562; }
+span.hidelink span.hidden { display: none; }
+span.hidelink:hover span.hidden { display: inline; color: #678592; font-style: italic; }
+
+/* LIST PAGES */
+.forumlist {}
+.userlist {}
+
+/* FAQ PAGE */
+dl { margin: 0; }
+dt { font-weight: bold; }
+dd { margin-bottom: 7px; }
+.toplink { font-weight: bold; }
+
+/* QUEUE ITEMS */
+.forumname { font-style: italic; }
+
+/* ACCOUNT PREFS PAGE */
+#confirm { margin-bottom: 40px; }
+#notifications { margin-bottom: 45px; }
+
+/* OTHER MISC. STYLES */
+.small { font-size: 9px; }
+.error { color: red; background: transparent; }
+.success {}
+.center { text-align: center; }
+
+/* BROWSER UPGRADE CAMPAIGN */
+/* this bit of code hides a "please upgrade your lousy browser" message, so it will only display to people using browsers that do not understand CSS2, such as Netscape 4.7 */
+.ahem { display: none; }

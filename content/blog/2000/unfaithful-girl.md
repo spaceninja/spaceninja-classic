@@ -12,7 +12,7 @@ tags:
   - outdoorschool
   - sex
 authors:
-  - anon
+  - obeso
 ---
 
 This is brief entry. Following my alienation by my last girlfriend, I hooked up with the girl I cheated on her with. (interesting side note: the one who put us back in contact? The same girl who threw the party we met at, and later ratted me out to my girlfriend)

@@ -1,0 +1,407 @@
+/*
+Theme Name: Dojo2
+Theme URI: http://www.spaceninja.com/dojo/
+Description: Standards-compliant minimalist XHTML theme.
+Version: 2.0
+Author: Scott Vandehey
+Author URI: http://www.spaceninja.com/
+
+	Dojo v2.0
+	http://www.spaceninja.com/dojo/
+	last updated 2005-08-30
+
+	Probably no one will see this, but so you know, it's based on Kubrick.
+	I've tweaked some of the default code, moved some things around, and
+	changed some things to suit my needs. The main changes are to get the
+	XHTML divs to match my modus operandi, so that it would be easier for
+	me to design my blog. Kubrick was alright, but I've evolved a way of
+	doing things that works for me, so now I have Dojo. Feel free to take
+	it and mess around with it, there's nothing revolutionary in the HTML
+	itself - the fun comes when you apply a CSS file.
+
+*/
+
+/*
+
+	Washington Street - wa_st.css
+	A simple style built around a photo header by Scott Vandehey
+	Last modified 2005-03-06
+
+*/
+
+
+/*
+
+	LAYOUT
+	The following rules are all that is required for a two-column layout.
+	To switch the sidebar to the other side, just reverse the sidebar
+	and body floats from left to right (or vice-versa)
+	This layout is based heavily on work by Alex Robinson.
+	[http://www.fu2k.org/alex/css/layouts/3Col_NN4_FFFF.mhtml]
+
+*/
+
+body {
+	text-align: center;
+	}
+hr {
+	display: none;
+	}
+#page {
+	margin: auto;
+	text-align: left;
+	width: 650px;
+	}
+#container {
+	width: 100%;
+	float: left;
+	}
+#body {
+	width: 450px;
+	float: left;
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	width: 440px;
+	}
+#sidebar {
+	width: 200px;
+	float: right;
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	width: 180px;
+	}
+#footer {
+	clear: both;
+	}
+.ahem {
+	display: none;
+	}
+
+
+/*
+
+	BUG FIX
+	IE6 has an irritating bug that causes background colors on nested
+	elements to not display on initial rendering. They're there, but
+	you have to minimize the window or switch to another application
+	and back to see the full effect. The display: inline-block declaration
+	fixes this. Note that NN4 doesn't like this, but it also doesn't
+	like most CSS things, so I'm choosing to ignore that fact.
+	[http://www.webmasterworld.com/forum83/4161.htm]
+
+*/
+
+#page, #header, #container, #body, #entry, #sidebar, #footer
+	{ display: inline-block; }
+
+
+/*
+
+  DESIGN STYLES
+  Now that we have our layout, all the following rules are pure style.
+
+*/
+
+body {
+	background: #3b3b3b url(wa_st_bg.gif);
+	font-family: verdana, sans-serif;
+	font-size: .8em;
+	color: #222;
+	margin: 0;
+	padding: 0;
+	}
+#page {
+	background: #fff;
+	width: 650px;
+	border: 1px solid black;
+	}
+#header h1 {
+	text-indent: -9999px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	}
+#header h1 a:link, #header h1 a:visited, #header h1 a:hover {
+	display: block;
+	width: 650px;
+	height: 150px;
+	background: #777 url(wa_st_header.jpg) top left no-repeat;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	text-decoration: none;
+	}
+#header {
+	border-bottom: 1px solid black;
+	}
+p.tagline {
+	display: none;
+	}
+#container {
+	background: #ccc;
+	}
+#body {
+	background: #fff;
+	padding: 5px;
+	}
+.entry {
+	clear: both;
+	}
+.authoricon {
+	border: 1px solid #222;
+	margin-right: 3px;
+	margin-bottom: 3px;
+	float: left;
+	}
+.title {
+	background: #eee;
+	padding: 3px 6px;
+	border-top: 1px dotted #ccc;
+	}
+.title h2, .title p {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 2px;
+	}
+.title h2 {
+	font-size: 125%;
+	}
+h2.noteworthy {
+	background:url(noteworthy.png) left no-repeat;
+	padding-left:22px;
+}
+.byline {
+	font-size: 80%;
+	font-weight: normal;
+	}
+.byline a {
+	font-weight: normal;
+	}
+h2, h3, h4 {
+	font-family: "century gothic", sans-serif;
+	letter-spacing: .05em;
+	color: #444;
+	}
+a {
+	color: #360;
+	text-decoration: none;
+	border-bottom: 1px solid #ccc;
+	font-weight: bold;
+	}
+.entry p {
+	line-height: 1.25;
+	}
+.content {
+	margin: 0 10px;
+	}
+acronym, abbr, .info {
+	border-bottom: 1px dotted #222;
+	cursor: help;
+	}
+kbd {
+	font-family: "andale mono";
+	}
+.border {
+	border: 1px solid black;
+	margin: 3px;
+	}
+.thumb {
+	background: #fff;
+	padding: 4px;
+	border: 1px solid #ccc;
+	margin: 5px;
+	}
+.photo, .flickrEmailImage, .flickrImage {
+	background: #fff;
+	padding: 4px;
+	border: 1px solid #ccc;
+	display: block;
+	margin: auto;
+	}
+.flickrimg {
+	text-align: center;
+	}
+.flickrimg a {
+	border-bottom: 0;
+	}
+#flickrimg1, #flickrimg2, #flickrimg3, #flickrimg4, #flickrimg5, #flickrimg6 {
+	margin: 4px;
+	border: 1px solid #666;
+	}
+.center {
+	display: block;
+	margin: auto;
+	}
+.pullquote {
+	display: block;
+	float: right;
+	width: 175px;
+	margin: 10px 15px;
+	padding: 7px 12px;
+	font-size: 125%;
+	font-family: georgia;
+	font-style: italic;
+	font-weight: bold;
+	background: #eee;
+	}
+.aligncenter {
+	text-align: center;
+	}
+.alignright {
+	text-align: right;
+	}
+.alignleft {
+	text-align: left;
+	}
+.floatright {
+	float: right;
+	}
+.floatleft {
+	float: left;
+	}
+.valigntop {
+	vertical-align: top;
+	}
+.valignmiddle {
+	vertical-align: middle;
+	}
+.valignbottom {
+	vertical-align: bottom;
+	}
+.gallery-post p {
+	clear: both;
+	}
+.gallery-post .thumb {
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 10px;
+	}
+.footnotes {
+	font-size: 80%;
+	}
+.alt {
+	background-color: #f8f8f8;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	}
+.authorcomment {
+	background-color: #e8e8e8;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	}
+.postmetadata {
+	margin: 30px;
+	padding: 10px;
+	background-color: #f8f8f8;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	}
+.protectedby {
+	color: #eee;
+	font-size: 90%;
+	margin: 0;
+	}
+.protectedby a {
+	color: #eee;
+	border-bottom: 1px solid #eee;
+	}
+.commentlist cite, .commentlist cite a {
+	font-style: normal;
+	}
+.commentlist {
+	margin: 0;
+	padding: 0;
+	}
+.commentlist li {
+	margin: 10px;
+	padding: 0px;
+	list-style: none;
+	}
+.commentlist p {
+	margin: 10px;
+	}
+.commentmetadata a {
+	font-weight: normal
+	}
+.commentsform form {
+	}
+.commentsform input {
+	width: 170px;
+	padding: 2px;
+	}
+.commentsform textarea {
+	width: 425px;
+	padding: 2px;
+	}
+.commentsform #submit {
+	margin: 0;
+	float: right;
+	}
+.navigation {
+	display: block;
+	margin-left: 0;
+	padding-left: 0;
+	list-style: none;
+	}
+.navigation a {
+	font-weight: normal;
+	font-size: 90%;
+	}
+.prev {
+	float: left;
+	margin-bottom: 10px;
+	}
+.next {
+	float: right;
+	margin-bottom: 10px;
+	}
+#sidebar {
+	background: #ccc;
+	padding: 10px;
+	font-size: 90%;
+	}
+#sidebar form, #sidebar table, #sidebar ul, #sidebar h2 {
+	margin: 0 0 1.5em 0;
+	}
+#sidebar h2 {
+	margin-bottom: .5em;
+	font-size: 135%;
+	}
+#wp-calendar {
+	width: 100%;
+	}
+#wp-calendar caption {
+	margin: auto;
+	}
+#wp-calendar th, #wp-calendar td {
+	text-align: center;
+	padding: 3px;
+	}
+#wp-calendar #today {
+	background: #ddd;
+	}
+#wp-calendar td a {
+	}
+#sidebar ul {
+	padding-left: 15px;
+	margin-left: 0;
+	}
+#footer {
+	background: #777 url(wa_st_footer.jpg) top left no-repeat;
+	margin: 0;
+	padding: 0;
+	color: white;
+	border-top: 1px solid black;
+	text-align: center;
+	font-size: 90%;
+	line-height: 1.5;
+	height: 75px;
+	}
+#footer p {
+	margin: 10px 0 0;
+	}
+#footer a {
+	text-decoration: none;
+	border-bottom: 1px dashed white;
+	color: white;
+	}

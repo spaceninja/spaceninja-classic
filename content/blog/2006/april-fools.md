@@ -5,7 +5,7 @@ authors:
   - scott
 ---
 
-It snuck up on me this year, and this morning, I realized I hadn't planned a good [April](/blog/2001/i-have-seen-the-light/) [Fool's](/blog/2004/moving-to-new-york/) [Day](/blog/2005/new-design/) for my website, so I just uploaded [my original "blog" from 1999](http://spaceninja.com/site-archives/blog/v1/) for the day. Luckily, other people were better prepared.
+It snuck up on me this year, and this morning, I realized I hadn't planned a good [April](/blog/2001/i-have-seen-the-light/) [Fool's](/blog/2004/moving-to-new-york/) [Day](/blog/2005/new-design/) for my website, so I just uploaded [my original "blog" from 1999](/site-archives/blog/v1/) for the day. Luckily, other people were better prepared.
 
 - [Lifehacker](http://www.lifehacker.com/software/zombies/), [Gizmodo](http://gizmodo.com/gadgets/zombies/), [Kotaku](http://www.kotaku.com/gaming/zombies/), and [Consumerist](http://www.consumerist.com/consumer/zombies/) all spent the day posting tips for surviving the Zombie apocalypse.
 - The Register informed us that [China bought Google](http://www.theregister.co.uk/2006/04/01/china_buys_google/).

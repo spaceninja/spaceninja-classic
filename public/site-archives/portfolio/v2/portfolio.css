@@ -1,0 +1,129 @@
+/*
+
+  BUG FIX
+  IE6 has an irritating bug that causes background colors on nested 
+  elements to not display on initial rendering. They're there, but 
+  you have to minimize the window or switch to another application 
+  and back to see the full effect. The position: relative declaration 
+  fixes this. Note that NN4 doesn't like this, but it also doesn't 
+  like most CSS things, so I'm choosing to ignore that fact.
+  [http://www.positioniseverything.net/explorer/peekaboo.html]
+
+*/
+
+#page, #header-wrapper, #body-wrapper, #footer-wrapper
+    { position: relative; }
+
+/*
+
+  DESIGN STYLES
+
+*/
+
+body {
+    text-align: center;
+    background: #e9e8e0;
+    margin: 0;
+    padding: 0;
+    font-family: verdana, sans-serif;
+    color: #666;
+    font-size: .7em;
+    line-height: 1.25;
+    }
+a {
+    color: #d99b38;
+    text-decoration: none;
+    font-weight: bold;
+    }
+#page {
+    margin: auto;
+    text-align: center;
+    width: 712px;
+    background: url(images/bg.gif) repeat-y;
+    margin-bottom: 25px;
+    }
+#header-wrapper {
+    margin: auto;
+    width: 700px;
+    background: url(images/header.jpg) no-repeat;
+    padding-top: 100px;
+    }
+#header {
+    border-top: 1px solid #666;
+    }
+#header h1 {
+    text-indent: -9999px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    }
+#header h1 a:link, #header h1 a:visited, #header h1 a:hover {
+    display: block;
+    float: right;
+    width: 520px;
+    height: 120px;
+    background: url(images/headline.gif) no-repeat;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    }
+#header ul, #header li {
+    list-style: none;
+    display: inline;
+	margin: 0;
+	padding: 0;
+    }
+#header ul {
+    margin-top: 30px;
+    float: right;
+    }
+#body-wrapper {
+    clear: both;
+    margin: auto;
+    width: 640px;
+    }
+#body {
+    padding: 10px;
+    text-align: left;
+    }
+#body ul, #body li {
+    list-style: none;
+    display: inline;
+	margin: 0;
+	padding: 0;
+    }
+#body li img {
+    margin: 5px;
+    }
+.preview {
+    float: right;
+    }
+.centered {
+    text-align: center;
+    }
+#body p {
+    width: 215px;
+    }
+#resume p {
+    width: 100%;
+    }
+.left {
+    float: left;
+    width: 175px;
+    }
+.right {
+    float: right;
+    width: 425px;
+    }
+#footer-wrapper {
+    clear: both;
+    background: url(images/footer.gif) bottom left no-repeat;
+    height: 35px;
+    }
+#footer p {
+    display: none;
+    }
+.ahem {
+    display: none;
+    }

@@ -47,7 +47,7 @@
     "name": "Steve",
     "full_name": "Steve",
     "bio": "my simian compatriots never make things easy for me.",
-    "photo": "/images/avatars/spaceninja.gif"
+    "photo": "/images/avatars/steve.jpg"
   },
   {
     "key": "zach",
@@ -57,9 +57,9 @@
     "photo": "/images/avatars/zach48.jpg"
   },
   {
-    "key": "anon",
-    "name": "Anonymous",
-    "full_name": "Anonymous",
+    "key": "obeso",
+    "name": "Obeso",
+    "full_name": "Obeso the Pirate",
     "photo": "/images/avatars/anon.png"
   }
 ]

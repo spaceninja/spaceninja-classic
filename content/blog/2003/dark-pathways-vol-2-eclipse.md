@@ -7,4 +7,4 @@ authors:
 
 It is done.
 
-http://spaceninja.com/port/darkpathways.php
+/downloads/darkpathways/

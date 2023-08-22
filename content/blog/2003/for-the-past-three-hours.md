@@ -17,4 +17,4 @@ Last night, I went to see _Star Trek: Nemesis_ with Steve, Zach and Daniel. It h
 
 Forum5000 development continues. Steve keeps getting bigger ideas in his head. Yesterday, we implimented the messaging feature so you can send notes to other hatelife users, and he's already scheming up a new type of forum to allow you to create comparison lists. And this is after we already brainstormed up a huge improvement to the way post editing and deletion will work.
 
-[See the final results of this design in the archives](http://spaceninja.com/site-archives/kmorg/v4/).
+[See the final results of this design in the archives](/site-archives/kmorg/v4/).

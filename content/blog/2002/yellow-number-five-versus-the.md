@@ -5,7 +5,7 @@ authors:
   - scott
 ---
 
-[Yellow Number Five versus The Blues Brothers - Rawhide](http://spaceninja.com/site-archives/yellow5/v2/media/y5-rawhide.mp3)
+[Yellow Number Five versus The Blues Brothers - Rawhide](/site-archives/yellow5/v2/media/y5-rawhide.mp3)
 
 That link will let you download the project Zach and I were working on today. It's a techo remix of the theme from Rawhide, as sung by the Blues Brothers.
 

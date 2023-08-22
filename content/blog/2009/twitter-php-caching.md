@@ -150,5 +150,3 @@ I did some digging into the API documentation, and there's no way around this. T
 Given those restrictions, I left the code using the search API, despite the restriction. To make the best of the situation, we wrote a funny error message for users with no tweets, and asked everyone linking their Twitter account to post at least once a week.
 
 **Note:** This was originally posted on [my work blog](http://blogs.popart.com/author/scottvandehey/), and I'm re-posting it here for archival purposes.
-
-**Edit 11/22/2009:** Turns out there was some sort of problem with the code in this post. I've updated it, and it seems to be working, but if you're having any trouble with the code that you copy out of the post, you can try downloading the files directly here: [twitter.php](/downloads/twitter.zip) and [time.php](/downloads/time.zip).

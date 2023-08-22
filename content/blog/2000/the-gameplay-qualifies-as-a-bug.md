@@ -16,4 +16,4 @@ authors:
 
 > "I think the current gameplay qualifies as a bug, in fact."
 >
-> — Miles, regarding [Mutton Kombat](http://spaceninja.com/downloads/mk/)
+> — Miles, regarding [Mutton Kombat](/downloads/mk/)

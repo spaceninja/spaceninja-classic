@@ -24,6 +24,6 @@ It was effortless. My mind was completely absorbed in the code I was writing, an
 
 What I'm working on is a wordpress theme, which I'm calling Dojo. It's an attempt to create a stable code platform that I can put on all the wordpress sites I maintain, and completely customize with just a CSS file.
 
-Right now, it's not much to look at. I intentionally stripped all images and CSS so that I could focus on the markup to make sure it's a solid base to work from. Still, if you're interested, you can check it out on the [dev site](http://oscorp.net/wp-dev/).
+Right now, it's not much to look at. I intentionally stripped all images and CSS so that I could focus on the markup to make sure it's a solid base to work from.
 
 In the coming weeks, I'll be posting more about this, including some challenges I found with the markup, the admin module, and the design process.

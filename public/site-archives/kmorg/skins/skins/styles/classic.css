@@ -1,0 +1,42 @@
+/* BASE STYLES */
+body { background-color: #101010; color: #dfdfdf; font-family: verdana, sans-serif; font-size: 13px; }
+a { color: #a0a0a0; background: transparent; text-decoration: none; }
+a:link { color: #a0a0a0; background: transparent; }
+a:active { color: #909090; background: transparent; }
+a:visited { color: #707070; background: transparent; }
+a:hover { color: white; background: transparent; }
+
+/* LAYOUT STYLES IN HEIRARCHICAL ORDER */
+#pagetitle { width: 600px; margin: 0 auto; padding: 20px 10px 0 10px; font-family: arial, sans-serif; font-size: 36px; font-weight: bold; }
+#pagetitle:first-letter { text-transform: capitalize; }
+#linkbar { width: 600px; margin: 0 auto; padding: 10px; }
+#linkbar a { color: black; background: transparent; }
+#linkbar a:link { color: black; background: transparent; }
+#linkbar a:active { color: black; background: transparent; }
+#linkbar a:visited { color: black; background: transparent; }
+#linkbar a:hover { color: black; background: transparent; text-decoration: underline; }
+.header { width: 600px; margin: 10px auto; }
+.headline { font-weight: bold; font-size: 13px; }
+.footnote { font-size: 11px; }
+.content { width: 600px; margin: 10px auto; padding: 10px; }
+.options { border-bottom: solid 1px #505050; }
+.entryheader { border-top: solid 1px #505050; }
+.username { font-weight: bold; }
+.title { font-weight: bold; font-size: 13px; }
+.date { font-size: 11px; }
+.link, .navlink, .replylinks { font-size: 11px; }
+.accountNav { border-top: 1px solid #505050; }
+#footer { width: 600px; margin: 0 auto; padding: 10px; text-align: center; }
+
+/* QUOTED POSTS */
+.inreplyto {}
+.quote { font-style: italic; }
+
+/* OTHER MISC. STYLES */
+.small { font-size: 9px; }
+.error { color: red; background: transparent; }
+.center { text-align: center; }
+
+/* BROWSER UPGRADE CAMPAIGN */
+/* this bit of code hides a "please upgrade your lousy browser" message, so it will only display to people using browsers that do not understand CSS2, such as Netscape 4.7 */
+.ahem { display: none; }

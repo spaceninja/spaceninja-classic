@@ -1,0 +1,95 @@
+<html>
+<head><title>H A M M E R S P A C E</title></head>
+
+<body bgcolor="#6a776a" background="bg1.gif" text=white link=white vlink=white alink=white>
+
+<table border=0 cellpadding=0 cellspacing=0 width=100% height=100%><tr><td align=right valign=top>
+<table border=0 cellpadding=0 cellspacing=0><tr><td align=right>
+<font face="verdana, tahoma, arial, helvetica" size=2>
+Last updated <?=date("F j Y",filemtime("toc.php"));?>
+<br>Newest comics are at the top.
+
+<p><a href="interruptions/index.html" target=info>wedding joke four: interruptions</a>
+
+<p><a href="heroes/index.html" target=info>wedding joke three: heroes</a>
+
+<p><a href="bestman/index.html" target=info>wedding joke two: best man speech</a>
+
+<p><a href="20030602/index.html" target=info>wedding joke one</a>
+
+<p><a href="serious/index.html" target=info>serious business</a>
+
+<p><a href="fellowship/index.html" target=info>the fellowship of the drunk</a>
+
+<p><a href="hatelife/index.html" target=info>hatelife</a>
+
+<p><a href="dewsoda/index.html" target=info>dew soda&#153;</a>
+
+<p><a href="devilquake/index.html" target=info>the devil joined a quake server</a>
+
+<p><a href="reference/index.html" target=info>the reference</a>
+
+<p><a href="weblog/index.html" target=info>ninja weblog</a>
+
+<p><a href="coolgf/index.html" target=info>cool girlfriend</a>
+
+<p><a href="onering/index.html" target=info>one ring to fool them all</a>
+
+<p><a href="wedding/index.html" target=info>wedding wedding wedding</a>
+
+<p><a href="connery/index.html" target=info>sean connery and the inner-city youth</a>
+
+<p><a href="iso/index.html" target=info>isometric parody</a>
+
+<p><a href="thinking/index.html" target=info>thinking</a>
+
+<p><a href="beesknees/index.html" target=info>bee's knees</a>
+
+<p><a href="ticket/index.html" target=info>the ticket</a>
+
+<p><a href="announcement/index.html" target=info>announcement</a>
+
+<p><a href="glass/index.html" target=info>the glass</a>
+
+<p><a href="belt/index.html" target=info>the belt</a>
+
+<p><a href="pokey/index.html" target=info>pokey the penguin</a>
+
+<p><a href="distraction/index.html" target=info>distraction</a>
+
+<p><a href="language/index.html" target=info>language</a>
+
+<p><a href="brother/index.html" target=info>the little brother</a>
+
+<p><a href="helmet/index.html" target=info>helmet head</a>
+
+<p><a href="pornpal/index.html" target=info>porn pal</a>
+
+<p><a href="tryouts/index.html" target=info>try outs</a>
+
+<p><a href="possess/index.html" target=info>possessed</a>
+
+<p><a href="again/index.html" target=info>again!</a>
+
+<p><a href="yesdear/index.html" target=info>yes, dear</a>
+
+<p><a href="devil/index.html" target=info>the devil</a>
+
+<p><a href="pagent/index.html" target=info>who wants to date a millionaire?</a>
+
+<p><a href="origin/index.html" target=info>the origin of hammerspace</a>
+
+<p><a href="girl/index.html" target=info>the girlfriend</a>
+
+</font>
+</td></tr></table>
+</td></tr></table>
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">
+  _uacct = "UA-588310-1";
+  urchinTracker();
+</script>
+<script src="/mint/?js" type="text/javascript"></script>\n</body>
+
+</html>

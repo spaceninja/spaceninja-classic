@@ -25,9 +25,12 @@ First, to clarify: A _font_ is a file containing a particular _typeface_, which 
 
 The problem, as you can see in this screenshot, is that if you only load one font into the family, then the browser doesn't know what to do when it's asked to render a bold or italic section using that font. It solves this by creating a faux-bold style by stretching the letters horizontally, and a faux-italic style by slanting the letters.
 
-[![comparing the browser's faux italic and bold styles to the true fonts](/images/problem.png)](http://spaceninja.com/projects/font-face/)
+<figure>
 
-fig a: comparison of faux browser styles and true typefaces
+![comparing the browser's faux italic and bold styles to the true fonts](/images/problem.png)
+
+<figcaption>fig a: comparison of faux browser styles and true typefaces</figcaption>
+</figure>
 
 The browser's brute-force approach to creating these faux styles leaves a lot to be desired. In particular, note the proper italic font includes a variant lowercase 'a' without the ascender, and bold characters have an even thickness to the stroke, rather than the wider vertical strokes on the faux-bold.
 
@@ -96,9 +99,12 @@ The common technique shared by many font services like FontSquirrel or WebINK is
 
 However, doing that actually results in what you see here, where the browser still applies its own faux bold and italic styles on top of the hard-coded bold and italic fonts you defined.
 
-[![double-italic and bold styles](/images/worst.png)](http://spaceninja.com/projects/font-face/)
+<figure>
 
-fig b: faux browser styles applied on top of proper italic and bold fonts
+![double-italic and bold styles](/images/worst.png)
+
+<figcaption>fig b: faux browser styles applied on top of proper italic and bold fonts</figcaption>
+</figure>
 
 To solve that problem, you reset `font-weight` and `font-style` on the nested styles to disable the faux browser styles.
 
@@ -123,9 +129,12 @@ To solve that problem, you reset `font-weight` and `font-style` on the nested st
 
 And it seems to work perfectly! Your custom bold and italic fonts are loaded properly, and the faux styles are nowhere to be seen! The problem is that if your custom font doesn't load for some reason, the browser is no longer applying bold or italic styles to the fallback font.
 
-[![fallback font with no bold or italics](/images/wrong.png)](http://spaceninja.com/projects/font-face/)
+<figure>
 
-fig c: no bold or italic styles if custom font fails to load
+![fallback font with no bold or italics](/images/wrong.png)
+
+<figcaption>fig c: no bold or italic styles if custom font fails to load</figcaption>
+</figure>
 
 So I think we can agree that this solution doesn't work. It requires a lot of CSS to override built-in browser styles, and it breaks completely when the custom font doesn't load. Luckily, there's a better solution:
 
@@ -182,11 +191,12 @@ Instead of defining separate `font-family` values for each font, You can use sam
 
 Then all you need to do is apply that single `font-family` to your target, and any nested bold or italic styles will _automatically_ use the correct font, and still apply bold and italic styles if your custom font fails to load.
 
-[![correct fonts, with fallback styles](/images/right.png)](http://spaceninja.com/projects/font-face/)
+<figure>
 
-fig d: properly defined italic and bold fonts with fallback styles
+![correct fonts, with fallback styles](/images/right.png)
 
-You can see a live example of these problems and the final solution on the [demo page](http://oscorp.net/projects/font-face/).
+<figcaption>fig d: properly defined italic and bold fonts with fallback styles</figcaption>
+</figure>
 
 ### Seriously, Microsoft?
 

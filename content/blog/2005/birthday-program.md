@@ -7,7 +7,7 @@ authors:
   - scott
 ---
 
-At long last, my [birthday program](/projects/dates/) is done! You can see it in action on the demo page [over here](/projects/dates/) and you can [download it here](/projects/dates/date.zip). Basically, it's just a list of birthdays, but it's also sortable and easily added to. To quote from my comments in the program:
+At long last, my [birthday program](https://dates.oscorp.net/) is done! You can see it in action on the demo page [over here](https://dates.oscorp.net/). Basically, it's just a list of birthdays, but it's also sortable and easily added to. To quote from my comments in the program:
 
 > This is a simple page I threw together to list birthdays and anniversaries, and time elapsed since them. I did this because I could never remember how old some of my friends and family members were, and because I already had this nifty "date_difference" function I found on the internet (see date.php).
 >

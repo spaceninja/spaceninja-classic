@@ -1,0 +1,101 @@
+/*
+
+hatelife.org stylesheet
+December 16, 2002
+by Scott Vandehey
+
+hatelife.org - where teen angst, sad things and bad poetry come together to suck
+
+Notes: do not specify font-family anywhere except
+in the body tag, to allow for proper "cascading."
+specifying font sizes is fine.
+
+Also, be careful of floating elements. the login
+bar is floated to the right, and could cause
+problems with elements that are floated, fixed
+width, or clear: both;
+
+I have tried to include all the CSS classes used
+on hatelife in this document, even if they are
+left undefined, so that this can serve as a
+reference in the future.
+
+*/
+
+/* BASE STYLES */
+body { background-color: #303030; color: #909090; margin: 0; font-family: georgia, serif; font-size: 13px; }
+a { color: #b0b0b0; text-decoration: none;}
+a:link { color: #b0b0b0; }
+a:active { color: #d0d0d0; }
+a:visited { color: #b0b0b0; }
+a:hover { color: white; }
+
+/* LAYOUT STYLES IN HEIRARCHICAL ORDER */
+.site_title { font-size: 16px; font-weight: bold; text-align: center; margin: 10px; padding: 5px; background-color: #404040; }
+.link_bar { text-align: center; padding: 5px; margin: 10px; background-color: #404040; }
+.logininfo { text-align: center; float: right; width: 200px; border: solid 1px #606060; padding: 5px; margin: 5px 15px 10px 10px; background-color: #404040; }
+.footer { text-align: center; padding: 5px; margin: 10px; background-color: #404040; }
+
+.header { text-align: center; padding: 5px; margin: 10px; background-color: #404040; }
+ .headline { font-weight: bold; font-size: 13px; }
+ .footnote { font-size: 11px; }
+
+.content { background-color: #404040; padding: 5px; margin: 10px; }
+ .options { border-bottom: solid 1px #505050; margin-bottom: 10px; }
+ .post, .queue { }
+   .entryheader, .queueheader { border-top: solid 1px #505050; padding-top: 3px; }
+      .username { font-weight: bold; }
+      .title { font-weight: bold; font-size: 13px; }
+      .date { font-size: 11px; }
+   .entry { padding-left: 15px; margin: 10px 0; }
+   .threads { margin-bottom: 15px; }
+      .replylinks { font-size: 11px; padding-bottom: 7px; }
+      .link { font-size: 11px; }
+
+/* STYLES FOR FORMS */
+.form { width: 500px; }
+div.row { clear: both; padding: 7px 5px; }
+div.row span.left { float: left; width: 35%; text-align: right; padding-right: 5px; }
+div.row span.right { float: right; width: 64%; text-align: left; }
+.submit { clear: both; padding: 7px 5px; margin-left: 35%; }
+.cell {}
+
+/* QUOTED POSTS */
+.inreplyto { margin-bottom: 15px; }
+.quote { font-style: italic; margin-left: 15px; }
+
+/* ASIDES, TANGENTS, SEGUES */
+span.hidelink { background-color: #404040; color: #b0b0b0; }
+span.hidelink:hover { background-color: #404040; color: white; }
+span.hidelink span.hidden { display: none; }
+span.hidelink:hover span.hidden { display: inline; background-color: #404040; color: #b0b0b0; font-style: italic; }
+
+/* LIST PAGES */
+.forumlist { padding-bottom: 5px; }
+.userlist {}
+.sorttypes { margin-left: 15px; }
+
+/* FAQ PAGE */
+dl { margin: 0; }
+dt { font-weight: bold; }
+dd { margin-bottom: 7px; }
+
+/* QUEUE ITEMS */
+.forumname { font-style: italic; }
+
+/* ACCOUNT PREFS PAGE */
+#confirm { margin-bottom: 40px; }
+#messaging { margin-bottom: 45px; }
+
+/* OTHER MISC. STYLES */
+.entrysynopsis { margin-left: 15px; margin-top: 10px; margin-bottom: 10px; }
+.small { font-size: 9px; }
+.smalltag { font-size: 9px; margin-bottom: 10px; }
+.error { color: red; }
+.success {}
+.center { text-align: center; }
+.border { border: 1px solid black; }
+
+/* BROWSER UPGRADE CAMPAIGN */
+/* this bit of code hides a "please upgrade your lousy browser" message, so it will only display to people using browsers that do not understand CSS2, such as Netscape 4.7 */
+.ahem { display: none; }
