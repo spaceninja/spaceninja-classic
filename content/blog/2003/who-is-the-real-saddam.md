@@ -7,4 +7,4 @@ authors:
 
 WHO IS THE REAL SADDAM
 
-\[http://rose.ce.umn.edu/gallery/albums/blog-photos/misc/saddam2.jpg\]
+http://rose.ce.umn.edu/gallery/albums/blog-photos/misc/saddam2.jpg

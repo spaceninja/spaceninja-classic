@@ -17,7 +17,7 @@ anyways, here are the facts: it's a benefit for peace at (i think, i'll have to 
 
 it's very exciting, my second "professional musician" gig and already playing to packed halls. if i were anyone else, i might be nervous.. but nah, this is exciting stuff!
 
-— oh! check out these great old photos i found last night: \[http://www.fojar.com/~steve/pics/interesting_older_stuff/\]
+— oh! check out these great old photos i found last night: http://www.fojar.com/~steve/pics/interesting_older_stuff/
 
 and that's not the best news of late.. \*grinning\*
 

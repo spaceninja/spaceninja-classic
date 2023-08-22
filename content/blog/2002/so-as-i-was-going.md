@@ -9,7 +9,7 @@ So as I was going through my email today, trying to reply to messages people sen
 
 > Essentially, a team of 14 designer-programmers got together in a barn in Oakland and spent four days creating 12 games based on a single piece of technology. What was the basis of the IGJ? Well, one day Doug Church (of System Shock 2 and Thief fame) and a few friends got together and tried to figure out how many sprites a computer with the latest hardware could render. The answer is a pretty stunning 100,000. After creating an engine to let them work with hundreds of thousands of sprites (most of them DOOM bitmaps), they met for 4 days and ended up with games like "Angry God Bowling", "Very Serious RoboDOOM", and "Red Rover". Here's a handy link to the IGJ website, including screenshots. No source code yet, but I'm sure it will be up in time:
 >
-> \[http://www.indiegamejam.com/\]
+> http://www.indiegamejam.com/
 >
 > Why did this grab my attention? What did this make me think of? Two words: **Decidua Fighter**.
 

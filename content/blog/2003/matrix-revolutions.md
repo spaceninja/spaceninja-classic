@@ -5,7 +5,7 @@ authors:
   - scott
 ---
 
-As you may or may not know, the theatrical trailer for Matrix Revolutions has been posted on \[http://thematrix.com/\].
+As you may or may not know, the theatrical trailer for Matrix Revolutions has been posted on http://thematrix.com/.
 
 I just watched it, and for those of you who are like Miles or my brother Sean, and are concerned that you will figure out the entire movie from the trailer: You're probably right. Avoid it at all costs. The TV spots are similar, but don't give away nearly as much.
 

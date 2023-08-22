@@ -5,7 +5,7 @@ authors:
   - steve
 ---
 
-\[http://www.mindmedia.com/brainworks/profiler\]
+http://www.mindmedia.com/brainworks/profiler
 
 my results were:
 Auditory : 38% Visual : 61% Left : 43% Right : 56%

@@ -7,7 +7,7 @@ authors:
 
 YES! some of my web toys are coming to life!
 
-examine my new home page: \[http://fojar.com/~steve/\]
+examine my new home page: http://fojar.com/~steve/
 
 all CSS, all programatically generated!
 

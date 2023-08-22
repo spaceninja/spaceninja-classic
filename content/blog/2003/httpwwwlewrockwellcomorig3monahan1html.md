@@ -5,4 +5,4 @@ authors:
   - steve
 ---
 
-\[http://www.lewrockwell.com/orig3/monahan1.html\]
+http://www.lewrockwell.com/orig3/monahan1.html

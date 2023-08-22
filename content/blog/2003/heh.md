@@ -5,4 +5,4 @@ authors:
   - miles
 ---
 
-\[http://www.spies.com/~dbort/drarings/?file=web-20030317.png\]
+http://www.spies.com/~dbort/drarings/?file=web-20030317.png

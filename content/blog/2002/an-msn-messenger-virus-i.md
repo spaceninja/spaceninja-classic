@@ -6,6 +6,6 @@ authors:
 ---
 
 An MSN Messenger virus. I love it.
-\[http://www.cs.berkeley.edu/~nweaver/warhol.html\]
+http://www.cs.berkeley.edu/~nweaver/warhol.html
 
 Actually, it's a really scary article, reads like Bruce Sterling. . .

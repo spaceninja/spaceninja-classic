@@ -11,4 +11,4 @@ authors:
 
 [![](/images/blog-photos/leilani_lite03.jpg)](/images/images/blog-photos/leilani_lite03.jpg)
 
-I finally received some photos of Leilani in the email. I've posted them here so they'll be available until Ryan gets them and others posted on \[http://leilani.spaceninja.com/\]. The one on the right is my favorite. The way she's peering suspiciously over the top of her bottle cracks me up.
+I finally received some photos of Leilani in the email. I've posted them here so they'll be available until Ryan gets them and others posted on http://leilani.spaceninja.com/. The one on the right is my favorite. The way she's peering suspiciously over the top of her bottle cracks me up.

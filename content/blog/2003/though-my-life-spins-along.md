@@ -11,9 +11,9 @@ today i prepared a mailing which i will send out tomorrow to try to drum up some
 
 there was once a constellation of notable importance to me - or so i thought. turns out it isn't really a constellation, but a part of one. (i got curious tonight; it does remain of notable importance)
 
-\[http://www.astro.wisc.edu/~dolan/constellations/constellations/Hercules.html\]
+http://www.astro.wisc.edu/~dolan/constellations/constellations/Hercules.html
 
-the part that i'd always looked for and found makes kind of a ring-shape. a ring of stars... just a part of hercules. another page here \[http://www.csulb.edu/~gordon/constel.html\] talks about the mythology behind the constellations. interesting stuff.
+the part that i'd always looked for and found makes kind of a ring-shape. a ring of stars... just a part of hercules. another page here http://www.csulb.edu/~gordon/constel.html talks about the mythology behind the constellations. interesting stuff.
 
 one thing i regret about city life is how the light pollution prevents us from seeing so much of the night sky. when we were little, things were still sparse enough around here that you could make out the milky way faintly at night. not so anymore. i guess things change.
 

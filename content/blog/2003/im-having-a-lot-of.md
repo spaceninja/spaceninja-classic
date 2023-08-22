@@ -6,7 +6,7 @@ authors:
 ---
 
 I'm having a LOT of troubles with my latest design attempt for KMorg. If any of you know your CSS pretty well, feel free to check out my posts to these two support forums:
-\[http://www.cookwood.com/cgi-bin/lcastro/htmlbbs.pl?#15654\]
-\[http://www.siteexperts.com/forums/converse.asp?topic\_id=10\]
+http://www.cookwood.com/cgi-bin/lcastro/htmlbbs.pl?#15654
+http://www.siteexperts.com/forums/converse.asp?topic\_id=10
 
 [See the final results of this design in the archives](http://spaceninja.com/site-archives/kmorg/v4/).

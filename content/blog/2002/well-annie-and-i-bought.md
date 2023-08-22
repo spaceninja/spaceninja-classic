@@ -5,7 +5,7 @@ authors:
   - scott
 ---
 
-Well, Annie and I bought our tickets for New York. We managed to catch a price break on \[http://www.travelocity.com/\] and got the tickets for about $150 cheaper than all the other sites were charging.
+Well, Annie and I bought our tickets for New York. We managed to catch a price break on http://www.travelocity.com/ and got the tickets for about $150 cheaper than all the other sites were charging.
 
 Annie, Sean, and I will be flying out of [PDX](http://www.portlandairportpdx.com/) around noon on Wednesday 9/25, and getting into [LGA](http://www.panynj.gov/aviation/lgaframe.HTM) (La Guardia) just before midnight, after a 2 hour layover in [Chicago](http://www.ci.chi.il.us/).
 

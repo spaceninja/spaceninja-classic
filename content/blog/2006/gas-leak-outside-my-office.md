@@ -7,7 +7,10 @@ authors:
   - scott
 ---
 
-[![IMG_0715](/images/IMG_0715.JPG)](/gallery/pop-art/IMG_0715.JPG 'IMG_0715') [![IMG_0717](/images/IMG_0717.JPG)](/gallery/pop-art/IMG_0717.JPG 'IMG_0717') [![IMG_0720](/images/IMG_0720.JPG)](/gallery/pop-art/IMG_0720.JPG 'IMG_0720') [![IMG_0722](/images/IMG_0722.JPG)](/gallery/pop-art/IMG_0722.JPG 'IMG_0722')
+[![IMG_0715](/images/pop-art/IMG_0715.JPG)](/images/pop-art/IMG_0715.JPG 'IMG_0715')
+[![IMG_0717](/images/pop-art/IMG_0717.JPG)](/images/pop-art/IMG_0717.JPG 'IMG_0717')
+[![IMG_0720](/images/pop-art/IMG_0720.JPG)](/images/pop-art/IMG_0720.JPG 'IMG_0720')
+[![IMG_0722](/images/pop-art/IMG_0722.JPG)](/images/pop-art/IMG_0722.JPG 'IMG_0722')
 
 We just came back from lunch, and there are like 8 trucks and vans from the gas company clustered around a manhole cover (or something) and about four fire trucks parked nearby. This is less than a block from the front door of my building. They're stringing up caution tape everywhere, and the fire department actually has Broadway blocked off. I work right next to the train station, so this is pretty much the first block right after you come off the bridge - I don't think I've ever seen Broadway blocked off before. Obviously, there's some sort of gas leak, but this is kind of creepy.
 

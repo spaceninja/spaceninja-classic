@@ -9,4 +9,4 @@ TOP SECRET PROJECT
 
 [FUN 2](http://www.yellow5.com/pokey/hooray/WONDERFULpokey.html)!!!
 
-_for more pokey fun see_ \[http://www.yellow5.com/pokey/\]
+_for more pokey fun see_ http://www.yellow5.com/pokey/

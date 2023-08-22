@@ -9,7 +9,7 @@ authors:
 
 Progress Quest: Team KMorg! http://killingmachines.org
 
-\[http://progressquest.com/hi.php?name=Abe\]
+http://progressquest.com/hi.php?name=Abe
 
 _Thanks [Sig9](http://signal9.killingmachines.org) for starting Team KMorg!_
 

@@ -5,7 +5,7 @@ authors:
   - scott
 ---
 
-Wow, a lot of people post to \[http://www.killingmachines.org/\] around midnight! I was just reading, and replying and trying to catch up on two day's worth of posts, and about 10 people posted while I was reading! Pretty soon, I'm not going to be able to read everyone's journal anymore. But I think I can happily accept that KMorg is too popular for me to know everyone who posts there. :)
+Wow, a lot of people post to http://www.killingmachines.org/ around midnight! I was just reading, and replying and trying to catch up on two day's worth of posts, and about 10 people posted while I was reading! Pretty soon, I'm not going to be able to read everyone's journal anymore. But I think I can happily accept that KMorg is too popular for me to know everyone who posts there. :)
 
 Oh, by the way, in case none of you realized it, I'm a huge geek. How geeky are you, no one in particular asks? I'm geeky enough that my mom bought me two [t-shirts](http://www.graphittidesigns.com/cgi-bin/SoftCart.exe/Store/p-SHRTMSC039.html?L+scstore+bypq6183ff70be70+1025341767) for my [birthday](http://www.graphittidesigns.com/cgi-bin/SoftCart.exe/Store/p-SHRTDC001.html?L+scstore+bypq6183ff70be70+1025343888), and one for [Annie](http://www.graphittidesigns.com/cgi-bin/SoftCart.exe/Store/p-SHRTDC286.html?L+scstore+bypq6183ff70be70+1025343890).
 

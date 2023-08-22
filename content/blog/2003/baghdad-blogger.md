@@ -9,4 +9,4 @@ Salam Pax, the guy whose blog we were all reading right before the war, has mana
 
 > Salam said, “Everybody on the street is saying this like a mantra, 'Fuck Saddam, fuck Saddam, fuck Saddam….'"
 
-\[http://dear_raed.blogspot.com/\]
+http://dear_raed.blogspot.com/
