@@ -11,6 +11,6 @@ A collection of legacy posts from my old blog
 - [x] redirect `/port` to `/portfolio`
 - [ ] check for broken images that should be images/blog-photos
 - [x] check remaining spaceninja.com links
-- [ ] add syntax highlighting theme
+- [x] add syntax highlighting theme
 - [ ] Fix site archives landing pages
 - [ ] Fix PHP site archives entries
