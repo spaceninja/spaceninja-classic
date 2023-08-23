@@ -16,7 +16,7 @@
 function _CF_onError(form_object, input_object, object_value, error_message)
     {
 	alert(error_message);
-       	return false;	
+       	return false;
     }
 
 
@@ -25,9 +25,9 @@ function _CF_hasValue(obj, obj_type)
     {
     if (obj_type == "TEXT" || obj_type == "PASSWORD")
 	{
-    	if (obj.value.length == 0) 
+    	if (obj.value.length == 0)
       		return false;
-    	else 
+    	else
       		return true;
     	}
     else if (obj_type == "SELECT")
@@ -38,7 +38,7 @@ function _CF_hasValue(obj, obj_type)
 			return true;
 		}
 
-       	return false;	
+       	return false;
 	}
     else if (obj_type == "SINGLE_VALUE_RADIO" || obj_type == "SINGLE_VALUE_CHECKBOX")
 	{
@@ -46,7 +46,7 @@ function _CF_hasValue(obj, obj_type)
 		if (obj.checked)
 			return true;
 		else
-       		return false;	
+       		return false;
 	}
     else if (obj_type == "RADIO" || obj_type == "CHECKBOX")
 	{
@@ -57,7 +57,7 @@ function _CF_hasValue(obj, obj_type)
 			return true;
 		}
 
-       	return false;	
+       	return false;
 	}
 	}
 
@@ -66,7 +66,7 @@ function _CF_hasValue(obj, obj_type)
 function _CF_checkdate(object_value)
     {
     //Returns true if value is a date format or is NULL
-    //otherwise returns false	
+    //otherwise returns false
 
     if (object_value.length == 0)
         return true;
@@ -138,7 +138,7 @@ function _CF_checkday(checkYear, checkMonth, checkDay)
 function _CF_checkinteger(object_value)
     {
     //Returns true if value is a number or is NULL
-    //otherwise returns false	
+    //otherwise returns false
 
     if (object_value.length == 0)
         return true;
@@ -175,7 +175,7 @@ function _CF_numberrange(object_value, min_value, max_value)
 	if (object_value > max_value)
 		return false;
 	}
-	
+
     //All tests passed, so...
     return true;
     }
@@ -185,7 +185,7 @@ function _CF_numberrange(object_value, min_value, max_value)
 function _CF_checknumber(object_value)
     {
     //Returns true if value is a number or is NULL
-    //otherwise returns false	
+    //otherwise returns false
 
     if (object_value.length == 0)
         return true;
@@ -208,7 +208,7 @@ function _CF_checknumber(object_value)
 	    decimal = true;
 	else if (check_char < 1)
 		return false;
-        
+
 	//Remaining characters can be only . or a digit, but only one decimal.
 	for (var i = 1; i < object_value.length; i++)
 	{
@@ -224,7 +224,7 @@ function _CF_checknumber(object_value)
 		}
 		else if (check_char == 0)
 		{
-			if (decimal || digits)	
+			if (decimal || digits)
 				trailing_blank = true;
         // ignore leading blanks
 
@@ -233,7 +233,7 @@ function _CF_checknumber(object_value)
 			return false;
 		else
 			digits = true;
-	}	
+	}
     //All tests passed, so...
     return true
     }
@@ -256,7 +256,7 @@ function _CF_checkrange(object_value, min_value, max_value)
 	{
 	return (_CF_numberrange((eval(object_value)), min_value, max_value));
 	}
-	
+
     //All tests passed, so...
     return true;
     }
@@ -266,7 +266,7 @@ function  _CF_checkrequest(_CF_this)
 
     {
 
-    if  (!_CF_hasValue(_CF_this.ClientName, "TEXT" )) 
+    if  (!_CF_hasValue(_CF_this.ClientName, "TEXT" ))
 
         {
 
@@ -274,14 +274,14 @@ function  _CF_checkrequest(_CF_this)
 
             {
 
-            return false; 
+            return false;
 
             }
 
         }
 
 
-    if  (!_CF_hasValue(_CF_this.ClientPhone, "TEXT" )) 
+    if  (!_CF_hasValue(_CF_this.ClientPhone, "TEXT" ))
 
         {
 
@@ -289,14 +289,14 @@ function  _CF_checkrequest(_CF_this)
 
             {
 
-            return false; 
+            return false;
 
             }
 
         }
 
 
-    if  (!_CF_hasValue(_CF_this.ClientEmail, "TEXT" )) 
+    if  (!_CF_hasValue(_CF_this.ClientEmail, "TEXT" ))
 
         {
 
@@ -304,14 +304,14 @@ function  _CF_checkrequest(_CF_this)
 
             {
 
-            return false; 
+            return false;
 
             }
 
         }
 
 
-    if  (!_CF_hasValue(_CF_this.department, "TEXT" )) 
+    if  (!_CF_hasValue(_CF_this.department, "TEXT" ))
 
         {
 
@@ -319,14 +319,14 @@ function  _CF_checkrequest(_CF_this)
 
             {
 
-            return false; 
+            return false;
 
             }
 
         }
 
 
-    if  (!_CF_hasValue(_CF_this.startdate, "TEXT" )) 
+    if  (!_CF_hasValue(_CF_this.startdate, "TEXT" ))
 
         {
 
@@ -334,7 +334,7 @@ function  _CF_checkrequest(_CF_this)
 
             {
 
-            return false; 
+            return false;
 
             }
 
@@ -349,14 +349,14 @@ function  _CF_checkrequest(_CF_this)
 
             {
 
-            return false; 
+            return false;
 
             }
 
         }
 
 
-    if  (!_CF_hasValue(_CF_this.enddate, "TEXT" )) 
+    if  (!_CF_hasValue(_CF_this.enddate, "TEXT" ))
 
         {
 
@@ -364,7 +364,7 @@ function  _CF_checkrequest(_CF_this)
 
             {
 
-            return false; 
+            return false;
 
             }
 
@@ -379,7 +379,7 @@ function  _CF_checkrequest(_CF_this)
 
             {
 
-            return false; 
+            return false;
 
             }
 
@@ -394,14 +394,14 @@ function  _CF_checkrequest(_CF_this)
 
             {
 
-            return false; 
+            return false;
 
             }
 
         }
 
 
-    if  (!_CF_hasValue(_CF_this.signedby, "TEXT" )) 
+    if  (!_CF_hasValue(_CF_this.signedby, "TEXT" ))
 
         {
 
@@ -409,7 +409,7 @@ function  _CF_checkrequest(_CF_this)
 
             {
 
-            return false; 
+            return false;
 
             }
 
@@ -437,7 +437,7 @@ today = new Date("10/17/2000");
 function setDates(index,target){
 	termBeginArray = new Array(10);
 	termEndArray = new Array(10);
-	
+
  termBeginArray[4] = "03/27/2000";
 	termEndArray[4] = "06/10/2000";
 termBeginArray[5] = "06/19/2000";
@@ -453,12 +453,12 @@ termBeginArray[9] = "06/19/2001";
 
 	//
 	if(target == "termBegin"){
-		
+
 		document.request.startdate.value = termBeginArray[document.forms[0].termbegin.options[document.forms[0].termbegin.selectedIndex].value];
 		endDate = new Date(document.request.enddate.value);
 		startDate = new Date(document.request.startdate.value);
-		
-		
+
+
 		if (endDate.valueOf() < startDate.valueOf()){
 			document.request.enddate.value = termEndArray[document.forms[0].termend.options[document.forms[0].termbegin.selectedIndex].value];
 			document.forms[0].termend.selectedIndex = document.forms[0].termbegin.selectedIndex;
@@ -486,7 +486,7 @@ termBeginArray[9] = "06/19/2001";
 	}
 	//endDate = new Date(document.request.enddate.value);
 	//startDate = new Date(document.request.startdate.value);
-		
+
 }
 function checkEmail(){
 	if (document.request.ClientEmail.value.length >0){
@@ -534,12 +534,12 @@ function checkDates(){
 		document.request.installwarning.value += "     the software will be installed by that date unless special arrangements ";
 		document.request.installwarning.value += "     have been made.";
 		if(confirm("The install date of " + startDateText + " you have specified occurs within the recommended 2 week notification time frame.  We will do our best to install the software by the date you have specified, but please be aware that we cannot guarantee the software will be installed by that date unless special arrangements have been made."))
-			
+
 			return true;
 		else
 			return false;
-	}	
-	
+	}
+
 	//alert(installDate.toString() + startDate.toString() + today.toString());
 	return true;
 }
@@ -586,540 +586,540 @@ function checkLicenses(){
 </SCRIPT>
 <FORM NAME="request" ACTION="dbmusrsubmit.cfm" METHOD=POST onSubmit="return _CF_checkrequest(this)">
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr> 
+  <tr>
       <td width="2%" bgcolor="#639c63">&nbsp;</td>
       <td width="2%" bgcolor="#639c63">&nbsp;</td>
       <td width="85%" bgcolor="#639c63"><img src="/images/spacer.gif" width="19" height="19"></td>
       <td width="10%" bgcolor="#639c63">&nbsp;</td>
       <td width="1%" bgcolor="#639c63">&nbsp;</td>
   </tr>
-  <tr> 
+  <tr>
       <td width="2%" bgcolor="#639c63">&nbsp;</td>
       <td align="left" valign="top" width="2%"><img src="../../images/ulcornersmall.gif" width="10" height="10"></td>
       <td width="85%">&nbsp;</td>
       <td align="right" valign="top" width="10%"><img src="../../images/urcornersmall.gif" width="10" height="10"></td>
       <td width="1%" bgcolor="#639c63">&nbsp;</td>
   </tr>
-  <tr> 
+  <tr>
       <td width="2%" bgcolor="#639c63"><img src="/images/spacer.gif" width="19" height="19"></td>
       <td width="2%">&nbsp;</td>
-      <td width="85%"> 
-        <p align="center"><font size="+3"><img src=/images/psulogo.gif alt="Portland State University letterhead" align="TOP"> 
+      <td width="85%">
+        <p align="center"><font size="+3"><img src=/images/psulogo.gif alt="Portland State University letterhead" align="TOP">
         </font></p>
-      <p align="center"><font size="4">Computing &amp; Networking Services - Labs 
+      <p align="center"><font size="4">Computing &amp; Networking Services - Labs
         and Classrooms Team (CNS-LCT)</font> </p>
     </td>
       <td width="10%">&nbsp;</td>
       <td width="1%" bgcolor="#639c63"><img src="/images/spacer.gif" width="19" height="19"></td>
   </tr>
-  <tr> 
+  <tr>
       <td width="2%" bgcolor="#639c63">&nbsp;</td>
       <td valign="bottom" align="left" width="2%"><img src="../../images/llcornersmall.gif" width="10" height="10"></td>
       <td width="85%">&nbsp;</td>
       <td align="right" valign="bottom" width="10%"><img src="../../images/lrcornersmall.gif" width="10" height="10"></td>
       <td width="1%" bgcolor="#639c63">&nbsp;</td>
   </tr>
-  <tr> 
+  <tr>
       <td width="2%" bgcolor="#639c63">&nbsp;</td>
       <td width="2%" bgcolor="#639c63">&nbsp;</td>
       <td width="85%" bgcolor="#639c63">&nbsp;</td>
       <td width="10%" bgcolor="#639c63">&nbsp;</td>
       <td width="1%" bgcolor="#639c63">&nbsp;</td>
   </tr>
-  <tr> 
+  <tr>
       <td width="2%" bgcolor="#639c63">&nbsp;</td>
       <td align="left" valign="top" width="2%"><img src="../../images/ulcornersmall.gif" width="10" height="10"></td>
       <td width="85%">&nbsp;</td>
       <td align="right" valign="top" width="10%"><img src="../../images/urcornersmall.gif" width="10" height="10"></td>
       <td width="1%" bgcolor="#639c63">&nbsp;</td>
   </tr>
-  <tr> 
+  <tr>
       <td width="2%" bgcolor="#639c63">&nbsp;</td>
       <td width="2%">&nbsp;</td>
-      <td width="85%"> 
+      <td width="85%">
         <p><b><font size="+1">Please note</font></b></p>
       <ul>
-	  Use this form to request the installation of additional software on a 
-	  classroom / lab computer or server. In order to get your software installed 
-	  on time we must have your software request submitted and the software media 
-	  and license(s) in our office at least two weeks prior to the class' commencement. 
-	  Please deliver the original media and licenses to SH134. The media and the licenses 
+	  Use this form to request the installation of additional software on a
+	  classroom / lab computer or server. In order to get your software installed
+	  on time we must have your software request submitted and the software media
+	  and license(s) in our office at least two weeks prior to the class' commencement.
+	  Please deliver the original media and licenses to SH134. The media and the licenses
 	  will remain in our office as long as the software is installed on the system(s). At the
-	  end of your class please make arrangements to pick up the software. Software not retrieved 
-	  will be archived for three years. Please note that software requests can last for up to 
-	  one full year (i.e. From fall 2000 through summer 2001) before they need to be resubmitted 
+	  end of your class please make arrangements to pick up the software. Software not retrieved
+	  will be archived for three years. Please note that software requests can last for up to
+	  one full year (i.e. From fall 2000 through summer 2001) before they need to be resubmitted
 	  using this form. For questions call 725-3226
 
       </ul>
       <p><b><font size="+1">Lab Requested</font> </b> </p>
 
-  
-         
-        <select name="ServiceAreaID" size="1" value="AreaName">  
-          <option value=1>NH448 ECR  
-          <option value=2>NH96 LL Mac  
-          <option value=3>NH96 LL PC  
-          <option value=4>NH450 CAD  
-          <option value=5>NH437 R&I  
-          <option value=6>NH439 VIL  
-          <option value=7>SH107 PC  
-          <option value=8>SH107 Mac  
-          <option value=9>SH112 PC  
-          <option value=10>ML115 PC  
-          <option value=11>ML115 Mac  
-          <option value=12>ATC PC  
-          <option value=13>ATC Mac  
-          <option value=14>ATC  
-          <option value=15>CH203 Mac  
-          <option value=16>CH203 PC  
-          <option value=17>Hhall PC  
-          <option value=18>Hhall Mac  
-          <option value=19>CH53 PC  
-          <option value=20>CH53 Mac  
-          <option value=21>CH322 PC  
-          <option value=22>CH322 Mac  
-          <option value=23>CH101 PC  
-          <option value=24>CH101 Mac  
-          <option value=25>CH103 PC  
-          <option value=26>CH103 Mac  
-          <option value=27>CH145 PC  
-          <option value=28>CH145 Mac  
-          <option value=29>CH147 PC  
-          <option value=30>CH147 Mac  
-          <option value=31>CH201 PC  
-          <option value=32>CH201 Mac  
-          <option value=33>CH203 PC  
-          <option value=34>CH203 Mac  
-          <option value=35>CH149 PC  
-          <option value=36>CH149 Mac  
-          <option value=37>CH247 PC  
-          <option value=38>CH247 Mac  
-          <option value=39>CH249 PC  
-          <option value=40>CH249 Mac  
-          <option value=41>CH250 PC  
-          <option value=42>CH250 Mac  
-          <option value=43>See Comments  
-          <option value=44>SH112 Mac  
-          <option value=45>CH245 PC  
-          <option value=46>IRS Main Laptops  
-          <option value=47>5th Ave. Cinemas  
-          <option value=48>5th Ave. Cinemas  
-          <option value=49>DLC203 PC  
-          <option value=50>DLC204 PC  
-          <option value=51>DLC205 PC  
-          <option value=52>DLC303 PC  
-          <option value=53>DLC304 PC  
-          <option value=54>DLC305 PC  
-          <option value=55>CH225 PC  
-          <option value=56>CH228 PC  
-          <option value=57>NH446  
-          <option value="" selected > Service Area 
+
+
+        <select name="ServiceAreaID" size="1" value="AreaName">
+          <option value=1>NH448 ECR
+          <option value=2>NH96 LL Mac
+          <option value=3>NH96 LL PC
+          <option value=4>NH450 CAD
+          <option value=5>NH437 R&I
+          <option value=6>NH439 VIL
+          <option value=7>SH107 PC
+          <option value=8>SH107 Mac
+          <option value=9>SH112 PC
+          <option value=10>ML115 PC
+          <option value=11>ML115 Mac
+          <option value=12>ATC PC
+          <option value=13>ATC Mac
+          <option value=14>ATC
+          <option value=15>CH203 Mac
+          <option value=16>CH203 PC
+          <option value=17>Hhall PC
+          <option value=18>Hhall Mac
+          <option value=19>CH53 PC
+          <option value=20>CH53 Mac
+          <option value=21>CH322 PC
+          <option value=22>CH322 Mac
+          <option value=23>CH101 PC
+          <option value=24>CH101 Mac
+          <option value=25>CH103 PC
+          <option value=26>CH103 Mac
+          <option value=27>CH145 PC
+          <option value=28>CH145 Mac
+          <option value=29>CH147 PC
+          <option value=30>CH147 Mac
+          <option value=31>CH201 PC
+          <option value=32>CH201 Mac
+          <option value=33>CH203 PC
+          <option value=34>CH203 Mac
+          <option value=35>CH149 PC
+          <option value=36>CH149 Mac
+          <option value=37>CH247 PC
+          <option value=38>CH247 Mac
+          <option value=39>CH249 PC
+          <option value=40>CH249 Mac
+          <option value=41>CH250 PC
+          <option value=42>CH250 Mac
+          <option value=43>See Comments
+          <option value=44>SH112 Mac
+          <option value=45>CH245 PC
+          <option value=46>IRS Main Laptops
+          <option value=47>5th Ave. Cinemas
+          <option value=48>5th Ave. Cinemas
+          <option value=49>DLC203 PC
+          <option value=50>DLC204 PC
+          <option value=51>DLC205 PC
+          <option value=52>DLC303 PC
+          <option value=53>DLC304 PC
+          <option value=54>DLC305 PC
+          <option value=55>CH225 PC
+          <option value=56>CH228 PC
+          <option value=57>NH446
+          <option value="" selected > Service Area
         </select>
               <ul>
-        Please complete all items in <font color="RED">RED</font> and select a 
-        service area. This information is necessary for us to be able to service 
-        your request. 
+        Please complete all items in <font color="RED">RED</font> and select a
+        service area. This information is necessary for us to be able to service
+        your request.
       </ul>
       <p><b><font size="+1">Class Information</font></b></p>
 
 
         <table width="100%" border="0" cellpadding="0" cellspacing="2">
-          <tr valign="middle"> 
+          <tr valign="middle">
             <td width="139" valign="top"><font color="RED">Instructor's Name:</font></td>
-            <td width="159" valign="top"> 
-              <p> 
+            <td width="159" valign="top">
+              <p>
             <INPUT TYPE="TEXT" NAME="ClientName" SIZE="25">
            <p></p>
           </td>
             <td width="105" valign="top"><font color="RED">Telephone:</font></td>
-            <td width="272" valign="top"> 
-              <p> 
+            <td width="272" valign="top">
+              <p>
             <INPUT TYPE="TEXT" NAME="ClientPhone" SIZE="20">
            <p></p>
           </td>
         </tr>
-        <tr valign="middle"> 
+        <tr valign="middle">
             <td width="139" valign="top"><font color="RED">Email:</font></td>
-            <td width="159" valign="top"> 
-              <p> 
+            <td width="159" valign="top">
+              <p>
             <INPUT TYPE="TEXT" NAME="ClientEmail" SIZE="25">
             <p></p>
           </td>
             <td width="105" valign="top"><font color="RED">Department:</font></td>
-            <td width="272" valign="top"> 
-              <p> 
+            <td width="272" valign="top">
+              <p>
             <INPUT TYPE="TEXT" NAME="department">
           <p></p>
           </td>
         </tr>
-        <tr valign="middle"> 
+        <tr valign="middle">
             <td width="139" valign="top" height="33">Class Title:</td>
-            <td width="159" valign="top" height="33"> 
-              <p> 
+            <td width="159" valign="top" height="33">
+              <p>
             <INPUT TYPE="TEXT" NAME="class">
            <p></p>
           </td>
             <td width="105" valign="top" height="33"><font color="RED">Meeting Days:</font></td>
-            <td width="272" valign="bottom" height="33"> 
+            <td width="272" valign="bottom" height="33">
               <p>M
             <INPUT TYPE="CHECKBOX" NAME="MeetingDays" VALUE="Monday">
-            T 
+            T
             <INPUT TYPE="CHECKBOX" NAME="MeetingDays" VALUE="Tuesday">
-            W 
+            W
             <INPUT TYPE="CHECKBOX" NAME="MeetingDays" VALUE="Wednesday">
-            Th 
+            Th
             <INPUT TYPE="CHECKBOX" NAME="MeetingDays" VALUE="Thursday">
-            F 
+            F
             <INPUT TYPE="CHECKBOX" NAME="MeetingDays" VALUE="Friday">
-            S 
+            S
             <INPUT TYPE="CHECKBOX" NAME="MeetingDays" VALUE="Saturday">
-            Su 
+            Su
             <INPUT TYPE="CHECKBOX" NAME="MeetingDays" VALUE="Sunday">
             <p></p>
           </td>
         </tr>
-        <tr valign="middle"> 
+        <tr valign="middle">
             <td width="139" valign="top" height="23"><font color="RED">Term Begin:</font></td>
-            <td width="159" valign="top" height="23"> 
-              
-                
-             
-            <p> 
+            <td width="159" valign="top" height="23">
+
+
+
+            <p>
               <select name="termbegin" size="1"  value="term" onChange="setDates(this.value,'termBegin')">
-		 
-			  	  <option value=4>spring 2000 
-			 
-		
-			  	  <option value=5>summer 2000 
-			 
+
+			  	  <option value=4>spring 2000
+
+
+			  	  <option value=5>summer 2000
+
 		 <option value=6 selected>fall 2000
-			 
-		
-			  	  <option value=7>winter 2001 
-			 
-		
-			  	  <option value=8>spring 2001 
-			 
-		
-			  	  <option value=9>summer 2001 
-			 
-		
+
+
+			  	  <option value=7>winter 2001
+
+
+			  	  <option value=8>spring 2001
+
+
+			  	  <option value=9>summer 2001
+
+
               </select>
 	</p>
           </td>
-            <td width="105" valign="top" height="23"><font color="RED">Starting 
+            <td width="105" valign="top" height="23"><font color="RED">Starting
               Date:</font></td>
-            <td width="272" valign="top" height="23"> 
+            <td width="272" valign="top" height="23">
 			 <INPUT TYPE="Text" NAME="startdate" VALUE="03/27/2000">
-			
+
 			</td>
         </tr>
-        <tr valign="middle"> 
+        <tr valign="middle">
             <td width="139" valign="top" height="2"><font color="#FF0000">Term End</font></td>
-            <td width="159" valign="bottom" height="2"> 
+            <td width="159" valign="bottom" height="2">
               <select name="termend" size="1" value="term" onChange="setDates(this.value,'termEnd')">
-	 
-			  		  <option value=4>spring 2000 
-			  	
-	
-			  		  <option value=5>summer 2000 
-			  	
+
+			  		  <option value=4>spring 2000
+
+
+			  		  <option value=5>summer 2000
+
 	 <option value=6 selected>fall 2000
-			  	
-	
-			  		  <option value=7>winter 2001 
-			  	
-	
-			  		  <option value=8>spring 2001 
-			  	
-	
-			  		  <option value=9>summer 2001 
-			  	
-	 
+
+
+			  		  <option value=7>winter 2001
+
+
+			  		  <option value=8>spring 2001
+
+
+			  		  <option value=9>summer 2001
+
+
             </select>
           </td>
             <td width="105" valign="top" height="2"><font color="RED">Ending Date:*</font></td>
-	    <td width="272"> 
+	    <td width="272">
               <INPUT TYPE="Text" NAME="enddate" VALUE="06/10/2000">
         </td>
         </tr>
-        <tr valign="middle"> 
-            <td width="139" valign="top" height="17"><font color="RED">Software 
+        <tr valign="middle">
+            <td width="139" valign="top" height="17"><font color="RED">Software
               Requested:</font></td>
-            <td valign="top" colspan="3" height="17"> 
-              <p> 
+            <td valign="top" colspan="3" height="17">
+              <p>
               <select name="SoftwareList" size="1" value="request1" onChange="softwareListChange()">
-                <option value="" selected>Unlisted Software  
-                <option value=124>3DFX VOODOO2 2.1 Windows NT  
-                <option value=260>Acrobat 3.0 Macintosh (System 8.0 and up)  
-                <option value=259>Acrobat 2.0 Macintosh (System 8.0 and up)  
-                <option value=338>Acrobat Reader  4.0 Windows NT  
-                <option value=75>Acrobat Reader with Search  3.01 Windows NT  
-                <option value=352>Active Accessibility  Windows NT  
-                <option value=258>Adobe Acrobat 2.0 Macintosh (System 8.0 and up)  
-                <option value=57>Adobe Photoshop  5.0 Macintosh (System 8.0 and up)  
-                <option value=373>An Electronic Writer's Reference  4.0 Windows NT  
-                <option value=320>AntiVirus  5.0 Windows NT  
-                <option value=27>Arabic Language System 1.0 Macintosh (System 8.0 and up)  
-                <option value=28>Arc View 2.0c Windows NT  
-                <option value=166>ARC/INFO  Info Windows NT  
-                <option value=513>ArcExplorer 1.1 Windows NT  
-                <option value=271>ArcInfo 7.1.2 Patch 1 Windows NT  
-                <option value=343>ArcPress  2.0 Windows NT  
-                <option value=167>ArcView 2.1 Windows NT  
-                <option value=73>ArcView GIS Windows NT  
-                <option value=342>ArcView GIS 3.1 Windows NT  
-                <option value=272>ArcViewGIS 3.0a Windows NT  
-                <option value=159>Astound  4.0 Windows NT  
-                <option value=125>Astound 2.0 Macintosh (System 8.0 and up)  
-                <option value=29>Author Ware 4 Windows NT  
-                <option value=287>Authorware  4 Windows NT  
-                <option value=138>AuthorWare 3.5 Macintosh (System 8.0 and up)  
-                <option value=30>AutoCad 14 Windows NT  
-                <option value=69>AutoVision 2 Windows NT  
-                <option value=31>Back-Up Exec 7 Windows NT  
-                <option value=274>Banner 2000 Windows NT  
-                <option value=372>Banner GQL 2000 Windows NT  
-                <option value=374>BrainStorm Interactive Neuroanatomy 1.0 Macintosh (System 8.0 and up)  
-                <option value=137>CadWare B-96 Windows NT  
-                <option value=268>Canoco 4 Windows NT  
-                <option value=130>Claris Works 5.0 Macintosh (System 8.0 and up)  
-                <option value=33>Clarisworks VIL Macintosh (System 8.0 and up)  
-                <option value=146>Clicknet 2.4.1 Macintosh (System 8.0 and up)  
-                <option value=318>Communicater  4.5 128bit Windows NT  
-                <option value=518>Communicator 4.72 Windows NT  
-                <option value=357>Communicator 4.6 Windows NT  
-                <option value=35>Corel Draw! 5.0 Macintosh (System 8.0 and up)  
-                <option value=344>Crystal Reports  Windows NT  
-                <option value=36>Decision Tools suite Windows NT  
-                <option value=101>Developer Network 1/1/97 Windows NT  
-                <option value=331>Diet Analysis+ 3.0 Windows NT  
-                <option value=117>Dimensions 2.0 Macintosh (System 8.0 and up)  
-                <option value=37>Dimensions in Multiculture 1.0 Macintosh (Below system 8.0)  
-                <option value=160>Director 6 Windows NT  
-                <option value=396>Director  8 Windows NT  
-                <option value=288>Director  6.0.2 Windows NT  
-                <option value=70>Director 6 Macintosh (System 8.0 and up)  
-                <option value=74>Director Academic 4.0 Macintosh (System 8.0 and up)  
-                <option value=165>Director Multimedia Studio 6 Windows NT  
-                <option value=514>Diskkeeper Lite 1 Windows NT  
-                <option value=330>Dreamweaver 2 Windows NT  
-                <option value=289>Dreamweaver 1.2 Windows NT  
-                <option value=345>Esri Add on Analysts  Windows NT  
-                <option value=367>ESRI GIS Map Objects 1.1 Windows NT  
-                <option value=143>EtherLink III 1.6985 Windows NT  
-                <option value=317>Ethnograph  v5  Beta Windows NT  
-                <option value=290>Extreme 3D 2 Windows NT  
-                <option value=77>FileMaker Pro 4.1 Windows NT  
-                <option value=121>Filemaker Pro 4.0 Macintosh (System 8.0 and up)  
-                <option value=113>FileWave Mac OS 8 Macintosh (System 8.0 and up)  
-                <option value=291>FireWorks  1.0 Windows NT  
-                <option value=275>FirstClass/Compass Class Internet Client  5.1 Windows NT  
-                <option value=150>Flash 2 Windows NT  
-                <option value=292>Flash 3 Windows NT  
-                <option value=293>Flash Plugin  3.0r 10 Windows NT  
-                <option value=79>FoolProof 3.0 Macintosh (Below system 8.0)  
-                <option value=151>FrameMaker 5 Windows NT  
-                <option value=144>FrameMaker 5 Windows NT  
-                <option value=263>FreeHand 8 Windows NT  
-                <option value=294>freeHand  8 Windows NT  
-                <option value=297>FrontPage  98 Windows NT  
-                <option value=118>FrontPage '97 Windows NT  
-                <option value=276>Getting to Know ArcView  Windows NT  
-                <option value=348>Getting to Know ArcView  Windows NT  
-                <option value=506>Ghost Client 6.0 Windows NT  
-                <option value=524>Ghost Client 6 Windows NT  
-                <option value=277>GhostScript/GISView  Windows NT  
-                <option value=63>Glasnost Cyrillic Student Library  Macintosh (System 8.0 and up)  
-                <option value=349>Groupwise 5.5 SP1 Windows NT  
-                <option value=278>Groupwise  5.2 Client SP3 Windows NT  
-                <option value=83>HyperCard 2.1x Macintosh (Below system 8.0)  
-                <option value=84>HyperResearch 1.37 Macintosh (Below system 8.0)  
-                <option value=376>Illustator  4.0 Macintosh (System 8.0 and up)  
-                <option value=20>Illustator 5.5 Macintosh (System 8.0 and up)  
-                <option value=300>image Composer  1.5 Windows NT  
-                <option value=353>Image Composer 1.5 Windows NT  
-                <option value=87>Inspirarion 4.0 Windows NT  
-                <option value=285>Inspiration  5.0c Professional Windows NT  
-                <option value=85>Inspiration 5.0 Windows NT  
-                <option value=86>Inspiration 4.0 Windows NT  
-                <option value=298>IntelliPoint (mouse wheel support)  Windows NT  
-                <option value=525>Internet Explorer 5.0 Windows NT  
-                <option value=299>Internet Explorer  4.01 Windows NT  
-                <option value=282>IntranetWare Client 4.5 Windows NT  
-                <option value=281>IntranetWare Client  4.3 SP1 Windows NT  
-                <option value=280>IntranetWare Client  4.11a Windows NT  
-                <option value=283>Iomega Tools 1.5 Windows NT  
-                <option value=516>IomegaWare 2.1.1 Windows NT  
-                <option value=284>IomegaWare 1.0 Windows NT  
-                <option value=350>IRN Executor Service 1 Windows NT  
-                <option value=370>Java Development Kit and Docs 1.2 Windows NT  
-                <option value=286>JAWS  4 Windows NT  
-                <option value=120>JAWS 3.2 Windows NT  
-                <option value=81>JetDirect Print ScanJet 4p Windows NT  
-                <option value=88>LAN WorkPlace 2.0 Windows NT  
-                <option value=82>LaserJet 4000 and 8000 Windows NT  
-                <option value=60>LinguaLinks 3.0 Windows NT  
-                <option value=316>Loki Telnet Profile (LWP)  Windows NT  
-                <option value=92>Maple V 3 Macintosh (Below system 8.0)  
-                <option value=152>MasterJuggler Pro 2.0 Windows NT  
-                <option value=335>MatLab 5 Windows NT  
-                <option value=62>Mavis Bacon Teaches Typing 9.0 Windows NT  
-                <option value=517>Media Player 6.4 Windows NT  
-                <option value=354>Media Player 6.4 Windows NT  
-                <option value=149>MiniTab 11 Windows NT  
-                <option value=356>Minitab 12 Windows NT  
-                <option value=333>MiniTab 11 Windows NT  
-                <option value=38>MiniTab 8.2 Macintosh (Below system 8.0)  
-                <option value=315>Modi Telnet Profile (LWP)  Windows NT  
-                <option value=111>MouseWare 8.0 Windows NT  
-                <option value=347>Naturally Speaking Deluxe  Windows NT  
-                <option value=360>Netware Client 4.51 Windows NT  
-                <option value=361>Netware Client 4.6.302 Windows NT  
-                <option value=358>Netware Client 4.11 Windows NT  
-                <option value=362>Netware Client 4.6.604 SP1 Windows NT  
-                <option value=64>Nisus Writer Language Kit  Macintosh (System 8.0 and up)  
-                <option value=43>Norton Utilities 3.5 Macintosh (System 8.0 and up)  
-                <option value=122>Norton Utilities 3.5 Macintosh (System 8.0 and up)  
-                <option value=42>Norton Utilties 2.0 Windows NT  
-                <option value=119>Nudist 4 Windows NT  
-                <option value=129>O/P Pro  8.0 Macintosh (System 8.0 and up)  
-                <option value=314>Odin Telnet Profile (TeraTerm) Windows NT  
-                <option value=93>Office 97 Windows NT  
-                <option value=114>Office '98 '98 Macintosh (System 8.0 and up)  
-                <option value=58>Office Pro  '97 Windows NT  
-                <option value=321>Omniform Netscape Plugin  Windows NT  
-                <option value=153>OmniPage Pro Macintosh (System 8.0 and up)  
-                <option value=157>OmniPage Pro Macintosh (System 8.0 and up)  
-                <option value=46>OmniPage Pro 7.0 Macintosh (System 8.0 and up)  
-                <option value=47>Oracle for MacIntosh 6.0 Macintosh (Below system 8.0)  
-                <option value=322>Oregon Trail DOS Windows NT  
-                <option value=265>Pagemaker 6.0 Macintosh (System 8.0 and up)  
-                <option value=266>PageMaker 6.0 Macintosh (System 8.0 and up)  
-                <option value=139>PageMill 1.0 Macintosh (System 8.0 and up)  
-                <option value=334>PCAnywhere 32 8.0 Windows NT  
-                <option value=262>Persuasion 3.0 Macintosh (System 8.0 and up)  
-                <option value=140>Phaser 550  3.3 Windows NT  
-                <option value=145>Photosho[ 3.0 Macintosh (System 8.0 and up)  
-                <option value=23>Photoshop 4.0 Windows NT  
-                <option value=25>Photoshop 5.0 Windows NT  
-                <option value=24>Photoshop 5.0 Macintosh (System 8.0 and up)  
-                <option value=22>Photoshop 4.0 Macintosh (System 8.0 and up)  
-                <option value=21>Photoshop 3.0 Macintosh (System 8.0 and up)  
-                <option value=26>Photoshop LE Bundle LE Macintosh (System 8.0 and up)  
-                <option value=59>Plotnik 03 3.0 Macintosh (System 8.0 and up)  
-                <option value=126>Power Alert 7.0 Macintosh (System 8.0 and up)  
-                <option value=52>Power Chute plus 4.2.1 Windows NT  
-                <option value=115>Power MacIntosh G3 8.1 Macintosh (System 8.0 and up)  
-                <option value=136>Power Tools 4.0.4 Windows NT  
-                <option value=128>PowerChute Plus Plus Windows NT  
-                <option value=72>Premiere 4.2 Windows NT  
-                <option value=147>Premiere 4.2 Windows NT  
-                <option value=132>Premiere 4.2 Macintosh (System 8.0 and up)  
-                <option value=148>Premiere 4.2 Macintosh (System 8.0 and up)  
-                <option value=55>Project 98 Windows NT  
-                <option value=301>QSL  Windows NT  
-                <option value=302>QSR Nudist and Merge  Windows NT  
-                <option value=264>Quark Express 4 Macintosh (System 8.0 and up)  
-                <option value=135>Quark Express 3.31 Macintosh (System 8.0 and up)  
-                <option value=519>QuickTime 4.1 Windows NT  
-                <option value=363>QuickTime for Windows 4.0 Windows NT  
-                <option value=303>QuickTime for Windows  2.1.2 Windows NT  
-                <option value=304>QuickTime for Windows 3.0 Windows NT  
-                <option value=306>RealAudio G2 Windows NT  
-                <option value=305>RealAudio Player  5.0 Windows NT  
-                <option value=520>RealJukeBox Windows NT  
-                <option value=505>RealProducer / RealSlideshow  Windows NT  
-                <option value=261>RoboHelp  Windows NT  
-                <option value=156>RoboHelp  Windows NT  
-                <option value=104>ScanJet 5P Scanner HP-5P Windows NT  
-                <option value=279>ScanJet Software and SCSI drivers  Windows NT  
-                <option value=68>Scantastic  Macintosh (Below system 8.0)  
-                <option value=355>Scripting Host  Windows NT  
-                <option value=65>See It, Hear It, Say It!  English Windows NT  
-                <option value=307>Shared Lancache Pro 1.51 Windows NT  
-                <option value=161>Shiva Fast Path Manager  Macintosh (System 8.0 and up)  
-                <option value=523>Shockave Flash plugin 8.0 Windows NT  
-                <option value=521>Shockwave Director plugin 8.0 Windows NT  
-                <option value=351>Shockwave Plugin  7 Windows NT  
-                <option value=295>shockWave Plugin r10 Windows NT  
-                <option value=94>Sim City 2000  2000 Macintosh (System 8.0 and up)  
-                <option value=273>SofTrack Local Workstation Metering Windows NT  
-                <option value=332>SofTrack Software Metering 5 Windows NT  
-                <option value=133>Solaris 2.5.1 Windows NT  
-                <option value=95>Sounds of the World Languages  4.2 Macintosh (System 8.0 and up)  
-                <option value=127>Spatch 3.29 Windows NT  
-                <option value=267>S-Plus 4.5 Windows NT  
-                <option value=98>SPSS 8 Windows NT  
-                <option value=96>SPSS 6.1.1 Macintosh (Below system 8.0)  
-                <option value=364>SPSS AMOS  Windows NT  
-                <option value=369>Squeak 2.4 Windows NT  
-                <option value=142>StarMax  Macintosh (System 8.0 and up)  
-                <option value=308>Stella RunTime  5.1 Windows NT  
-                <option value=99>SuperPaint  3.5 Macintosh (System 8.0 and up)  
-                <option value=141>SuperPaint 3.5 Macintosh (System 8.0 and up)  
-                <option value=123>Symantec AntiVirus for MacIntosh 4.5 Macintosh (System 8.0 and up)  
-                <option value=526>SynEdit 2.4 Windows NT  
-                <option value=309>TeraTerm Pro + TTSSH  Windows NT  
-                <option value=337>test4  Windows NT  
-                <option value=509>Thirdvoice  Windows NT  
-                <option value=134>Timbuktu Pro 1.5.4 Macintosh (System 8.0 and up)  
-                <option value=158>Timbuktu Pro Pro Macintosh (System 8.0 and up)  
-                <option value=371>UltraEdit 32  6.1 Windows NT  
-                <option value=112>Vista Scan 2.24 Windows NT  
-                <option value=368>Visual Basic 6 Windows NT  
-                <option value=102>Visual Basic 5.0 Windows NT  
-                <option value=100>Visual InterDev  Windows NT  
-                <option value=270>Visual InterDev 6.0 Windows NT  
-                <option value=515>VNC (Virtual Network Computing) 3.2 Windows NT  
-                <option value=269>Web Trends Professional Suite 2.1a Windows NT  
-                <option value=107>Windows NT NT Windows NT  
-                <option value=312>Windows NT NT 4.0 Service Pack 4 Windows NT  
-                <option value=365>Windows NT 4 Service Pack 5 Windows NT  
-                <option value=311>Windows NT NT 4.0 SP3 Windows NT  
-                <option value=313>Windows NT SNMP Service NT SNMP Service Windows NT  
-                <option value=310>WinHELP Office Office Windows NT  
-                <option value=296>xRes  3 Windows NT  
-                <option value=366>Zoom Text Extra  7 beta Windows NT  
+                <option value="" selected>Unlisted Software
+                <option value=124>3DFX VOODOO2 2.1 Windows NT
+                <option value=260>Acrobat 3.0 Macintosh (System 8.0 and up)
+                <option value=259>Acrobat 2.0 Macintosh (System 8.0 and up)
+                <option value=338>Acrobat Reader  4.0 Windows NT
+                <option value=75>Acrobat Reader with Search  3.01 Windows NT
+                <option value=352>Active Accessibility  Windows NT
+                <option value=258>Adobe Acrobat 2.0 Macintosh (System 8.0 and up)
+                <option value=57>Adobe Photoshop  5.0 Macintosh (System 8.0 and up)
+                <option value=373>An Electronic Writer's Reference  4.0 Windows NT
+                <option value=320>AntiVirus  5.0 Windows NT
+                <option value=27>Arabic Language System 1.0 Macintosh (System 8.0 and up)
+                <option value=28>Arc View 2.0c Windows NT
+                <option value=166>ARC/INFO  Info Windows NT
+                <option value=513>ArcExplorer 1.1 Windows NT
+                <option value=271>ArcInfo 7.1.2 Patch 1 Windows NT
+                <option value=343>ArcPress  2.0 Windows NT
+                <option value=167>ArcView 2.1 Windows NT
+                <option value=73>ArcView GIS Windows NT
+                <option value=342>ArcView GIS 3.1 Windows NT
+                <option value=272>ArcViewGIS 3.0a Windows NT
+                <option value=159>Astound  4.0 Windows NT
+                <option value=125>Astound 2.0 Macintosh (System 8.0 and up)
+                <option value=29>Author Ware 4 Windows NT
+                <option value=287>Authorware  4 Windows NT
+                <option value=138>AuthorWare 3.5 Macintosh (System 8.0 and up)
+                <option value=30>AutoCad 14 Windows NT
+                <option value=69>AutoVision 2 Windows NT
+                <option value=31>Back-Up Exec 7 Windows NT
+                <option value=274>Banner 2000 Windows NT
+                <option value=372>Banner GQL 2000 Windows NT
+                <option value=374>BrainStorm Interactive Neuroanatomy 1.0 Macintosh (System 8.0 and up)
+                <option value=137>CadWare B-96 Windows NT
+                <option value=268>Canoco 4 Windows NT
+                <option value=130>Claris Works 5.0 Macintosh (System 8.0 and up)
+                <option value=33>Clarisworks VIL Macintosh (System 8.0 and up)
+                <option value=146>Clicknet 2.4.1 Macintosh (System 8.0 and up)
+                <option value=318>Communicater  4.5 128bit Windows NT
+                <option value=518>Communicator 4.72 Windows NT
+                <option value=357>Communicator 4.6 Windows NT
+                <option value=35>Corel Draw! 5.0 Macintosh (System 8.0 and up)
+                <option value=344>Crystal Reports  Windows NT
+                <option value=36>Decision Tools suite Windows NT
+                <option value=101>Developer Network 1/1/97 Windows NT
+                <option value=331>Diet Analysis+ 3.0 Windows NT
+                <option value=117>Dimensions 2.0 Macintosh (System 8.0 and up)
+                <option value=37>Dimensions in Multiculture 1.0 Macintosh (Below system 8.0)
+                <option value=160>Director 6 Windows NT
+                <option value=396>Director  8 Windows NT
+                <option value=288>Director  6.0.2 Windows NT
+                <option value=70>Director 6 Macintosh (System 8.0 and up)
+                <option value=74>Director Academic 4.0 Macintosh (System 8.0 and up)
+                <option value=165>Director Multimedia Studio 6 Windows NT
+                <option value=514>Diskkeeper Lite 1 Windows NT
+                <option value=330>Dreamweaver 2 Windows NT
+                <option value=289>Dreamweaver 1.2 Windows NT
+                <option value=345>Esri Add on Analysts  Windows NT
+                <option value=367>ESRI GIS Map Objects 1.1 Windows NT
+                <option value=143>EtherLink III 1.6985 Windows NT
+                <option value=317>Ethnograph  v5  Beta Windows NT
+                <option value=290>Extreme 3D 2 Windows NT
+                <option value=77>FileMaker Pro 4.1 Windows NT
+                <option value=121>Filemaker Pro 4.0 Macintosh (System 8.0 and up)
+                <option value=113>FileWave Mac OS 8 Macintosh (System 8.0 and up)
+                <option value=291>FireWorks  1.0 Windows NT
+                <option value=275>FirstClass/Compass Class Internet Client  5.1 Windows NT
+                <option value=150>Flash 2 Windows NT
+                <option value=292>Flash 3 Windows NT
+                <option value=293>Flash Plugin  3.0r 10 Windows NT
+                <option value=79>FoolProof 3.0 Macintosh (Below system 8.0)
+                <option value=151>FrameMaker 5 Windows NT
+                <option value=144>FrameMaker 5 Windows NT
+                <option value=263>FreeHand 8 Windows NT
+                <option value=294>freeHand  8 Windows NT
+                <option value=297>FrontPage  98 Windows NT
+                <option value=118>FrontPage '97 Windows NT
+                <option value=276>Getting to Know ArcView  Windows NT
+                <option value=348>Getting to Know ArcView  Windows NT
+                <option value=506>Ghost Client 6.0 Windows NT
+                <option value=524>Ghost Client 6 Windows NT
+                <option value=277>GhostScript/GISView  Windows NT
+                <option value=63>Glasnost Cyrillic Student Library  Macintosh (System 8.0 and up)
+                <option value=349>Groupwise 5.5 SP1 Windows NT
+                <option value=278>Groupwise  5.2 Client SP3 Windows NT
+                <option value=83>HyperCard 2.1x Macintosh (Below system 8.0)
+                <option value=84>HyperResearch 1.37 Macintosh (Below system 8.0)
+                <option value=376>Illustator  4.0 Macintosh (System 8.0 and up)
+                <option value=20>Illustator 5.5 Macintosh (System 8.0 and up)
+                <option value=300>image Composer  1.5 Windows NT
+                <option value=353>Image Composer 1.5 Windows NT
+                <option value=87>Inspirarion 4.0 Windows NT
+                <option value=285>Inspiration  5.0c Professional Windows NT
+                <option value=85>Inspiration 5.0 Windows NT
+                <option value=86>Inspiration 4.0 Windows NT
+                <option value=298>IntelliPoint (mouse wheel support)  Windows NT
+                <option value=525>Internet Explorer 5.0 Windows NT
+                <option value=299>Internet Explorer  4.01 Windows NT
+                <option value=282>IntranetWare Client 4.5 Windows NT
+                <option value=281>IntranetWare Client  4.3 SP1 Windows NT
+                <option value=280>IntranetWare Client  4.11a Windows NT
+                <option value=283>Iomega Tools 1.5 Windows NT
+                <option value=516>IomegaWare 2.1.1 Windows NT
+                <option value=284>IomegaWare 1.0 Windows NT
+                <option value=350>IRN Executor Service 1 Windows NT
+                <option value=370>Java Development Kit and Docs 1.2 Windows NT
+                <option value=286>JAWS  4 Windows NT
+                <option value=120>JAWS 3.2 Windows NT
+                <option value=81>JetDirect Print ScanJet 4p Windows NT
+                <option value=88>LAN WorkPlace 2.0 Windows NT
+                <option value=82>LaserJet 4000 and 8000 Windows NT
+                <option value=60>LinguaLinks 3.0 Windows NT
+                <option value=316>Loki Telnet Profile (LWP)  Windows NT
+                <option value=92>Maple V 3 Macintosh (Below system 8.0)
+                <option value=152>MasterJuggler Pro 2.0 Windows NT
+                <option value=335>MatLab 5 Windows NT
+                <option value=62>Mavis Bacon Teaches Typing 9.0 Windows NT
+                <option value=517>Media Player 6.4 Windows NT
+                <option value=354>Media Player 6.4 Windows NT
+                <option value=149>MiniTab 11 Windows NT
+                <option value=356>Minitab 12 Windows NT
+                <option value=333>MiniTab 11 Windows NT
+                <option value=38>MiniTab 8.2 Macintosh (Below system 8.0)
+                <option value=315>Modi Telnet Profile (LWP)  Windows NT
+                <option value=111>MouseWare 8.0 Windows NT
+                <option value=347>Naturally Speaking Deluxe  Windows NT
+                <option value=360>Netware Client 4.51 Windows NT
+                <option value=361>Netware Client 4.6.302 Windows NT
+                <option value=358>Netware Client 4.11 Windows NT
+                <option value=362>Netware Client 4.6.604 SP1 Windows NT
+                <option value=64>Nisus Writer Language Kit  Macintosh (System 8.0 and up)
+                <option value=43>Norton Utilities 3.5 Macintosh (System 8.0 and up)
+                <option value=122>Norton Utilities 3.5 Macintosh (System 8.0 and up)
+                <option value=42>Norton Utilties 2.0 Windows NT
+                <option value=119>Nudist 4 Windows NT
+                <option value=129>O/P Pro  8.0 Macintosh (System 8.0 and up)
+                <option value=314>Odin Telnet Profile (TeraTerm) Windows NT
+                <option value=93>Office 97 Windows NT
+                <option value=114>Office '98 '98 Macintosh (System 8.0 and up)
+                <option value=58>Office Pro  '97 Windows NT
+                <option value=321>Omniform Netscape Plugin  Windows NT
+                <option value=153>OmniPage Pro Macintosh (System 8.0 and up)
+                <option value=157>OmniPage Pro Macintosh (System 8.0 and up)
+                <option value=46>OmniPage Pro 7.0 Macintosh (System 8.0 and up)
+                <option value=47>Oracle for MacIntosh 6.0 Macintosh (Below system 8.0)
+                <option value=322>Oregon Trail DOS Windows NT
+                <option value=265>Pagemaker 6.0 Macintosh (System 8.0 and up)
+                <option value=266>PageMaker 6.0 Macintosh (System 8.0 and up)
+                <option value=139>PageMill 1.0 Macintosh (System 8.0 and up)
+                <option value=334>PCAnywhere 32 8.0 Windows NT
+                <option value=262>Persuasion 3.0 Macintosh (System 8.0 and up)
+                <option value=140>Phaser 550  3.3 Windows NT
+                <option value=145>Photosho[ 3.0 Macintosh (System 8.0 and up)
+                <option value=23>Photoshop 4.0 Windows NT
+                <option value=25>Photoshop 5.0 Windows NT
+                <option value=24>Photoshop 5.0 Macintosh (System 8.0 and up)
+                <option value=22>Photoshop 4.0 Macintosh (System 8.0 and up)
+                <option value=21>Photoshop 3.0 Macintosh (System 8.0 and up)
+                <option value=26>Photoshop LE Bundle LE Macintosh (System 8.0 and up)
+                <option value=59>Plotnik 03 3.0 Macintosh (System 8.0 and up)
+                <option value=126>Power Alert 7.0 Macintosh (System 8.0 and up)
+                <option value=52>Power Chute plus 4.2.1 Windows NT
+                <option value=115>Power MacIntosh G3 8.1 Macintosh (System 8.0 and up)
+                <option value=136>Power Tools 4.0.4 Windows NT
+                <option value=128>PowerChute Plus Plus Windows NT
+                <option value=72>Premiere 4.2 Windows NT
+                <option value=147>Premiere 4.2 Windows NT
+                <option value=132>Premiere 4.2 Macintosh (System 8.0 and up)
+                <option value=148>Premiere 4.2 Macintosh (System 8.0 and up)
+                <option value=55>Project 98 Windows NT
+                <option value=301>QSL  Windows NT
+                <option value=302>QSR Nudist and Merge  Windows NT
+                <option value=264>Quark Express 4 Macintosh (System 8.0 and up)
+                <option value=135>Quark Express 3.31 Macintosh (System 8.0 and up)
+                <option value=519>QuickTime 4.1 Windows NT
+                <option value=363>QuickTime for Windows 4.0 Windows NT
+                <option value=303>QuickTime for Windows  2.1.2 Windows NT
+                <option value=304>QuickTime for Windows 3.0 Windows NT
+                <option value=306>RealAudio G2 Windows NT
+                <option value=305>RealAudio Player  5.0 Windows NT
+                <option value=520>RealJukeBox Windows NT
+                <option value=505>RealProducer / RealSlideshow  Windows NT
+                <option value=261>RoboHelp  Windows NT
+                <option value=156>RoboHelp  Windows NT
+                <option value=104>ScanJet 5P Scanner HP-5P Windows NT
+                <option value=279>ScanJet Software and SCSI drivers  Windows NT
+                <option value=68>Scantastic  Macintosh (Below system 8.0)
+                <option value=355>Scripting Host  Windows NT
+                <option value=65>See It, Hear It, Say It!  English Windows NT
+                <option value=307>Shared Lancache Pro 1.51 Windows NT
+                <option value=161>Shiva Fast Path Manager  Macintosh (System 8.0 and up)
+                <option value=523>Shockave Flash plugin 8.0 Windows NT
+                <option value=521>Shockwave Director plugin 8.0 Windows NT
+                <option value=351>Shockwave Plugin  7 Windows NT
+                <option value=295>shockWave Plugin r10 Windows NT
+                <option value=94>Sim City 2000  2000 Macintosh (System 8.0 and up)
+                <option value=273>SofTrack Local Workstation Metering Windows NT
+                <option value=332>SofTrack Software Metering 5 Windows NT
+                <option value=133>Solaris 2.5.1 Windows NT
+                <option value=95>Sounds of the World Languages  4.2 Macintosh (System 8.0 and up)
+                <option value=127>Spatch 3.29 Windows NT
+                <option value=267>S-Plus 4.5 Windows NT
+                <option value=98>SPSS 8 Windows NT
+                <option value=96>SPSS 6.1.1 Macintosh (Below system 8.0)
+                <option value=364>SPSS AMOS  Windows NT
+                <option value=369>Squeak 2.4 Windows NT
+                <option value=142>StarMax  Macintosh (System 8.0 and up)
+                <option value=308>Stella RunTime  5.1 Windows NT
+                <option value=99>SuperPaint  3.5 Macintosh (System 8.0 and up)
+                <option value=141>SuperPaint 3.5 Macintosh (System 8.0 and up)
+                <option value=123>Symantec AntiVirus for MacIntosh 4.5 Macintosh (System 8.0 and up)
+                <option value=526>SynEdit 2.4 Windows NT
+                <option value=309>TeraTerm Pro + TTSSH  Windows NT
+                <option value=337>test4  Windows NT
+                <option value=509>Thirdvoice  Windows NT
+                <option value=134>Timbuktu Pro 1.5.4 Macintosh (System 8.0 and up)
+                <option value=158>Timbuktu Pro Pro Macintosh (System 8.0 and up)
+                <option value=371>UltraEdit 32  6.1 Windows NT
+                <option value=112>Vista Scan 2.24 Windows NT
+                <option value=368>Visual Basic 6 Windows NT
+                <option value=102>Visual Basic 5.0 Windows NT
+                <option value=100>Visual InterDev  Windows NT
+                <option value=270>Visual InterDev 6.0 Windows NT
+                <option value=515>VNC (Virtual Network Computing) 3.2 Windows NT
+                <option value=269>Web Trends Professional Suite 2.1a Windows NT
+                <option value=107>Windows NT NT Windows NT
+                <option value=312>Windows NT NT 4.0 Service Pack 4 Windows NT
+                <option value=365>Windows NT 4 Service Pack 5 Windows NT
+                <option value=311>Windows NT NT 4.0 SP3 Windows NT
+                <option value=313>Windows NT SNMP Service NT SNMP Service Windows NT
+                <option value=310>WinHELP Office Office Windows NT
+                <option value=296>xRes  3 Windows NT
+                <option value=366>Zoom Text Extra  7 beta Windows NT
               </select>
-            </p> 
+            </p>
           </td>
         </tr>
-        <tr valign="middle"> 
+        <tr valign="middle">
             <td width="139" valign="top">&nbsp;</td>
-            <td valign="bottom" colspan="3"> 
+            <td valign="bottom" colspan="3">
               <INPUT TYPE="text" NAME="request1" ONCHANGE="checkSoftware()" SIZE="30">
             &lt;-- Enter Unlisted software here</td>
         </tr>
-        <tr valign="middle"> 
+        <tr valign="middle">
             <td width="139" valign="top"><font color="RED"># of licenses</font></td>
-            <td width="159" valign="bottom"> 
-              <p> 
+            <td width="159" valign="bottom">
+              <p>
             <INPUT TYPE="TEXT" NAME="SoftwareLicenses" ONCHANGE="checkLicenses()">
             <p></p>
           </td>
             <td width="105" valign="top">Other License Options:</td>
             <td width="272" valign="bottom">
 			<select name="LicenseOptions" size="1" value="LicenseOptions">
-		   
+
 		   		<option value=1>See Comments
-			
-		   
+
+
 		   		<option value=2>FreeWare
-			
-		   
+
+
 		   		<option value=3>Site
-			
-		   
+
+
 		   		<option value=4>ShareWare
-			
-		   
+
+
         </select></td>
         </tr>
       </table>
 
-<p>* Software will be removed on Expiration date (Ending date) and instructors 
-        should pickup their software on that date.<b> Software is always <i>expired</i> 
+<p>* Software will be removed on Expiration date (Ending date) and instructors
+        should pickup their software on that date.<b> Software is always <i>expired</i>
         at the end of summer term.</b></p>
 <p>** Media and licenses must be recieved to begin two week installation period</p>
       <p><font size="+1"><b>Comments</b></font></p>
@@ -1128,25 +1128,25 @@ function checkLicenses(){
         </ul>
       <p><b><font size="+1">Agreement</font></b></p>
       <ul>
-        I, the undersigned, understand and agree to abide by the policies and 
-        guidelines of this form and the "Acceptable Use Policy" as seen at http://www.oit.pdx.edu/acceptable_use_policy.htm. 
+        I, the undersigned, understand and agree to abide by the policies and
+        guidelines of this form and the "Acceptable Use Policy" as seen at http://www.oit.pdx.edu/acceptable_use_policy.htm.
       </ul>
 
       <ul>
         <table width="80%" border="1">
-          <tr> 
-            <td> 
-              <p> 
-              <font color="RED">Signed: 
+          <tr>
+            <td>
+              <p>
+              <font color="RED">Signed:
               <INPUT TYPE="TEXT" NAME="signedby">
-              </font> 
+              </font>
               <p></p>
             </td>
-            <td> 
-              
+            <td>
+
             <p>Date: 17 October 2000 15:23:11</p>
-	 
-              
+
+
             </td>
           </tr>
         </table>
@@ -1154,9 +1154,9 @@ function checkLicenses(){
       <input type=hidden name=formname value=softrequest>
       <input type=hidden name=requestnumber value=1>
 	  <input type=hidden name=installwarning value="">
-      
+
 		<input type=hidden name=date value=17 October 2000 15:23:11>
-	 
+
       <input type=submit value="Continue" name="submit">
       <input type="RESET" name="RESET">
 
@@ -1164,18 +1164,18 @@ function checkLicenses(){
 
 
 
-     
+
       <td width="10%">&nbsp;</td>
       <td width="1%" bgcolor="#639c63">&nbsp;</td>
   </tr>
-  <tr> 
+  <tr>
       <td width="2%" bgcolor="#639c63">&nbsp;</td>
       <td valign="bottom" align="left" width="2%"><img src="../../images/llcornersmall.gif" width="10" height="10"></td>
       <td width="85%">&nbsp;</td>
       <td align="right" valign="bottom" width="10%"><img src="../../images/lrcornersmall.gif" width="10" height="10"></td>
       <td width="1%" bgcolor="#639c63">&nbsp;</td>
   </tr>
-  <tr> 
+  <tr>
       <td width="2%" bgcolor="#639c63">&nbsp;</td>
       <td width="2%" bgcolor="#639c63">&nbsp;</td>
       <td width="85%" bgcolor="#639c63"><img src="/images/spacer.gif" width="19" height="19"></td>
@@ -1184,11 +1184,5 @@ function checkLicenses(){
   </tr>
 </table>
 </FORM>
-<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
-<script type="text/javascript">
-  _uacct = "UA-588310-1";
-  urchinTracker();
-</script>
-<script src="/mint/?js" type="text/javascript"></script>\n</body>
 
 </html>

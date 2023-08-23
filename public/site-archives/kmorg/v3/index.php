@@ -5,311 +5,453 @@ This design first came online in May 2002, and featured a neat little color-chan
 
 -->
 <?
-if( !$color )
-  $color = "blue";
+if (!$color)
+	$color = "blue";
 
-$allowed_headers=array("blue","green","tan","yellow","red");
-if( !in_array( $color, $allowed_headers ) )
-  $color = "blue";
+$allowed_headers = array("blue", "green", "tan", "yellow", "red");
+if (!in_array($color, $allowed_headers))
+	$color = "blue";
 
 $fgcolor = "#000000";
 $titlecolor = "#000000";
 $bgcolor = "#ffffff";
 $linecolor = "#999999";
 
-if($color == "blue")
+if ($color == "blue")
 	$hexcolor = "#dde1f4";
-if($color == "green")
+if ($color == "green")
 	$hexcolor = "#d6f4d8";
-if($color == "tan")
+if ($color == "tan")
 	$hexcolor = "#f4f3d7";
-if($color == "yellow")
+if ($color == "yellow")
 	$hexcolor = "#f3ea01";
-if($color == "red") {
+if ($color == "red") {
 	$hexcolor = "#ff0000";
 	$fgcolor = "#000000";
 	$bgcolor = "#ffffff";
 	$linecolor = "#000000";
 	$titlecolor = "#ffff00";
-	}
+}
 ?>
-<HTML><HEAD><TITLE>KillingMachines.org<? if( $title ) echo " - $title"; ?></TITLE>
-<!--<link rel="stylesheet" type="text/css" href="#" media="all">-->
-<STYLE TYPE="text/css" media="all">
-<!--
-body		{ margin: 0; padding: 0; color: <?=$fgcolor?>; background: <?=$bgcolor?>; font-family: verdana, sans-serif; font-size: small; line-height: 1.25; }
-a			{ text-decoration: none; font-weight: bold; }
-a:link		{ color:#6683CE; background-color: transparent; }
-a:visited	{ color: #949BBB; background-color: transparent; }
-a:active	{ color: #ff0033; background-color: transparent; }
-a:hover		{ color:	#6683CE; background-color: #efefef; }
-code, tt, pre	{font-family: "andale mono", monospace; font-size: x-small; }
-#toptable 		{ border-bottom: 1px solid <?=$linecolor?>; }
-#bottomtable	{ border-top: 1px solid <?=$linecolor?>; }
-#leftcol, #rightcol	{ border: 0px solid <?=$linecolor?>; }
-#centercol		{ border-width: 0px 1px; border-color: <?=$linecolor?>; border-style: solid; padding: 0px 10px; }
-.title,.headline	{ padding: 3px; border-top: 1px solid <?=$linecolor?>; background-color: <?=$hexcolor?>; color: <?=$titlecolor?>; font-size: small; line-height: 1; font-weight: bold; }
-.user,.date,.note	{ font-size: small; font-weight: bold; }
-.entry	{ font-size: small; }
-.footer,.followup,.id,.nav,.reply	{ font-size: x-small; }
-.listdate	{ font-size: xx-small; font-style: italic; white-space: nowrap; }
-.footnote	{ font-size: x-small; font-style: italic; padding-left: 10px; }
-blockquote	{ font-size: x-small; color: #404040; }
-.nohover a:hover	{ background-color: transparent; }
-.red	{ color: red; }
--->
-</STYLE>
-<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
-<META content="Space Ninja Design" name=author>
-<META content="Killing Machines .org - a free weblog and forum site" name=description>
-<META content="weblog, blog, journal, forum, journals, forums, diary, daily, online, live, free" name=keywords>
+<HTML>
+
+<HEAD>
+	<TITLE>KillingMachines.org<? if ($title) echo " - $title"; ?></TITLE>
+	<!--<link rel="stylesheet" type="text/css" href="#" media="all">-->
+	<STYLE TYPE="text/css" media="all">
+		<!--
+		body {
+			margin: 0;
+			padding: 0;
+			color: <?= $fgcolor ?>;
+			background: <?= $bgcolor ?>;
+			font-family: verdana, sans-serif;
+			font-size: small;
+			line-height: 1.25;
+		}
+
+		a {
+			text-decoration: none;
+			font-weight: bold;
+		}
+
+		a:link {
+			color: #6683CE;
+			background-color: transparent;
+		}
+
+		a:visited {
+			color: #949BBB;
+			background-color: transparent;
+		}
+
+		a:active {
+			color: #ff0033;
+			background-color: transparent;
+		}
+
+		a:hover {
+			color: #6683CE;
+			background-color: #efefef;
+		}
+
+		code,
+		tt,
+		pre {
+			font-family: "andale mono", monospace;
+			font-size: x-small;
+		}
+
+		#toptable {
+			border-bottom: 1px solid <?= $linecolor ?>;
+		}
+
+		#bottomtable {
+			border-top: 1px solid <?= $linecolor ?>;
+		}
+
+		#leftcol,
+		#rightcol {
+			border: 0px solid <?= $linecolor ?>;
+		}
+
+		#centercol {
+			border-width: 0px 1px;
+			border-color: <?= $linecolor ?>;
+			border-style: solid;
+			padding: 0px 10px;
+		}
+
+		.title,
+		.headline {
+			padding: 3px;
+			border-top: 1px solid <?= $linecolor ?>;
+			background-color: <?= $hexcolor ?>;
+			color: <?= $titlecolor ?>;
+			font-size: small;
+			line-height: 1;
+			font-weight: bold;
+		}
+
+		.user,
+		.date,
+		.note {
+			font-size: small;
+			font-weight: bold;
+		}
+
+		.entry {
+			font-size: small;
+		}
+
+		.footer,
+		.followup,
+		.id,
+		.nav,
+		.reply {
+			font-size: x-small;
+		}
+
+		.listdate {
+			font-size: xx-small;
+			font-style: italic;
+			white-space: nowrap;
+		}
+
+		.footnote {
+			font-size: x-small;
+			font-style: italic;
+			padding-left: 10px;
+		}
+
+		blockquote {
+			font-size: x-small;
+			color: #404040;
+		}
+
+		.nohover a:hover {
+			background-color: transparent;
+		}
+
+		.red {
+			color: red;
+		}
+		-->
+	</STYLE>
+	<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+	<META content="Space Ninja Design" name=author>
+	<META content="Killing Machines .org - a free weblog and forum site" name=description>
+	<META content="weblog, blog, journal, forum, journals, forums, diary, daily, online, live, free" name=keywords>
 </HEAD>
+
 <BODY bgColor=white>
 
-<!-- header table - logotype -->
-<TABLE cellSpacing=0 cellPadding=5 width="100%" align=center border=0>
-  <TBODY><TR>
-  	<TD align=center bgColor="<?=$hexcolor?>">
-  		<IMG height=20 width=20 src="spacer.gif" alt=""></TD></TR>
-  <TR>
-    <TD vAlign=bottom align=center bgColor="<?=$hexcolor?>" id=toptable class=nohover>
-    	<a href="#"><IMG height=76 width=786 border=0 src="sharp_<?=$color?>.gif" alt="KillingMachines.org"></a></TD></TR>
-  <TR>
-  	<TD>
-  		<IMG height=10 width=10 src="spacer.gif" alt=""></TD></TR>
-  </TBODY></TABLE>
-<!-- end of header table -->
+	<!-- header table - logotype -->
+	<TABLE cellSpacing=0 cellPadding=5 width="100%" align=center border=0>
+		<TBODY>
+			<TR>
+				<TD align=center bgColor="<?= $hexcolor ?>">
+					<IMG height=20 width=20 src="spacer.gif" alt="">
+				</TD>
+			</TR>
+			<TR>
+				<TD vAlign=bottom align=center bgColor="<?= $hexcolor ?>" id=toptable class=nohover>
+					<a href="#"><IMG height=76 width=786 border=0 src="sharp_<?= $color ?>.gif" alt="KillingMachines.org"></a>
+				</TD>
+			</TR>
+			<TR>
+				<TD>
+					<IMG height=10 width=10 src="spacer.gif" alt="">
+				</TD>
+			</TR>
+		</TBODY>
+	</TABLE>
+	<!-- end of header table -->
 
 
-<!-- main table - content -->
-<TABLE cellSpacing=10 cellPadding=0 width=792 align=center border=0>
-  <TBODY><TR valign=top>
+	<!-- main table - content -->
+	<TABLE cellSpacing=10 cellPadding=0 width=792 align=center border=0>
+		<TBODY>
+			<TR valign=top>
 
-<!-- begin left column -->
-    <TD width=150 id=leftcol>
-          	<div class=title>Site Links</div><div class=footer>
-		      <a href="#"><IMG height=18 src="home.gif" width=18 vspace=1 align=absmiddle border=0 alt="home"></a>
-		      	<a href="#">Home</a>
-		      <br><a href="#"><IMG height=18 src="about.gif" width=18 vspace=1 align=absmiddle border=0 alt="about"></a>
-		      	<a href="#">About this site</a>
-		      <br><a href="#"><IMG height=18 src="discuss.gif" width=18 vspace=1 align=absmiddle border=0 alt="discuss"></a>
-		      	<a href="#">Discuss this site</a>
-		      <br><a href="#"><IMG height=18 src="support.gif" width=18 vspace=1 align=absmiddle border=0 alt="support"></a>
-		      	<a href="#">Support forum</a>
-		      <br><a href="#"><IMG height=18 src="faq.gif" width=18 vspace=1 align=absmiddle border=0 alt="faq"></a>
-		      	<a href="#">FAQ</a>
-<br>
-		      <br><a href="#"><IMG height=18 src="journal.gif" width=18 vspace=1 align=absmiddle border=0 alt="get an account"></a>
-		      	<a href="#">Get an account</a>
-		      <br><a href="#"><IMG height=18 src="login.gif" width=18 vspace=1 align=absmiddle border=0 alt="login"></a>
-		      	<a href="#">Log In or Out</a>
-		      <br><a href="#"><IMG height=18 src="options.gif" width=18 vspace=1 align=absmiddle border=0 alt="options"></a>
-		      	<a href="#">Account options</a>
-<br>
-		      <br><a href="#"><IMG height=18 src="post.gif" width=18 vspace=1 align=absmiddle border=0 alt="post"></a>
-		      	<a href="#">Post to account</a>
-		      <br><a href="#"><IMG height=18 src="edit.gif" width=18 vspace=1 align=absmiddle border=0 alt="edit"></a>
-		      	<a href="#">Edit a post</a>
-		      <br><a href="#"><IMG height=18 src="list.gif" width=18 vspace=1 align=absmiddle border=0 alt="list of accounts"></a>
-		      	<a href="#">List of accounts</a>
-<br>
-		      </div><br><div class=title>Domain</div><div class=footer>
-		      <a href="#">www</a>
-		      <br><a href="#">rusted</a>
-		      <br><a href="#">peons</a>
-		      <br><a href="#">choose</a>
-		      <br><a href="#">trinity</a>
-          	</div><br>
+				<!-- begin left column -->
+				<TD width=150 id=leftcol>
+					<div class=title>Site Links</div>
+					<div class=footer>
+						<a href="#"><IMG height=18 src="home.gif" width=18 vspace=1 align=absmiddle border=0 alt="home"></a>
+						<a href="#">Home</a>
+						<br><a href="#"><IMG height=18 src="about.gif" width=18 vspace=1 align=absmiddle border=0 alt="about"></a>
+						<a href="#">About this site</a>
+						<br><a href="#"><IMG height=18 src="discuss.gif" width=18 vspace=1 align=absmiddle border=0 alt="discuss"></a>
+						<a href="#">Discuss this site</a>
+						<br><a href="#"><IMG height=18 src="support.gif" width=18 vspace=1 align=absmiddle border=0 alt="support"></a>
+						<a href="#">Support forum</a>
+						<br><a href="#"><IMG height=18 src="faq.gif" width=18 vspace=1 align=absmiddle border=0 alt="faq"></a>
+						<a href="#">FAQ</a>
+						<br>
+						<br><a href="#"><IMG height=18 src="journal.gif" width=18 vspace=1 align=absmiddle border=0 alt="get an account"></a>
+						<a href="#">Get an account</a>
+						<br><a href="#"><IMG height=18 src="login.gif" width=18 vspace=1 align=absmiddle border=0 alt="login"></a>
+						<a href="#">Log In or Out</a>
+						<br><a href="#"><IMG height=18 src="options.gif" width=18 vspace=1 align=absmiddle border=0 alt="options"></a>
+						<a href="#">Account options</a>
+						<br>
+						<br><a href="#"><IMG height=18 src="post.gif" width=18 vspace=1 align=absmiddle border=0 alt="post"></a>
+						<a href="#">Post to account</a>
+						<br><a href="#"><IMG height=18 src="edit.gif" width=18 vspace=1 align=absmiddle border=0 alt="edit"></a>
+						<a href="#">Edit a post</a>
+						<br><a href="#"><IMG height=18 src="list.gif" width=18 vspace=1 align=absmiddle border=0 alt="list of accounts"></a>
+						<a href="#">List of accounts</a>
+						<br>
+					</div><br>
+					<div class=title>Domain</div>
+					<div class=footer>
+						<a href="#">www</a>
+						<br><a href="#">rusted</a>
+						<br><a href="#">peons</a>
+						<br><a href="#">choose</a>
+						<br><a href="#">trinity</a>
+					</div><br>
 
-          	<div class="title">KMorg Poll</div><div class="footer">
-<b>Best Soda Beverage Ever:</b><br><div align="right"><br>
-<form method="post" action="#">
-<table class="footer" align="center" border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr align="left">
-    <td width="15%"><input name="option_id" value="Cola" type="radio"></td>
-    <td width="85%">Cola</td>
-</tr>
-<tr align="left">
-    <td width="15%"><input name="option_id" value="Dr. Pepper" type="radio"></td>
-    <td width="85%">Dr. Pepper</td>
-</tr>
-<tr align="left">
-    <td width="15%"><input name="option_id" value="Root Beer" type="radio"></td>
-    <td width="85%">Root Beer</td>
-</tr>
-<tr align="left">
-    <td width="15%"><input name="option_id" value="Ginger Ale" type="radio"></td>
-    <td width="85%">Ginger Ale</td>
-</tr>
-<tr align="left">
-    <td width="15%"><input name="option_id" value="Orange" type="radio"></td>
-    <td width="85%">Orange</td>
-</tr>
-<tr align="left">
-    <td width="15%"><input name="option_id" value="Crystal Gravy" type="radio"></td>
-    <td width="85%">Crystal Gravy</td>
-</tr>
-<tr align="left">
-    <td width="15%"><input name="option_id" value="OK Soda" type="radio"></td>
-    <td width="85%">OK Soda</td>
-</tr>
-<tr align="left">
-    <td width="15%"><input name="option_id" value="Diet anything" type="radio"></td>
-    <td width="85%">Diet anything</td>
-</tr>
-<tr align="left">
-    <td width="15%"><input name="option_id" value="7-up" type="radio"></td>
-    <td width="85%">7-up</td>
-</tr>
-<tr align="left">
-    <td width="15%"><input name="option_id" value="Dr. Colossus' Brain Tonic and Snake Oil" type="radio"></td>
-    <td width="85%">Dr. Colossus' Brain Tonic and Snake Oil</td>
-</tr>
-</tbody></table><div align="center">
-     <input name="action" value="vote" type="hidden">
-     <input name="poll_ident" value="13" type="hidden">
-     <input value="Vote" class="input" type="submit"></div>
-</form>
-<a href="#">View Results</a><br>
-<a href="#" title="Advanced Poll">poll code by proxy2.de</a><br>
-<a href="#">past polls</a>
-</div></div>
+					<div class="title">KMorg Poll</div>
+					<div class="footer">
+						<b>Best Soda Beverage Ever:</b><br>
+						<div align="right"><br>
+							<form method="post" action="#">
+								<table class="footer" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+									<tbody>
+										<tr align="left">
+											<td width="15%"><input name="option_id" value="Cola" type="radio"></td>
+											<td width="85%">Cola</td>
+										</tr>
+										<tr align="left">
+											<td width="15%"><input name="option_id" value="Dr. Pepper" type="radio"></td>
+											<td width="85%">Dr. Pepper</td>
+										</tr>
+										<tr align="left">
+											<td width="15%"><input name="option_id" value="Root Beer" type="radio"></td>
+											<td width="85%">Root Beer</td>
+										</tr>
+										<tr align="left">
+											<td width="15%"><input name="option_id" value="Ginger Ale" type="radio"></td>
+											<td width="85%">Ginger Ale</td>
+										</tr>
+										<tr align="left">
+											<td width="15%"><input name="option_id" value="Orange" type="radio"></td>
+											<td width="85%">Orange</td>
+										</tr>
+										<tr align="left">
+											<td width="15%"><input name="option_id" value="Crystal Gravy" type="radio"></td>
+											<td width="85%">Crystal Gravy</td>
+										</tr>
+										<tr align="left">
+											<td width="15%"><input name="option_id" value="OK Soda" type="radio"></td>
+											<td width="85%">OK Soda</td>
+										</tr>
+										<tr align="left">
+											<td width="15%"><input name="option_id" value="Diet anything" type="radio"></td>
+											<td width="85%">Diet anything</td>
+										</tr>
+										<tr align="left">
+											<td width="15%"><input name="option_id" value="7-up" type="radio"></td>
+											<td width="85%">7-up</td>
+										</tr>
+										<tr align="left">
+											<td width="15%"><input name="option_id" value="Dr. Colossus' Brain Tonic and Snake Oil" type="radio"></td>
+											<td width="85%">Dr. Colossus' Brain Tonic and Snake Oil</td>
+										</tr>
+									</tbody>
+								</table>
+								<div align="center">
+									<input name="action" value="vote" type="hidden">
+									<input name="poll_ident" value="13" type="hidden">
+									<input value="Vote" class="input" type="submit">
+								</div>
+							</form>
+							<a href="#">View Results</a><br>
+							<a href="#" title="Advanced Poll">poll code by proxy2.de</a><br>
+							<a href="#">past polls</a>
+						</div>
+					</div>
 
-	</TD>
-<!-- end of left column -->
+				</TD>
+				<!-- end of left column -->
 
-<!-- begin center column -->
-    <TD id=centercol width=468>
-
-
-<blockquote>"I used to always think that I had to have a reason to
-record my observations of the day, or even my emotions, but now I think
-simply being alive is more than enough reason."<br>-- Daniel in microserfs</blockquote>
-
-<p>
-</p><div class="post">
-<div class="headline"><a name="7643"><span class="date">5/28/2002 11:04am</span></a></div><div class="entry">First of all, let me say "Welcome to KillingMachines!" to all the new people. For those of you who don't know, I'm <a href="#">Scott</a>, the site admin.<br>
-<br>
-Over the weekend and through yesterday, <a href="#">Steve</a>
-was going through the code on the server to track down the problems,
-which turned out to be a wide variety of little problems, mostly to do
-with the server move. He fixed them, and all thanks for stuff that is
-now working should be directed to him!<br>
-<br>
-Thank you to everyone for being so patient with us while we worked on
-getting things working again. If anyone runs into any more problems,
-feel free to post about them in the <a href="#">Support Forum</a>.</div>
-</div><p>
-
-</p><div class="post">
-<div class="headline"><a name="7602"><span class="date">5/26/2002 4:36pm</span></a></div><div class="entry">Steve
-and I made some changes on Saturday, but they don't seem to have done
-the trick. We're still looking into the problem, and I'll post again as
-soon as we get it figured out.</div>
-</div><p>
-
-</p><div class="post">
-<div class="headline"><a name="7572"><span class="date">5/23/2002 11:36pm</span></a></div><div class="entry">Yes, there are some problems with the system right now, including, but not limited to:<br>
--New accounts failing to come online<br>
--Header/Footer problems in the account prefs page<br>
--Misc smaller issues.<br>
-<br>
-Steve and I are going to check it out on Saturday. We have no idea
-what's causing the problem, though it seems to coincide with the day we
-upgraded the server. With any luck, the problem will be found and fixed
-on Saturday. If not, then I ask that you be patient with us, and
-remember that we run this server in our spare time. We care a great
-deal about it, and we'll get it working as fast as we possibly can.<br>
-<br>
-</div>
-</div><p>
-
-</p><div class="post">
-<div class="followup">
-<span class="nav"><a href="#">previous 3</a> &gt;&gt;</span>
-</div></div>
+				<!-- begin center column -->
+				<TD id=centercol width=468>
 
 
+					<blockquote>"I used to always think that I had to have a reason to
+						record my observations of the day, or even my emotions, but now I think
+						simply being alive is more than enough reason."<br>-- Daniel in microserfs</blockquote>
 
-	</td>
-<!-- end of center column -->
+					<p>
+					</p>
+					<div class="post">
+						<div class="headline"><a name="7643"><span class="date">5/28/2002 11:04am</span></a></div>
+						<div class="entry">First of all, let me say "Welcome to KillingMachines!" to all the new people. For those of you who don't know, I'm <a href="#">Scott</a>, the site admin.<br>
+							<br>
+							Over the weekend and through yesterday, <a href="#">Steve</a>
+							was going through the code on the server to track down the problems,
+							which turned out to be a wide variety of little problems, mostly to do
+							with the server move. He fixed them, and all thanks for stuff that is
+							now working should be directed to him!<br>
+							<br>
+							Thank you to everyone for being so patient with us while we worked on
+							getting things working again. If anyone runs into any more problems,
+							feel free to post about them in the <a href="#">Support Forum</a>.
+						</div>
+					</div>
+					<p>
 
-<!-- begin right column -->
-    <td id="rightcol" width="174">
+					</p>
+					<div class="post">
+						<div class="headline"><a name="7602"><span class="date">5/26/2002 4:36pm</span></a></div>
+						<div class="entry">Steve
+							and I made some changes on Saturday, but they don't seem to have done
+							the trick. We're still looking into the problem, and I'll post again as
+							soon as we get it figured out.</div>
+					</div>
+					<p>
 
-		<div class="title">Recent Posts</div><div class="footer">
-		2,911 posts in 202 accounts.
-		<p><img alt="journals" src="journal.gif" align="middle" height="18" vspace="1" width="18">&nbsp;<i>recently updated journals:</i><br>
-		<a href="#">FallenIcarus</a><span class="listdate"> - (5/30 2:33pm)</span><br>
-<a href="#">sunbeam</a><span class="listdate"> - (5/30 12:42pm)</span><br>
-<a href="#">loserbaby</a><span class="listdate"> - (5/29 10:45pm)</span><br>
-<a href="#">coon343</a><span class="listdate"> - (5/29 10:00pm)</span><br>
-<a href="#">Lirael</a><span class="listdate"> - (5/29 9:53pm)</span><br>
-<a href="#">syv-xer0</a><span class="listdate"> - (5/29 9:48pm)</span><br>
-<a href="#">Kartoffel</a><span class="listdate"> - (5/29 9:40pm)</span><br>
-<a href="#">elchip</a><span class="listdate"> - (5/29 9:13pm)</span><br>
-<a href="#">james</a><span class="listdate"> - (5/29 9:07pm)</span><br>
-<a href="#">leaddore</a><span class="listdate"> - (5/29 8:39pm)</span><br>
-<a href="#">Sean</a><span class="listdate"> - (5/29 8:09pm)</span><br>
-<a href="#">nikita</a><span class="listdate"> - (5/29 6:49pm)</span><br>
-<a href="#">KT</a><span class="listdate"> - (5/29 4:54pm)</span><br>
-<a href="#">Mytek</a><span class="listdate"> - (5/29 4:08pm)</span><br>
-<a href="#">Asiasolon</a><span class="listdate"> - (5/29 10:36am)</span><br>
-<a href="#">meowkittie</a><span class="listdate"> - (5/29 10:24am)</span><br>
-<a href="#">Adonia</a><span class="listdate"> - (5/29 8:18am)</span><br>
-<a href="#">pat</a><span class="listdate"> - (5/29 7:33am)</span><br>
-<a href="#">Steps</a><span class="listdate"> - (5/29 7:29am)</span><br>
-<a href="#">mousse</a><span class="listdate"> - (5/29 7:07am)</span><br>
-		</p><p><img alt="forums" src="forum.gif" align="middle" height="18" vspace="1" width="18">&nbsp;<i>recently updated forums:</i><br>
-		<a href="#">nitpickers</a><span class="listdate"> - (5/29 8:53pm)</span><br>
-<a href="#">support</a><span class="listdate"> - (5/29 9:05am)</span><br>
-<a href="#">sadtearpoetry</a><span class="listdate"> - (5/29 8:03am)</span><br>
-<a href="#">forum</a><span class="listdate"> - (5/25 12:30am)</span><br>
-<a href="#">reviews</a><span class="listdate"> - (5/18 8:06am)</span><br>
-<a href="#">Testimonials</a><span class="listdate"> - (5/14 9:22pm)</span><br>
-<a href="#">Trinity</a><span class="listdate"> - (5/14 9:02pm)</span><br>
-<a href="#">garydirin</a><span class="listdate"> - (5/14 1:24am)</span><br>
-<a href="#">dreams</a><span class="listdate"> - (5/10 8:01am)</span><br>
-<a href="#">KOIN</a><span class="listdate"> - (5/10 6:42am)</span><br>
-		</p></div><br>
+					</p>
+					<div class="post">
+						<div class="headline"><a name="7572"><span class="date">5/23/2002 11:36pm</span></a></div>
+						<div class="entry">Yes, there are some problems with the system right now, including, but not limited to:<br>
+							-New accounts failing to come online<br>
+							-Header/Footer problems in the account prefs page<br>
+							-Misc smaller issues.<br>
+							<br>
+							Steve and I are going to check it out on Saturday. We have no idea
+							what's causing the problem, though it seems to coincide with the day we
+							upgraded the server. With any luck, the problem will be found and fixed
+							on Saturday. If not, then I ask that you be patient with us, and
+							remember that we run this server in our spare time. We care a great
+							deal about it, and we'll get it working as fast as we possibly can.<br>
+							<br>
+						</div>
+					</div>
+					<p>
 
-		<div class=title>Set Color</div><div class=footer>
-		<table border=0 cellspacing=5 cellpadding=0 align=center><tr class=nohover>
-		<td bgcolor="#dde1f4"><a href="?color=blue"><img src="spacer.gif" width=25 height=25 border=0 alt="blue"></a></td>
-		<td bgcolor="#d6f4d8"><a href="?color=green"><img src="spacer.gif" width=25 height=25 border=0 alt="green"></a></td>
-		<td bgcolor="#f4f3d7"><a href="?color=tan"><img src="spacer.gif" width=25 height=25 border=0 alt="tan"></a></td>
-		<td bgcolor="#f3ea01"><a href="?color=yellow"><img src="spacer.gif" width=25 height=25 border=0 alt="yellow"></a></td>
-		<td bgcolor="#ff0000"><a href="?color=red"><img src="spacer.gif" width=25 height=25 border=0 alt="red"></a></td>
-		</tr></table>
-		</div><br>
-
-	</TD></TR></TBODY></TABLE>
-<!-- end of right column, end of main table -->
+					</p>
+					<div class="post">
+						<div class="followup">
+							<span class="nav"><a href="#">previous 3</a> &gt;&gt;</span>
+						</div>
+					</div>
 
 
 
-<!-- footer table - copyright notice and credits -->
-<TABLE cellSpacing=0 cellPadding=5 width="100%" align=center border=0>
-  <TBODY><TR>
-  	<TD>
-  		<IMG height=10 width=10 src="spacer.gif" alt=""></TD></TR>
-  <TR>
-    <TD vAlign=bottom align=center bgColor="<?=$hexcolor?>" id=bottomtable>
-    	<div class=footer>
-		hosted by <a href="#">fojar</a> :: coding by the <a href="#">fojar technology front</a> :: design by <a href="#">spaceninja design</a>
-		<br>My simian compatriots never make things easy for me.
-		<br>&copy; copyright 2001-2002 by author of post
-		</div>
-    </TD></TR>
-  <TR>
-  	<TD align=center bgColor="<?=$hexcolor?>">
-  		<a href="#"><img src="hatelife.gif" border=0 alt="advertisement"></a></td></tr>
-  </TBODY></TABLE>
-<!-- end of footer table -->
+				</td>
+				<!-- end of center column -->
 
-<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
-<script type="text/javascript">
-  _uacct = "UA-588310-1";
-  urchinTracker();
-</script>
-<script src="/mint/?js" type="text/javascript"></script>\n</body>
+				<!-- begin right column -->
+				<td id="rightcol" width="174">
+
+					<div class="title">Recent Posts</div>
+					<div class="footer">
+						2,911 posts in 202 accounts.
+						<p><img alt="journals" src="journal.gif" align="middle" height="18" vspace="1" width="18">&nbsp;<i>recently updated journals:</i><br>
+							<a href="#">FallenIcarus</a><span class="listdate"> - (5/30 2:33pm)</span><br>
+							<a href="#">sunbeam</a><span class="listdate"> - (5/30 12:42pm)</span><br>
+							<a href="#">loserbaby</a><span class="listdate"> - (5/29 10:45pm)</span><br>
+							<a href="#">coon343</a><span class="listdate"> - (5/29 10:00pm)</span><br>
+							<a href="#">Lirael</a><span class="listdate"> - (5/29 9:53pm)</span><br>
+							<a href="#">syv-xer0</a><span class="listdate"> - (5/29 9:48pm)</span><br>
+							<a href="#">Kartoffel</a><span class="listdate"> - (5/29 9:40pm)</span><br>
+							<a href="#">elchip</a><span class="listdate"> - (5/29 9:13pm)</span><br>
+							<a href="#">james</a><span class="listdate"> - (5/29 9:07pm)</span><br>
+							<a href="#">leaddore</a><span class="listdate"> - (5/29 8:39pm)</span><br>
+							<a href="#">Sean</a><span class="listdate"> - (5/29 8:09pm)</span><br>
+							<a href="#">nikita</a><span class="listdate"> - (5/29 6:49pm)</span><br>
+							<a href="#">KT</a><span class="listdate"> - (5/29 4:54pm)</span><br>
+							<a href="#">Mytek</a><span class="listdate"> - (5/29 4:08pm)</span><br>
+							<a href="#">Asiasolon</a><span class="listdate"> - (5/29 10:36am)</span><br>
+							<a href="#">meowkittie</a><span class="listdate"> - (5/29 10:24am)</span><br>
+							<a href="#">Adonia</a><span class="listdate"> - (5/29 8:18am)</span><br>
+							<a href="#">pat</a><span class="listdate"> - (5/29 7:33am)</span><br>
+							<a href="#">Steps</a><span class="listdate"> - (5/29 7:29am)</span><br>
+							<a href="#">mousse</a><span class="listdate"> - (5/29 7:07am)</span><br>
+						</p>
+						<p><img alt="forums" src="forum.gif" align="middle" height="18" vspace="1" width="18">&nbsp;<i>recently updated forums:</i><br>
+							<a href="#">nitpickers</a><span class="listdate"> - (5/29 8:53pm)</span><br>
+							<a href="#">support</a><span class="listdate"> - (5/29 9:05am)</span><br>
+							<a href="#">sadtearpoetry</a><span class="listdate"> - (5/29 8:03am)</span><br>
+							<a href="#">forum</a><span class="listdate"> - (5/25 12:30am)</span><br>
+							<a href="#">reviews</a><span class="listdate"> - (5/18 8:06am)</span><br>
+							<a href="#">Testimonials</a><span class="listdate"> - (5/14 9:22pm)</span><br>
+							<a href="#">Trinity</a><span class="listdate"> - (5/14 9:02pm)</span><br>
+							<a href="#">garydirin</a><span class="listdate"> - (5/14 1:24am)</span><br>
+							<a href="#">dreams</a><span class="listdate"> - (5/10 8:01am)</span><br>
+							<a href="#">KOIN</a><span class="listdate"> - (5/10 6:42am)</span><br>
+						</p>
+					</div><br>
+
+					<div class=title>Set Color</div>
+					<div class=footer>
+						<table border=0 cellspacing=5 cellpadding=0 align=center>
+							<tr class=nohover>
+								<td bgcolor="#dde1f4"><a href="?color=blue"><img src="spacer.gif" width=25 height=25 border=0 alt="blue"></a></td>
+								<td bgcolor="#d6f4d8"><a href="?color=green"><img src="spacer.gif" width=25 height=25 border=0 alt="green"></a></td>
+								<td bgcolor="#f4f3d7"><a href="?color=tan"><img src="spacer.gif" width=25 height=25 border=0 alt="tan"></a></td>
+								<td bgcolor="#f3ea01"><a href="?color=yellow"><img src="spacer.gif" width=25 height=25 border=0 alt="yellow"></a></td>
+								<td bgcolor="#ff0000"><a href="?color=red"><img src="spacer.gif" width=25 height=25 border=0 alt="red"></a></td>
+							</tr>
+						</table>
+					</div><br>
+
+				</TD>
+			</TR>
+		</TBODY>
+	</TABLE>
+	<!-- end of right column, end of main table -->
+
+
+
+	<!-- footer table - copyright notice and credits -->
+	<TABLE cellSpacing=0 cellPadding=5 width="100%" align=center border=0>
+		<TBODY>
+			<TR>
+				<TD>
+					<IMG height=10 width=10 src="spacer.gif" alt="">
+				</TD>
+			</TR>
+			<TR>
+				<TD vAlign=bottom align=center bgColor="<?= $hexcolor ?>" id=bottomtable>
+					<div class=footer>
+						hosted by <a href="#">fojar</a> :: coding by the <a href="#">fojar technology front</a> :: design by <a href="#">spaceninja design</a>
+						<br>My simian compatriots never make things easy for me.
+						<br>&copy; copyright 2001-2002 by author of post
+					</div>
+				</TD>
+			</TR>
+			<TR>
+				<TD align=center bgColor="<?= $hexcolor ?>">
+					<a href="#"><img src="hatelife.gif" border=0 alt="advertisement"></a>
+				</td>
+			</tr>
+		</TBODY>
+	</TABLE>
+	<!-- end of footer table -->
+
 </HTML>

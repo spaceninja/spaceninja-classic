@@ -1,4 +1,3 @@
-
 <!-- BEGIN FOOTER -->
 
 </td>
@@ -11,20 +10,20 @@
 </tr>
 
 <tr>
-<td align=left valign=bottom bgcolor="#c0c0c0"><img src=images/llu.gif></td>
-<td bgcolor="#c0c0c0"><img src=images/x.gif width=1 height=1></td>
-<td align=right valign=bottom bgcolor="#c0c0c0"><img src=images/lru.gif></td>
+  <td align=left valign=bottom bgcolor="#c0c0c0"><img src=images/llu.gif></td>
+  <td bgcolor="#c0c0c0"><img src=images/x.gif width=1 height=1></td>
+  <td align=right valign=bottom bgcolor="#c0c0c0"><img src=images/lru.gif></td>
 </tr>
 
 <tr>
-<td align=left valign=top bgcolor=black><img src=images/lll.gif></td>
-<td bgcolor=black align=center valign=middle width=100% class=orange>
-<? /*
+  <td align=left valign=top bgcolor=black><img src=images/lll.gif></td>
+  <td bgcolor=black align=center valign=middle width=100% class=orange>
+    <? /*
 
   if( !$dbh ) {
     include("dbinit.php");
   }
-  
+
   $dbh_res = mysql_query( "select count(*) from resume where public=1" );
   list($resumecount)=mysql_fetch_row($dbh_res);
 
@@ -40,9 +39,9 @@
   echo "There $restext and $jobcount currently active jobs.";
 
    */ ?>
-There are 7 resumes and 14 currently active jobs.
-</td>
-<td align=right valign=top bgcolor=black><img src=images/lrl.gif></td>
+    There are 7 resumes and 14 currently active jobs.
+  </td>
+  <td align=right valign=top bgcolor=black><img src=images/lrl.gif></td>
 </tr>
 
 </table>
@@ -51,17 +50,13 @@ There are 7 resumes and 14 currently active jobs.
 </tr>
 
 </table>
-</td></tr></table>
+</td>
+</tr>
+</table>
 
 <?
-  if( !$HTTP_COOKIE_VARS['username'] )
-    echo "</form>\n";
+if (!$HTTP_COOKIE_VARS['username'])
+  echo "</form>\n";
 ?>
-<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
-<script type="text/javascript">
-  _uacct = "UA-588310-1";
-  urchinTracker();
-</script>
-<script src="/mint/?js" type="text/javascript"></script>\n</body>
 
 </html>
