@@ -19,9 +19,9 @@
       by
       {% for authorKey in post.data.authors %}
         {% set author = authorMeta | getAuthor(authorKey) %}
-        <a href="/authors/{{ authorKey }}"><img
+        <a href="/authors/{{ authorKey }}/"><img
           src="{{ author.photo }}" width="16" height="16" alt=""></a>
-        <a href="/authors/{{ authorKey }}">
+        <a href="/authors/{{ authorKey }}/">
           {{- author.name -}}
         </a>{% if not loop.last %}, {% endif %}
       {% endfor %}
