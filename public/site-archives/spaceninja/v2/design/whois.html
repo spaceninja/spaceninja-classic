@@ -1,20 +1,3 @@
-<? /*
-  $dbh = mysql_connect("localhost","steve","happy");
-  mysql_select_db("killingmachines",$dbh);
-
-  $dbh_res = mysql_query( "select id from data where area='quotes'" );
-  while( list($newid)=mysql_fetch_row($dbh_res) )
-    $ids[]=$newid;
-
-  mt_srand((double)microtime()*1000000);
-  for($i=0; $i<3; $i++ ) {
-    $id = $ids[ mt_rand(0,count($ids)-1) ];
-    $dbh_res = mysql_query( "select entry from data where id='$id'" );
-    list($entry)=mysql_fetch_row($dbh_res);
-    $quote[]=$entry;
-  }
-
-   */ ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <HTML>
 
@@ -63,9 +46,6 @@
   </STYLE>
 </HEAD>
 
-<? include("random.image.php");
-include("random.quote.php"); ?>
-
 <body>
 
   <table border=0 cellpadding=0 cellspacing=0 width="100%">
@@ -96,16 +76,16 @@ include("random.quote.php"); ?>
 
                 <TR align=center valign=middle>
 
-                  <TD width="33%"><? random_image("scott"); ?></TD>
-                  <TD width="34%"><? random_image("miles"); ?></TD>
-                  <TD width="33%"><? random_image("steve"); ?></TD>
+                  <TD width="33%"><IMG SRC="scott/scott1.gif"></TD>
+                  <TD width="34%"><IMG SRC="miles/miles1.gif"></TD>
+                  <TD width="33%"><IMG SRC="steve/steve1.gif"></TD>
 
                 </TR>
                 <TR align=left valign=top>
 
                   <TD>
                     <FONT SIZE=4><B>Scott Vandehey</B></FONT>
-                    <P><I><? /* echo $quote[0]; */ ?>
+                    <P><I>
                         "Don't hate the Media, become the Media!"
                         <br>-- Jello Biafra
                       </I>
@@ -113,7 +93,7 @@ include("random.quote.php"); ?>
 
                   <TD>
                     <FONT SIZE=4><B>Miles Johnson</B></FONT>
-                    <P><I><? /* echo $quote[1]; */ ?>
+                    <P><I>
                         "Truth plus lies always equals lies."
                         <br>-- Bruce Sterling
                       </I>
@@ -121,7 +101,7 @@ include("random.quote.php"); ?>
 
                   <TD>
                     <FONT SIZE=4><B>Steve Havelka</B></FONT>
-                    <P><I><? /* echo $quote[2]; */ ?>
+                    <P><I>
                         "We have art that we do not die of the truth."
                         <br>-- Nietzsche
                       </I>
