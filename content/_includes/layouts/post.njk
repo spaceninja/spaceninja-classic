@@ -12,10 +12,10 @@ metaType: article
   by
   {% for authorKey in authors %}
     {% set author = authorMeta | getAuthor(authorKey) %}
-    <a href="/authors/{{ authorKey }}"><img
+    <a href="/authors/{{ authorKey }}/">
+      <img
       src="{{ author.photo }}" width="16" height="16" alt=""></a>
-    <a href="/authors/{{ authorKey }}">
-      {{- author.name -}}
+      <span class="name">{{ author.name }}</span>
     </a>{% if not loop.last %}, {% endif %}
   {% endfor %}
 </p>
