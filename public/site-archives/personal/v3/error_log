@@ -1,4 +1,0 @@
-[30-Aug-2005 00:59:24] PHP Warning:  main(/disk/web/spaceninja.com/www/random.quote.php): failed to open stream: No such file or directory in /home/sninja/public_html/archives/personal/v3/header.php on line 9
-[30-Aug-2005 00:59:24] PHP Warning:  main(/disk/web/spaceninja.com/www/random.quote.php): failed to open stream: No such file or directory in /home/sninja/public_html/archives/personal/v3/header.php on line 9
-[30-Aug-2005 00:59:24] PHP Warning:  main(): Failed opening '/disk/web/spaceninja.com/www/random.quote.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sninja/public_html/archives/personal/v3/header.php on line 9
-[30-Aug-2005 00:59:24] PHP Fatal error:  Call to undefined function:  quotefrom() in /home/sninja/public_html/archives/personal/v3/footer.php on line 2
