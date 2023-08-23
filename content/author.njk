@@ -26,5 +26,5 @@ Website: <a href="{{author.website}}" target="_new">{{author.website}}</a><br/>
 
 <h2>Posts by Author</h2>
 
-{% set postList = collections.blog | getPostsByAuthor(author.key) %}
+{% set postList = collections.blog | getPostsByAuthor(author.key) | reverse %}
 {% include "post-list.njk" %}
