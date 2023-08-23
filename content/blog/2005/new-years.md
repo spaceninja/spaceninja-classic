@@ -5,6 +5,7 @@ categories:
   - personal
 tags:
   - friends
+  - resolutions
 authors:
   - scott
 ---

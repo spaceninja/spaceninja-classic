@@ -18,7 +18,7 @@ authors:
   - scott
 ---
 
-Hooray! The feedback from the web development community convinced the IE development team to change their minds about the default setting for version targeting in IE8 (as I discussed in a [previous post](/version-targeting-and-ie8/)).
+Hooray! The feedback from the web development community convinced the IE development team to change their minds about the default setting for version targeting in IE8 (as I discussed in a [previous post](/blog/2008/version-targeting-and-ie8/)).
 
 > "In light of the Interoperability Principles, as well as feedback from the community, we’re choosing differently. Now, IE8 will show pages requesting 'Standards' mode in IE8’s Standards mode. Developers who want their pages shown using IE8’s 'IE7 Standards mode' will need to request that explicitly (using the http header/meta tag approach)."
 >

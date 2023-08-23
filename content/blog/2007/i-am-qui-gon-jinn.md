@@ -10,4 +10,4 @@ authors:
   - scott
 ---
 
-[![You are Qui-Gon Jinn! In addition to having a kick-ass obscure name, you are strong-willed, level-headed and just a plain old good guy. Nobody ever has anything bad to say about you because you always keep it real in the field. Do you chill by doing yoga or pilates?](/images/Card_Qui-Gon.jpg)](http://www.liquidgeneration.com/Media/Games/The_Ultimate_Star_Wars_Personality_Test/)
+> [You are Qui-Gon Jinn!](http://www.liquidgeneration.com/Media/Games/The_Ultimate_Star_Wars_Personality_Test/) In addition to having a kick-ass obscure name, you are strong-willed, level-headed and just a plain old good guy. Nobody ever has anything bad to say about you because you always keep it real in the field. Do you chill by doing yoga or pilates?

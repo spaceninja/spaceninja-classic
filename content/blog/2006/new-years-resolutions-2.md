@@ -3,6 +3,7 @@ title: 'New Year’s Resolutions'
 date: 2006-01-05
 tags:
   - plans
+  - resolutions
 authors:
   - scott
 ---

@@ -5,4 +5,4 @@ authors:
   - scott
 ---
 
-![Best. Shirt. Ever.](/images/smithsmithsmith.jpg)
+![Best. Shirt. Ever.](/images/blog-photos/smithsmithsmith.jpg)

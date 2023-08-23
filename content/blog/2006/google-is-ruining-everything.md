@@ -5,4 +5,4 @@ authors:
   - scott
 ---
 
-[![Google is ruining everything.](/images/google_ruins.png)](http://www.scarygoround.com/?date=20060307)
+[![Google is ruining everything.](/images/blog-photos/google_ruins.png)](http://www.scarygoround.com/?date=20060307)

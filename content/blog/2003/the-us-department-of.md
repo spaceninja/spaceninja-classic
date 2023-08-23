@@ -5,8 +5,8 @@ authors:
   - scott
 ---
 
-![](/images/bio_vis_resp.gif)
-![](/images/vis_chem_lab.gif)
+![](/images/blog_photos/bio_vis_resp.gif)
+![](/images/blog_photos/vis_chem_lab.gif)
 
 The US Department of Homeland Security has provided us with a [handy website](http://www.ready.gov/get_informed.html) containing many tips about what to do if exposed to various forms of terrorist attacks, including useful tips like [running away from nuclear explosions](http://www.ready.gov/nuclear_visual.html) and not [breathing in chemical fumes](http://www.ready.gov/biological_visual2.html) or [playing with dead animals](http://www.ready.gov/chemical_visual.html).
 

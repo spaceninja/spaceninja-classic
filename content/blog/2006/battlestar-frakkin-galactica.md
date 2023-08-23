@@ -5,7 +5,7 @@ authors:
   - scott
 ---
 
-[![Battlestar Galactica](/images/BSG_03a.jpg)](http://cgchannel.com/news/viewfeature.jsp?newsid=4808&pageid=0)
+[![Battlestar Galactica](/images/blog-photos/BSG_03a.jpg)](http://cgchannel.com/news/viewfeature.jsp?newsid=4808&pageid=0)
 
 I love everything about the new BSG. The effects are great, the ships fly like they're in space, rather than atmosphere or underwater, there's no clinging to the status quo, and the writing is incredible. I love that the gritty chain-smoking Doc Coddle is named for the one trait he doesn't possess. I love that the show has more to offer that just huge battle scenes, and even during the biggest battle of the season, they spent more time focussing on the conflict between Adama and the Admiral, and you didn't mind at all.
 

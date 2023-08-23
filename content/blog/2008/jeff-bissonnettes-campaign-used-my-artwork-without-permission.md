@@ -19,7 +19,7 @@ authors:
 
 [![My Rusted Enron logo on Jeff Bissonnette's campaign flyer](/images/2504950359_1e1439b177_m.jpg)](http://www.flickr.com/photos/spaceninja/2504950359/)
 
-Recently, a friend let me know that she had noticed [the rusted version of the Enron logo that I did for the New York Times](/enron-logo-in-the-new-york-times/) on a campaign flyer. Sure enough, after I dug through our mail, I found a flyer from Jeff Bissonnette's campaign for Portland City Council.
+Recently, a friend let me know that she had noticed [the rusted version of the Enron logo that I did for the New York Times](/blog/2005/enron-logo-in-the-new-york-times/) on a campaign flyer. Sure enough, after I dug through our mail, I found a flyer from Jeff Bissonnette's campaign for Portland City Council.
 
 It was pretty clear what had happened. The person who designed the flyer needed an Enron logo to illustrate the campaign's claim that Mr. Bissonnette fought them. If you do a [google image search for "enron logo"](http://images.google.com/images?q=enron+logo), mine comes up on page four or five, from a link to the art contest I originally did the work for. I'm guessing that the designer didn't see an obvious way to contact the artist, so he just went ahead and used it.
 

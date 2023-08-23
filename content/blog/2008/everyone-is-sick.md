@@ -12,8 +12,6 @@ authors:
   - scott
 ---
 
-[![Biohazard by Totoro!](/images/2062522813_c5d0fe341b.jpg 'Biohazard by Totoro!')](http://flickr.com/photos/totoro_zine/2062522813/)
-
 Zoe has been sick off and on for about two weeks now. It started with an ear infection, which got bad enough that her doctor put her on antibiotics. Then she got a bit of a cold, threw up a couple of times, and then diarrhea for about a week. Plus she's been teething.
 
 Yesterday, I stayed home sick with some sort of intestinal bug. It was unpleasant but not horrible, and I honestly didn't think it was connected. I figured I ate something that didn't agree with me, but then I found out that:

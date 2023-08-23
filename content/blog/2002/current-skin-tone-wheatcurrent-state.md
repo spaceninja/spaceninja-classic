@@ -7,4 +7,4 @@ authors:
 
 **Current skin tone:** wheat **Current state of iPod:** dope **Current teh funny:**
 
-[![](/images/miles/pirate.gif)](/images/images/miles/pirate.gif)
+[![](/images/miles/pirate.gif)](/images/miles/pirate.gif)

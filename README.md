@@ -9,7 +9,7 @@ A collection of legacy posts from my old blog
 - [x] redirect `/projects`
 - [x] restore `/downloads`
 - [x] redirect `/port` to `/portfolio`
-- [ ] check for broken images that should be images/blog-photos
+- [x] check for broken images that should be images/blog-photos
 - [x] check remaining spaceninja.com links
 - [x] add syntax highlighting theme
 - [ ] Fix site archives landing pages

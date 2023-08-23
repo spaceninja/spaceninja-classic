@@ -5,7 +5,7 @@ authors:
   - scott
 ---
 
-[![Scott](/images/pirate-bar/Pirates+at+the+Maritime-13.JPG)](/images/pirate-bar/Pirates+at+the+Maritime-13.JPG)
+[![Scott](/images/pirate-bar/Pirates-at-the-Maritime-13.JPG)](/images/pirate-bar/Pirates-at-the-Maritime-13.JPG)
 
 Hooray! Today is my 28th birthday!
 

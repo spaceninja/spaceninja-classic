@@ -68,5 +68,5 @@ PS - I see that fuckqwest.com is actually available - it might be worth $10/year
 
 - [Previous phone problems](/blog/2004/some-good-news/)
 - [Screw Qwest and the horse they rode in on](/blog/2001/screw-qwest-and-the-horse-they-rode-in-on/)
-- [Previous DSL problems](/blog/2001/well-tonight-is-the-night/)
+- [Previous DSL problems](/blog/2001/lord-of-the-rings-and-dsl/)
 - Google for: [Fuck Qwest](http://www.google.com/search?q=fuck+qwest)

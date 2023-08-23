@@ -5,7 +5,7 @@ authors:
   - scott
 ---
 
-![Kaboom!](/images/kaboom.jpg)
+![Kaboom!](/images/blog-photos/kaboom.jpg)
 
 Worried about the _Halo_ movie? Don't be. Bungie just announced that **Peter Jackson** is going to be the executive producer, and will "provide creative counsel on all aspects" of the movie. Oh, and WETA will be doing the effects. Hell. Yes.
 

@@ -14,7 +14,7 @@ authors:
   - scott
 ---
 
-I haven't had a chance to have another coding marathon for [Dojo](/im-working-on-something-special/) yet, but I've been able to spend an hour or so here and there, and I'm really pleased with the way it's coming together.
+I haven't had a chance to have another coding marathon for [Dojo](/blog/2008/im-working-on-something-special/) yet, but I've been able to spend an hour or so here and there, and I'm really pleased with the way it's coming together.
 
 First and foremost, I'm proud of the code. I haven't even gotten to the CSS yet, it's just markup right now - but it's some of the best markup I've ever written for a personal site. All the techniques and little touches I've picked up working on [Sara Ryan](http://sararyan.com/)'s site and in the last few years at Pop Art are really paying off.
 

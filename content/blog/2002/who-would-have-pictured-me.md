@@ -3,6 +3,8 @@ title: 'Who would have pictured me'
 date: 2002-03-27
 authors:
   - scott
+tags:
+  - resolutions
 ---
 
 Who would have pictured me as an overworker? I certainly wouldn't have. But lately, I have been getting a bit overwhelmed. Without getting too into details, I've been doing a lot more customer service work than I ever thought I would have to do. I'm not good at this work, and it's stressing me out. In addition, since I work from home, and my job depends a lot on when Steve is working, I'm having trouble dividing between "work time" and "play time". As a result, here are my resolutions to help lower my stress:

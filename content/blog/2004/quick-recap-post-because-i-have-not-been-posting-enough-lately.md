@@ -7,7 +7,7 @@ authors:
   - scott
 ---
 
-![lg_vx3200.jpg](/images/lg_vx3200.jpg)
+![lg_vx3200.jpg](/images/blog-photos/lg_vx3200.jpg)
 
 **Friday:** KT and Sean rolled into town, and we watched the extended edition of _Return of the King_. It now clocks in at just over four hours long, and is an improvement over the theatrical release. In particular, the battle scenes seem to be better edited and flow better. The added scenes with Sauruman and the Mouth of Sauron are awesome, especially the Mouth.
 

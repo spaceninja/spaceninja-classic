@@ -15,7 +15,7 @@ authors:
 
 You guys gotta help me. (A ha ha I begin my journal like [chickenfinger](http://hatelife.org/view.php?user=chickenfinger) )
 
-I'm writing this paper on the MIND and what we can know about it, using [Wile E. Coyote](http://www.geocities.com/TelevisionCity/3081/genius.gif) as a metaphor for the Philosopher, and the [Road Runner](http://members.aol.com/plucky55/chase.jpg) to represent Consciousness. It's the eternal [conflict.](miles/wile.html)
+I'm writing this paper on the MIND and what we can know about it, using [Wile E. Coyote](http://www.geocities.com/TelevisionCity/3081/genius.gif) as a metaphor for the Philosopher, and the [Road Runner](http://members.aol.com/plucky55/chase.jpg) to represent Consciousness. It's the eternal conflict.
 
 How is consciousness even possible? If I scan your brain somehow while you're looking at an apple, I won't find anything resembling the apple. _Yet the apple is in you._ That's the basic problem. I mean, what, you think you understand consciousness just because you _are_ conscious! **HA!! WRONG!!** Just try and really grasp it, really get a feel for what it is! It's like trying to catch your own reflection looking away!
 

@@ -5,7 +5,7 @@ authors:
   - annie
 ---
 
-![](/images/ring_web.jpg)LEO (July 23-Aug. 22): You win legal rights and permissions. _Image of happy marriage is fulfilled_, if you so permit. You will spark stimulating social gathering. _Gemini_, Sagittarius play sensational roles.
+![](/images/blog-photos/ring_web.jpg)LEO (July 23-Aug. 22): You win legal rights and permissions. _Image of happy marriage is fulfilled_, if you so permit. You will spark stimulating social gathering. _Gemini_, Sagittarius play sensational roles.
 
 EEEEEEEEEEE!!!!!!!!!!
 HeeHee! We're engaged!!! :)

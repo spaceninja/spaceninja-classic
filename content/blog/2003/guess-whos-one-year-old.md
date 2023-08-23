@@ -5,6 +5,6 @@ authors:
   - scott
 ---
 
-[![leilani in her playpen](/images/leilani_playpen.jpg)](http://leilani.spaceninja.com/)
+[![leilani in her playpen](/images/blog-photos/leilani_playpen.jpg)](http://leilani.spaceninja.com/)
 
 ### Happy First Birthday, Leilani!

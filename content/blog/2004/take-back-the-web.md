@@ -9,7 +9,7 @@ authors:
   - scott
 ---
 
-[![Get Firefox](/images/getfirefox.png 'Get Firefox')](http://www.mozilla.org/products/firefox/)
+[![Get Firefox](/images/blog-photos/getfirefox.png 'Get Firefox')](http://www.mozilla.org/products/firefox/)
 
 Mozilla released new versions of their stand-alone browser and email client today. Firebird has been renamed [Firefox](http://mozilla.org/products/firefox/) and is at version 0.8, and [Thunderbird](http://mozilla.org/products/thunderbird/) has reached version 0.5.
 

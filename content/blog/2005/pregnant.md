@@ -9,7 +9,7 @@ authors:
   - scott
 ---
 
-![Note: This is not actually a photo of Annie. But it is what she's going to look like in about six months.](/images/pregnant.jpg "Note: This is not actually a photo of Annie. But it is what she's going to look like in about six months.")
+![Note: This is not actually a photo of Annie. But it is what she's going to look like in about six months.](/images/blog-photos/pregnant.jpg "Note: This is not actually a photo of Annie. But it is what she's going to look like in about six months.")
 
 Two weeks ago, Annie and I found out that we're pregnant!
 

@@ -7,7 +7,7 @@ authors:
   - scott
 ---
 
-[![Bill Gates in a Macintosh shirt](/images/billyboy.jpg)](http://ganns.com/Humor/GatesApple1984/)
+[![Bill Gates in a Macintosh shirt](/images/blog-photos/billyboy.jpg)](http://ganns.com/Humor/GatesApple1984/)
 
 > "To create a new standard takes something that's not just a little bit different. It takes something that's really new, and captures people's imaginations. Macintosh meets that standard."
 >

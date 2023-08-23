@@ -5,7 +5,7 @@ authors:
   - scott
 ---
 
-![James T. Kirk](/images/kirk.jpg)
+![James T. Kirk](/images/blog-photos/kirk.jpg)
 
 > Your results: You are **James T. Kirk (Captain)**
 >

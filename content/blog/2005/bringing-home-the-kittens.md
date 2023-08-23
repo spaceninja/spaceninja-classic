@@ -17,4 +17,4 @@ This weekend, we got two little black kittens! They are about three months old, 
 
 [![Tub Panthers](/images/kittens/IMG_2961.jpg 'Photo Sharing')](/images/kittens/IMG_2961.jpg 'Photo Sharing') Once we got them home, we wanted to isolate them in the bathroom for the first night, so that they would have a safe place to retreat to later on. However, being kittens, they have lots of energy, and within just a few moments of me opening the box, they had jumped into the bathtub and decided it was a wonderful place to play tag.
 
-[![Kittens In Bathtub](/images/MVI_2960.jpg)](http://spaceninja.com/movies/kittens.avi 'Photo Sharing') This is a video of the kittens playing tag in the bathtub. It's cute, but you should be warned that the video file is **13.1 Megabytes** and will take forever to download if you don't have broadband.
+![Kittens In Bathtub](/images/kittens/MVI_2960.jpg) This is a video of the kittens playing tag in the bathtub.

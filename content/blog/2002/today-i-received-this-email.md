@@ -5,7 +5,7 @@ authors:
   - scott
 ---
 
-![](/images/dumbspam.gif)
+![](/images/blog-photos/dumbspam.gif)
 
 Today I received this email from the second dumbest spammer in the world. Notice that there is no Subject, and no Message. However, there is a sentence typed into the From field. That's right. I got spam from the guy who was **Too Dumb To Use E-Mail**.
 

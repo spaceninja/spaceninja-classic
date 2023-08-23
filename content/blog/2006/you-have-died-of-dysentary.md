@@ -7,7 +7,7 @@ authors:
   - scott
 ---
 
-[![You Have Died of Dysentary](/images/BT-dysentery-gallery-845.jpg)](http://www.bustedtees.com/shirt/dysentery)
+[![You Have Died of Dysentary](/images/blog-photos/BT-dysentery-gallery-845.jpg)](http://www.bustedtees.com/shirt/dysentery)
 
 Normally, I don't like these "Sorry I haven't posted in awhile, I was hunting wolverines in Alaska" kind of posts, but given the amount of things that have happened lately, it's the best way to catch up, and let me get back into posting regularly.
 

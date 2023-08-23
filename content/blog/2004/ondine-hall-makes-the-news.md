@@ -10,7 +10,7 @@ authors:
 > You might find yourself in the concrete-walled, graffiti-scarred staircases of Neuberger Hall. Or contemplating the grimy facade of the Ondine residential hall, a grim stack of studio apartments one campus critic characterizes as "straight out of Moscow 1956." Portland cops have logged nearly 60 calls to the Ondine since New Year's Day 2003, for everything from disorderly conduct to rape.
 > — [Willamette Week Online | News | COVER STORY | PSU's New Look](http://www.wweek.com/story.php?story=4915)
 
-![Ondine Hall](/images/ondine.gif 'Ondine Hall')
+![Ondine Hall](/images/blog-photos/ondine.gif 'Ondine Hall')
 
 Whoo! I used to live there! Go Ondine! What they don't mention is that Ondine catches fire roughly once a week. I don't know if it's a coincidence or intentional, but there's actually a fire department on the back side of the same block, so all they have to do is drive around the block.
 

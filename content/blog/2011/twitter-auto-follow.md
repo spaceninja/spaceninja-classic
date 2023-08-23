@@ -35,9 +35,13 @@ Futhermore, when I looked around at the influential people I care about in the i
 
 So, about a month ago, I took a careful look at the way I was using Twitter, and decided to undo everything we had done. I bulk unfollowed everyone who wasn't on my filtered list, and sat down to watch the fireworks.
 
-![The number of people I follow, showing a drop of 900 in late July](/images/following-640x283.png)
+**Following:**
 
-![My follower count, showing a period of stability starting in April, followed by an immediate decline after I unfollowed the bulk of my list](/images/followers-640x283.png)
+![The number of people I follow, showing a drop of 900 in late July](/images/following.png)
+
+**Followers:**
+
+![My follower count, showing a period of stability starting in April, followed by an immediate decline after I unfollowed the bulk of my list](/images/followers.png)
 
 Observation one: Twitter was fun again. I was seeing retweets, and I didn't feel like I was avoiding my primary stream, or like I was somehow abusing the system. It was back to what I had originally fallen in love with — a tool for communicating with a small audience that cares, and reading stuff that matters to me.
 

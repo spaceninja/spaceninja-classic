@@ -7,7 +7,7 @@ authors:
   - scott
 ---
 
-[![Macintosh iBook](/images/ibook.jpg 'Macintosh iBook')](http://www.apple.com/ibook/)
+[![Macintosh iBook](/images/blog-photos/ibook.jpg 'Macintosh iBook')](http://www.apple.com/ibook/)
 
 Guess what I just bought?
 

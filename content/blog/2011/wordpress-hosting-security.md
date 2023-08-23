@@ -24,7 +24,7 @@ When editing a domain, make sure the "Extra Web Security" option is checked. Her
 
 > The Extra Web Security option (you see it when adding a new domain or editing the web settings for an existing domain) enables the use of a very special security module for your website. Many common attacks that can compromise your website will be blocked by this option. We cannot guarantee that all attacks will be blocked but we will do our best to ensure the most common known attacks will be prevented.
 
-![Dreamhost User Account Security: Check the Enhanced Security option on the edit user account page.](/images/dreamhost-security-user-640x146.png)
+![Dreamhost User Account Security: Check the Enhanced Security option on the edit user account page.](/images/dreamhost-security-user.png)
 
 When editing a user account, make sure the "Extra Security" option is checked. I would also check the "Disable FTP" option, since FTP is notoriously insecure. Again, here's what the [Dreamhost wiki](http://wiki.dreamhost.com/Enhanced_User_Security) has to say:
 

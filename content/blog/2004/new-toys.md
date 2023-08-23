@@ -7,9 +7,9 @@ authors:
   - scott
 ---
 
-[![JVC 8030 Receiver](/images/jvc8030.jpg)](http://www.amazon.com/exec/obidos/tg/detail/-/B000093USR/102-7523949-0924926?%5Fencoding=UTF8&coliid=I2ESHXG4TTMFCB&colid=2YABKV9N5GFJ6)
+[![JVC 8030 Receiver](/images/blog-photos/jvc8030.jpg)](http://www.amazon.com/exec/obidos/tg/detail/-/B000093USR/102-7523949-0924926?%5Fencoding=UTF8&coliid=I2ESHXG4TTMFCB&colid=2YABKV9N5GFJ6)
 
-[![Canon a80 Camera](/images/canona80.jpg)](http://www.amazon.com/exec/obidos/tg/detail/-/B0000C8VF9/102-7523949-0924926?%5Fencoding=UTF8&coliid=I1XU284Z46F9GJ&colid=2YABKV9N5GFJ6)
+[![Canon a80 Camera](/images/blog-photos/canona80.jpg)](http://www.amazon.com/exec/obidos/tg/detail/-/B0000C8VF9/102-7523949-0924926?%5Fencoding=UTF8&coliid=I1XU284Z46F9GJ&colid=2YABKV9N5GFJ6)
 
 These are my new toys. I just ordered them last night, and they should be here in a week or so. The JVC receiver is the stereo I've had my eyes on for awhile now. It not only does all the regular audio stuff you expect a receiver to do, it's also full 6.1 surround-sound. And as if that wasn't cool enough, it's also got video inputs so you can use it as a video switcher.
 

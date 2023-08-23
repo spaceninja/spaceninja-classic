@@ -7,7 +7,7 @@ authors:
   - scott
 ---
 
-[![MacBook Pro](/images/macbook.jpg)](http://www.apple.com/macbookpro/)
+[![MacBook Pro](/images/blog-photos/macbook.jpg)](http://www.apple.com/macbookpro/)
 
 Boy, the rumors were WAY off this year. As usual, the Apple community spent the months leading up to [MacWorld 2006](http://macworldexpo.com/) making predictions about what Jobs would announce. As usual, the predictions ranged from the, well, predictable (iLife '06) to the unlikely (Apple releasing a line of 40 inch plasma TVs with OS X built in - think a TV version of the [iMac](http://www.apple.com/imac/)). Having just purchased a new PowerBook, I spent quite a bit of time over the last couple weeks reading forums and hitting community sites to see what people thought was going to be announced - and whether I should wait to buy my new mac.
 

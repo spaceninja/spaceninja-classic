@@ -7,7 +7,7 @@ authors:
   - scott
 ---
 
-![](/images/father_william.gif)
+![](/images/blog-photos/father_william.gif)
 
 > "You are old, father William," the young man said,
 > "And your hair has become very white;

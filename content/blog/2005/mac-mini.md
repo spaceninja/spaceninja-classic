@@ -7,7 +7,7 @@ authors:
   - scott
 ---
 
-[![macmini.jpg](/images/macmini.jpg)](http://www.apple.com/macmini/)
+[![macmini.jpg](/images/blog-photos/macmini.jpg)](http://www.apple.com/macmini/)
 
 OHMYGODOHMYGODOHMYGOD.
 

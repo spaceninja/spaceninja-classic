@@ -3,6 +3,8 @@ title: 'New Year’s Resolutions'
 date: 2004-01-12
 authors:
   - scott
+tags:
+  - resolutions
 ---
 
 - **Eat Breakfast Every Day** - I rarely eat breakfast, because I never have an appetite in the morning, but I've found that affects my mood (I get cranky around lunchtime), and also I found out that eating breakfast is supposed to "wake up" your metabolism. By not eating until lunchtime, my body stays in "lazy mode" longer, encouraging my gut to grow ever larger.

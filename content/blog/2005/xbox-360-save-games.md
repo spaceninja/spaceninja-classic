@@ -7,7 +7,7 @@ authors:
   - scott
 ---
 
-![Xbox 360 in black](/images/xbox360black.jpg)
+![Xbox 360 in black](/images/blog-photos/xbox360black.jpg)
 
 Don't get too excited - this is just a render a forum-goer made after seeing a photo of a black 360 devkit. The initial launch will probably be white, though there are rumors everywhere that at some point, they may also sell a black and silver version of the 360.
 

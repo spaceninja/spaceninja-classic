@@ -3,6 +3,7 @@ title: 'Safari'
 date: 2003-10-22
 authors:
   - scott
+tags:
   - geeks
 ---
 

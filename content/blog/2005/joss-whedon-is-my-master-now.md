@@ -35,6 +35,6 @@ As [Scott Kurtz](http://www.pvponline.com/) from PVP [noted](http://www.pvponlin
 
 Final note to anyone who didn't like the overwhelmingly Western feel of the TV series: While I feel that you're kind of missing the point (that was the premise of the show, after all), you'll be happy to know that element has been played down a bit in the movie.
 
-[![](/images/serenityoutlawposter.png)](http://home.att.net/~the11thhour/) [![](/images/serenitymeposter.png)](http://home.att.net/~the11thhour/) [![](/images/serenitysailposter.png)](http://home.att.net/~the11thhour/) [![](/images/serenitywomenposter.png)](http://home.att.net/~the11thhour/)
+[![](/images/blog-photos/serenityoutlawposter.png)](http://home.att.net/~the11thhour/) [![](/images/blog-photos/serenitymeposter.png)](http://home.att.net/~the11thhour/) [![](/images/blog-photos/serenitysailposter.png)](http://home.att.net/~the11thhour/) [![](/images/blog-photos/serenitywomenposter.png)](http://home.att.net/~the11thhour/)
 
 Image Credit: The topmost image is a wallpaper version of the [Australian movie poster](http://filmforce.ign.com/articles/649/649040p1.html). I'm not sure where they came from, probably some Aussie promo site, but I found it in an [IGN gallery](http://media.filmforce.ign.com/media/040/040380/img_3057973.html). The little black-and-white ads are from a [fansite](http://home.att.net/~the11thhour/), who gave out hi-res files of these excellent little illustrations for people to download, print, and give out to promote the movie. I actually saw some at a comic shop here in Portland!

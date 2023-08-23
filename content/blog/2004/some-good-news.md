@@ -11,7 +11,7 @@ authors:
   - scott
 ---
 
-I'm sure you all have heard my [rants about Qwest](/blog/2001/screw-qwest-and-the-horse-they-rode-in-on/) before, so I won't [repeat them](/blog/2001/well-tonight-is-the-night/). Suffice to say that since I'm moving, and I need my DSL up and running ASAP, I started to get the ball rolling three weeks early.
+I'm sure you all have heard my [rants about Qwest](/blog/2001/screw-qwest-and-the-horse-they-rode-in-on/) before, so I won't [repeat them](/blog/2001/lord-of-the-rings-and-dsl/). Suffice to say that since I'm moving, and I need my DSL up and running ASAP, I started to get the ball rolling three weeks early.
 
 Long story short, it turns out that the problem this time isn't with Qwest. They are offering very fast and reasonable service to move my existing phone service to our new apartment. The problem is that the apartment they gave us is the one their manager used to live in, and whatever phone company she had hasn't turned off phone service in the apartment yet, even though she moved out on the first of the month. When told that they needed to turn off service ASAP because another tenant was moving in, they suggested that the new tenant just use the existing phone service for awhile. So the apartment is currently battling with them and calling every day. Currently, service is supposed to be off by Friday. If it's not off by Tuesday, the apartment manager assured me that they would just give me another unit instead, so that I can get my DSL turned on in time.
 
