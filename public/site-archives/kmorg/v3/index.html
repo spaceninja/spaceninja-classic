@@ -4,47 +4,18 @@
 This design first came online in May 2002, and featured a neat little color-changing widget, which set a cookie determining the background color for the page (and the associated logo image). It stayed online until January 2003.
 
 -->
-<?
-if (!$color)
-	$color = "blue";
-
-$allowed_headers = array("blue", "green", "tan", "yellow", "red");
-if (!in_array($color, $allowed_headers))
-	$color = "blue";
-
-$fgcolor = "#000000";
-$titlecolor = "#000000";
-$bgcolor = "#ffffff";
-$linecolor = "#999999";
-
-if ($color == "blue")
-	$hexcolor = "#dde1f4";
-if ($color == "green")
-	$hexcolor = "#d6f4d8";
-if ($color == "tan")
-	$hexcolor = "#f4f3d7";
-if ($color == "yellow")
-	$hexcolor = "#f3ea01";
-if ($color == "red") {
-	$hexcolor = "#ff0000";
-	$fgcolor = "#000000";
-	$bgcolor = "#ffffff";
-	$linecolor = "#000000";
-	$titlecolor = "#ffff00";
-}
-?>
 <HTML>
 
 <HEAD>
-	<TITLE>KillingMachines.org<? if ($title) echo " - $title"; ?></TITLE>
+	<TITLE>KillingMachines.org</TITLE>
 	<!--<link rel="stylesheet" type="text/css" href="#" media="all">-->
 	<STYLE TYPE="text/css" media="all">
 		<!--
 		body {
 			margin: 0;
 			padding: 0;
-			color: <?= $fgcolor ?>;
-			background: <?= $bgcolor ?>;
+			color: #000000;
+			background: #ffffff;
 			font-family: verdana, sans-serif;
 			font-size: small;
 			line-height: 1.25;
@@ -83,21 +54,21 @@ if ($color == "red") {
 		}
 
 		#toptable {
-			border-bottom: 1px solid <?= $linecolor ?>;
+			border-bottom: 1px solid #999999;
 		}
 
 		#bottomtable {
-			border-top: 1px solid <?= $linecolor ?>;
+			border-top: 1px solid #999999;
 		}
 
 		#leftcol,
 		#rightcol {
-			border: 0px solid <?= $linecolor ?>;
+			border: 0px solid #999999;
 		}
 
 		#centercol {
 			border-width: 0px 1px;
-			border-color: <?= $linecolor ?>;
+			border-color: #999999;
 			border-style: solid;
 			padding: 0px 10px;
 		}
@@ -105,9 +76,9 @@ if ($color == "red") {
 		.title,
 		.headline {
 			padding: 3px;
-			border-top: 1px solid <?= $linecolor ?>;
-			background-color: <?= $hexcolor ?>;
-			color: <?= $titlecolor ?>;
+			border-top: 1px solid #999999;
+			background-color: #dde1f4;
+			color: #000000;
 			font-size: small;
 			line-height: 1;
 			font-weight: bold;
@@ -170,13 +141,13 @@ if ($color == "red") {
 	<TABLE cellSpacing=0 cellPadding=5 width="100%" align=center border=0>
 		<TBODY>
 			<TR>
-				<TD align=center bgColor="<?= $hexcolor ?>">
+				<TD align=center bgColor="#dde1f4">
 					<IMG height=20 width=20 src="spacer.gif" alt="">
 				</TD>
 			</TR>
 			<TR>
-				<TD vAlign=bottom align=center bgColor="<?= $hexcolor ?>" id=toptable class=nohover>
-					<a href="#"><IMG height=76 width=786 border=0 src="sharp_<?= $color ?>.gif" alt="KillingMachines.org"></a>
+				<TD vAlign=bottom align=center bgColor="#dde1f4" id=toptable class=nohover>
+					<a href="#"><IMG height=76 width=786 border=0 src="sharp_blue.gif" alt="KillingMachines.org"></a>
 				</TD>
 			</TR>
 			<TR>
@@ -437,7 +408,7 @@ if ($color == "red") {
 				</TD>
 			</TR>
 			<TR>
-				<TD vAlign=bottom align=center bgColor="<?= $hexcolor ?>" id=bottomtable>
+				<TD vAlign=bottom align=center bgColor="#dde1f4" id=bottomtable>
 					<div class=footer>
 						hosted by <a href="#">fojar</a> :: coding by the <a href="#">fojar technology front</a> :: design by <a href="#">spaceninja design</a>
 						<br>My simian compatriots never make things easy for me.
@@ -446,7 +417,7 @@ if ($color == "red") {
 				</TD>
 			</TR>
 			<TR>
-				<TD align=center bgColor="<?= $hexcolor ?>">
+				<TD align=center bgColor="#dde1f4">
 					<a href="#"><img src="hatelife.gif" border=0 alt="advertisement"></a>
 				</td>
 			</tr>
