@@ -2,41 +2,55 @@
 layout: layouts/base.njk
 metaType: article
 ---
-<h1>{{ title }}</h1>
 
-<p>
-  Posted on
-  <time datetime="{{ page.date | htmlDateString }}">
-    {{ page.date | readableDate }}
-  </time>
-  by
-  {% for authorKey in authors %}
-    {% set author = authorMeta | getAuthor(authorKey) %}
-    <a href="/authors/{{ authorKey }}/">
-      <img
-      src="{{ author.photo }}" width="16" height="16" alt="">
-      <span class="name">{{ author.name }}</span>
-    </a>{% if not loop.last %}, {% endif %}
-  {% endfor %}
-</p>
+<article>
 
+<header>
+  <h1>{{ title }}</h1>
+
+  <p>
+    Posted on
+    <time datetime="{{ page.date | htmlDateString }}">
+      {{ page.date | readableDate }}
+    </time>
+    by
+    {% for authorKey in authors %}
+      {% set author = authorMeta | getAuthor(authorKey) %}
+      <a href="/authors/{{ authorKey }}/">
+        <img
+        src="{{ author.photo }}" width="16" height="16" alt="">
+        <span class="name">{{ author.name }}</span>
+      </a>{% if not loop.last %}, {% endif %}
+    {% endfor %}
+  </p>
+</header>
 
 {{ content | safe }}
 
+<footer>
+  {% if tags | filterTagList | length %}
+  <div>
+    <h3>Tags</h3>
+    <ul class="list--inline">
+      {%- for tag in tags | filterTagList | sort -%}
+        <li>
+        {%- if collections[tag].length > 1 -%}
+          <a
+            class="tag"
+            href="/tags/{{ tag | slugify }}/"
+            title="{{ collections[tag].length }} posts with this tag"
+          >{{ tag }}</a>
+        {%- else -%}
+          <span
+            class="tag orphan"
+            title="Only one post with this tag"
+          >{{ tag }}</span>
+        {%- endif -%}
+        </li>
+      {%- endfor -%}
+    </ul>
+  </div>
+  {% endif %}
+</footer>
 
-{% if tags | filterTagList | length %}
-<div>
-  <h3>Tags</h3>
-  <ul class="list--inline">
-    {%- for tag in tags | filterTagList | sort -%}
-      <li>
-      {%- if collections[tag].length > 1 -%}
-        <a class="tag" href="/tags/{{ tag | slugify }}/" title="{{ collections[tag].length }} posts with this tag">{{ tag }}</a>
-      {%- else -%}
-        <span class="tag orphan" title="Only one post with this tag">{{ tag }}</span>
-      {%- endif -%}
-      </li>
-    {%- endfor -%}
-  </ul>
-</div>
-{% endif %}
+</article>

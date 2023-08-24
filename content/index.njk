@@ -16,7 +16,7 @@ teaseCount: 5
 
 <h2>Most Used Tags</h2>
 
-<ol>
+<ol class="post-list">
 {% for tag, posts in collections.postsByTag %}
   {% if posts.length > 25 %}
     {% include "tag-list-item.njk" %}

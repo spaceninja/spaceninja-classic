@@ -28,7 +28,9 @@ module.exports = function (eleventyConfig) {
   // Run Eleventy when these files change:
   // https://www.11ty.dev/docs/watch-serve/#add-your-own-watch-targets
   // Watch for CSS changes
-  eleventyConfig.addWatchTarget('./src/_scss/');
+  eleventyConfig.setServerOptions({
+    watch: ['dist/*.css'],
+  });
 
   // Official plugins
   eleventyConfig.addPlugin(pluginRss);

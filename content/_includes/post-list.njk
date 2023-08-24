@@ -11,6 +11,7 @@
         <code>{{ post.url }}</code>
       {%- endif -%}
     </a>
+    <small>
 		<time class="post-list__date" datetime="{{ post.date | htmlDateString }}">
       {{ post.date | readableDate("DD") }}
     </time>
@@ -21,12 +22,14 @@
         {% set author = authorMeta | getAuthor(authorKey) %}
         <a href="/authors/{{ authorKey }}/">
           <img
+          class="author-photo"
           src="{{ author.photo }}" width="16" height="16" alt="">
           <span class="name">{{ author.name }}</span>
         </a>{% if not loop.last %}, {% endif %}
       {% endfor %}
     </span>
     {% endif %}
+    </small>
 	</li>
 {% endfor %}
 </ol>

@@ -29,7 +29,7 @@ The problem, as you can see in this screenshot, is that if you only load one fon
 
 ![comparing the browser's faux italic and bold styles to the true fonts](/images/problem.png)
 
-<figcaption>fig a: comparison of faux browser styles and true typefaces</figcaption>
+<figcaption>Figure A: Comparison of faux browser styles and true typefaces.</figcaption>
 </figure>
 
 The browser's brute-force approach to creating these faux styles leaves a lot to be desired. In particular, note the proper italic font includes a variant lowercase 'a' without the ascender, and bold characters have an even thickness to the stroke, rather than the wider vertical strokes on the faux-bold.
@@ -103,7 +103,7 @@ However, doing that actually results in what you see here, where the browser sti
 
 ![double-italic and bold styles](/images/worst.png)
 
-<figcaption>fig b: faux browser styles applied on top of proper italic and bold fonts</figcaption>
+<figcaption>Figure B: Faux browser styles applied on top of proper italic and bold fonts.</figcaption>
 </figure>
 
 To solve that problem, you reset `font-weight` and `font-style` on the nested styles to disable the faux browser styles.
@@ -133,7 +133,7 @@ And it seems to work perfectly! Your custom bold and italic fonts are loaded pro
 
 ![fallback font with no bold or italics](/images/wrong.png)
 
-<figcaption>fig c: no bold or italic styles if custom font fails to load</figcaption>
+<figcaption>Figure C: No bold or italic styles if custom font fails to load.</figcaption>
 </figure>
 
 So I think we can agree that this solution doesn't work. It requires a lot of CSS to override built-in browser styles, and it breaks completely when the custom font doesn't load. Luckily, there's a better solution:
@@ -195,14 +195,17 @@ Then all you need to do is apply that single `font-family` to your target, and a
 
 ![correct fonts, with fallback styles](/images/right.png)
 
-<figcaption>fig d: properly defined italic and bold fonts with fallback styles</figcaption>
+<figcaption>Figure D: Properly defined italic and bold fonts with fallback styles.</figcaption>
 </figure>
 
 ### Seriously, Microsoft?
 
+<figure>
+
 ![Comparing font-face rendering between Mac and Win XP](/images/font-face-comparison.png)
 
-fig e: comparison of @font-face on Macintosh and Windows XP
+<figcaption>Figure E: Comparison of @font-face on Macintosh and Windows XP.</figcaption>
+</figure>
 
 Also, I know it's old news that type rendering on Macintosh is better than Windows, but seriously, when I see results like this (look at the lowercase 'd' - it's a travesty!), I consider telling my clients it's not worth it, because their beautiful custom fonts are going to look awful to over half the visitors to their website. I've heard Windows 7 has better rendering, but I don't have a copy to test. All I can do at this point is trust that things will continue to improve, and enjoy how pretty things look on my Mac.
 
