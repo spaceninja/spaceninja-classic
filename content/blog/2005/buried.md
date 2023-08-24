@@ -12,7 +12,7 @@ Sorry for the silence lately. With the move, and the unpacking, I haven't had a 
 
 Still, we are (slowly) digging ourselves out from under all of our stuff. We got some bookcases at Ikea (continuing the fight-club theme), and once those are up, it will really help, since the only real boxes left are of books. There will still be work to be done, but it will feel more managable. I am so tired of seeing nothing but cardboard in our apartment.
 
-On the web front, I'm still eyeing my to-do list with anticipation. Very soon, I want to get [hammerspace](http://hammer.spaceninja.com/) overhauled and start posting new comics on a semi-regularly basis, as well as a complete overhaul of spaceninja.com.
+On the web front, I'm still eyeing my to-do list with anticipation. Very soon, I want to get [hammerspace](/site-archives/hammerspace/v2/) overhauled and start posting new comics on a semi-regularly basis, as well as a complete overhaul of spaceninja.com.
 
 And, because I know everyone is obsessed with the question, there's nothing to report yet on the work front. I've applied with Filter again, and I'm just waiting to hear back from them. Similarly, Annie is all applied with her nanny agency and should have work soon.
 

@@ -11,7 +11,7 @@ authors:
 
 AArrr...I finally gave into the peer pressure and started a web log. Not because I'm sick of steve and scott harassing me, but because I have ulterior motives. HAHA.
 
-For those of you who don't interact with people face to face, I am the infamous Scott's girlfriend. which means if you've ever read his [comic](http://hammer.spaceninja.com/), you know I'd rather pull ivy and teach kids to read than spend an afternoon cluing others in on my life. :)
+For those of you who don't interact with people face to face, I am the infamous Scott's girlfriend. which means if you've ever read his [comic](/site-archives/hammerspace/v2/), you know I'd rather pull ivy and teach kids to read than spend an afternoon cluing others in on my life. :)
 
 But as I said, my ulterior motive is that I get hours for my job for journaling. If you don't care to hear about me saving the world one tree at a time, I suggest you not read this, as that's what I'll be espousing on. If you would like to hear about the magical musical adventures of Envirocorps Annie then please proceed as planned.
 

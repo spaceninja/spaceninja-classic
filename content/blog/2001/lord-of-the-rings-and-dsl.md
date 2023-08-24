@@ -12,7 +12,7 @@ authors:
   - scott
 ---
 
-Well, tonight is the night that KT and Sean and Annie and Zach and I all go see Lord of the Rings. Steve wasn't able to get tickets in time, and [he made me promise not to tell him about the movie](http://hammer.spaceninja.com/2001/12/one-ring/).
+Well, tonight is the night that KT and Sean and Annie and Zach and I all go see Lord of the Rings. Steve wasn't able to get tickets in time, and [he made me promise not to tell him about the movie](/site-archives/hammerspace/v2/).
 
 Yesterday my DSL _finally_ came online. My original 10 business day installation period ballooned up to five weeks, with more screw-ups on Qwest's part than I can count. They got my ISP wrong (twice), they got my account wrong (640kps instead of 256kps), they never called me when anything was wrong, they were resistant to making changes. It was just a horrible experience. I'm tempted to make a [powerpoint presentation about the quality of their service](http://www.snopes2.com/business/info/badhotel/frame.htm).
 

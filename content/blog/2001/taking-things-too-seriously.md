@@ -29,4 +29,4 @@ Computer status: Annie's is still toast, as I've found no time yet where I could
 
 Jester contacted me, and the themes have been approved with one final revision to be made, which I'll have to do tonight. Then, as soon as they get the installer made, they'll post it on the website. Hooray!
 
-Also, I need to start making new [hammerspace](http://hammer.spaceninja.com/) strips. I've got a bunch of ideas. :)
+Also, I need to start making new [hammerspace](/site-archives/hammerspace/v2/) strips. I've got a bunch of ideas. :)

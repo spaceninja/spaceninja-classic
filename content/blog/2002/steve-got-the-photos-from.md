@@ -150,7 +150,7 @@ Steve got the photos from our beach trip last weekend posted, and I thought I'd 
         Another photo of pokey. It makes it look like I drew it, but I didn't.
         I'm standing in front of it because Steve wanted a person for scale. I
         thought about drawing a
-        <a href="http://hammer.spaceninja.com/">hammerspace</a> character, but
+        <a href="/site-archives/hammerspace/v2/">hammerspace</a> character, but
         decided that the different pixels would just look like a bunch of
         squares without color.
       </td>

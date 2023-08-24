@@ -13,4 +13,4 @@ Check out the poster I made for the radio station's Halloween broadcast of War o
 
 Jill, the news director from the radio station called me up tonight and asked me to do an interview on the air tomorrow night with some right-wing guy. Should be interesting. It's cool that she called me.
 
-Oog. I need a job. But right now, I'm going to go work on [hammerspace](http://hammer.spaceninja.com/).
+Oog. I need a job. But right now, I'm going to go work on [hammerspace](/site-archives/hammerspace/v2/).

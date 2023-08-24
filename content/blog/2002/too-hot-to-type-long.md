@@ -11,4 +11,4 @@ Too hot to type long sentences. You get summary-style posting instead.
 
 2. [Leilani's first big smile](/images/blog-photos/leilani_smile.jpg)
 
-3. [New Hammerspace!](http://hammer.spaceninja.com/) Yes, a second one! Inspiration hit me and I had to produce it. This one is a musical.
+3. [New Hammerspace!](/site-archives/hammerspace/v2/) Yes, a second one! Inspiration hit me and I had to produce it. This one is a musical.

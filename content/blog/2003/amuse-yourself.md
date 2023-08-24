@@ -13,4 +13,4 @@ Nothing much to say lately. My desire to post is at an all-time low, due to all 
 
 [Truck Dismount](http://jet.ro/dismount/) - This is a game you can download that will allow you to simulate slamming a truck into a wall at high speed, to give maximum damage to the driver. It sounds horrible, but it's wonderful. The boys were playing it on my computer for a long time last night.
 
-Also, there's some new [hammerspace](http://hammer.spaceninja.com/) strips up.
+Also, there's some new [hammerspace](/site-archives/hammerspace/v2/) strips up.

@@ -19,7 +19,7 @@ authors:
   - scott
 ---
 
-I just got back from Jill and Eric's house. Under pressure from me, with backup from Annie and Corey, they agreed to watch [Pi](http://www.pithemovie.com/). Needless to say, I came home ready to do cutting-edge things with my computer (though I will probably settle for posting here and making a new [hammerspace](http://hammer.spaceninja.com/)).
+I just got back from Jill and Eric's house. Under pressure from me, with backup from Annie and Corey, they agreed to watch [Pi](http://www.pithemovie.com/). Needless to say, I came home ready to do cutting-edge things with my computer (though I will probably settle for posting here and making a new [hammerspace](/site-archives/hammerspace/v2/)).
 
 Jill and Eric didn't seem to get much out of it. After the movie ended, they both had that overwhelmed sort of "what-the-hell?" look in their eyes. I was amped, Annie was happy because she had finally figured out where all the samples on the Pi soundtrack came from, and Corey was asleep.
 
