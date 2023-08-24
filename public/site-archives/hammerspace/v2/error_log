@@ -1,4 +1,0 @@
-[29-Aug-2005 05:45:16] PHP Warning:  main(/disk/web/spaceninja.com/www/random.image.php): failed to open stream: No such file or directory in /home/sninja/public_html/hammerspace/index.php on line 4
-[29-Aug-2005 05:45:16] PHP Warning:  main(/disk/web/spaceninja.com/www/random.image.php): failed to open stream: No such file or directory in /home/sninja/public_html/hammerspace/index.php on line 4
-[29-Aug-2005 05:45:16] PHP Warning:  main(): Failed opening '/disk/web/spaceninja.com/www/random.image.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sninja/public_html/hammerspace/index.php on line 4
-[29-Aug-2005 05:45:16] PHP Fatal error:  Call to undefined function:  random_img_tag() in /home/sninja/public_html/hammerspace/index.php on line 11
