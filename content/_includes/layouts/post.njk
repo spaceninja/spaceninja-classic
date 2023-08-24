@@ -14,7 +14,7 @@ metaType: article
     {% set author = authorMeta | getAuthor(authorKey) %}
     <a href="/authors/{{ authorKey }}/">
       <img
-      src="{{ author.photo }}" width="16" height="16" alt=""></a>
+      src="{{ author.photo }}" width="16" height="16" alt="">
       <span class="name">{{ author.name }}</span>
     </a>{% if not loop.last %}, {% endif %}
   {% endfor %}
@@ -27,16 +27,16 @@ metaType: article
 {% if tags | filterTagList | length %}
 <div>
   <h3>Tags</h3>
-  <ul>
-    {%- for tag in tags | filterTagList | sort %}
+  <ul class="list--inline">
+    {%- for tag in tags | filterTagList | sort -%}
       <li>
-      {% if collections[tag].length > 1 %}
+      {%- if collections[tag].length > 1 -%}
         <a class="tag" href="/tags/{{ tag | slugify }}/" title="{{ collections[tag].length }} posts with this tag">{{ tag }}</a>
-      {% else %}
+      {%- else -%}
         <span class="tag orphan" title="Only one post with this tag">{{ tag }}</span>
-      {% endif %}
+      {%- endif -%}
       </li>
-    {%- endfor %}
+    {%- endfor -%}
   </ul>
 </div>
 {% endif %}

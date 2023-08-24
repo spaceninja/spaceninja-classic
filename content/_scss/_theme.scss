@@ -1,14 +1,18 @@
 :root {
   --color-bg: #fff;
   --color-fg: #333;
+  --color-border: #ccc;
   --color-link: #34d;
+  --color-link-underline: #{rgba(#34d, 0.25)};
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --color-bg: #121212;
-    --color-fg: #e3e3e3;
+    --color-fg: #ccc;
+    --color-border: #444;
     --color-link: #bb86fc;
+    --color-link-underline: #{rgba(#bb86fc, 0.5)};
   }
 }
 
@@ -23,4 +27,25 @@ body {
 
 a {
   color: var(--color-link);
+  text-decoration-color: var(--color-link-underline);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.075em;
+
+  &:hover,
+  &:focus {
+    text-decoration-color: var(--color-link);
+    text-decoration-thickness: 2px;
+    text-underline-offset: auto;
+  }
+}
+
+blockquote {
+  border-left: 5px solid var(--color-border);
+  margin-inline-start: 0;
+  padding-inline-start: 1em;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--color-border);
 }

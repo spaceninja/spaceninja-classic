@@ -11,7 +11,10 @@ This is the email I sent to [ReadySetConnect.com](http://www.readysetconnect.com
 
 **Note:** See the [updates](#updates) below.
 
-> TO: admin@readysetconnect.com CC: support@readysetconnect.com CC: billing@readysetconnect.com SUBJECT: cancel my account and refund my money
+> TO: admin@readysetconnect.com
+> CC: support@readysetconnect.com
+> CC: billing@readysetconnect.com
+> SUBJECT: cancel my account and refund my money
 >
 > I cancelled my account with you through your billing interface in February. Since then, my credit card has still been charged every month, and I have not received any sort of confirmation that my account was closed, despite multiple requests. I don't have an exact date of my initial request because your system doesn't send any sort of confirmation mail.
 >

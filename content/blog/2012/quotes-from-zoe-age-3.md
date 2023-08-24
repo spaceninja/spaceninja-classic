@@ -19,6 +19,8 @@ I just stumbled across a cache of notes for a blog post I never wrote. It was cr
 
 > "What are we gonna do today? We can go to the mall, or the zoo or OMSI. OMSI is a great place. OMSI even has bathrooms!"
 
+---
+
 There's a note here that just reads "I smell like..." which was how Zoe announced that she smelled something for a long time. If I gave her a kiss after eating some candy, she'd say "I smell like chocolate."
 
 ---

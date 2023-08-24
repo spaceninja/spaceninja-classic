@@ -14,6 +14,10 @@ Yesterday I left work early because I wasn't feeling well. I sent out this email
 
 One of my coworkers responded with this:
 
-> Scott, "I think the French are a sophisticated culture." Sandwich, "You are wrong. The French degrade the very foundations of democracy the modern world is striving to achieve." Scott, "That seems like a very obtuse statement." Sandwich, "Think what you want, traitor." Drink, "No wait, I think Scott has a valid point."
+> Scott, "I think the French are a sophisticated culture."
+> Sandwich, "You are wrong. The French degrade the very foundations of democracy the modern world is striving to achieve."
+> Scott, "That seems like a very obtuse statement."
+> Sandwich, "Think what you want, traitor."
+> Drink, "No wait, I think Scott has a valid point."
 
 I've never felt more at home at a company in my life.

@@ -15,4 +15,6 @@ authors:
   - scott
 ---
 
-> Annie: "Ooh, a Sassy Single Moms Group! We should send Sean!" Sean: "I get enough sass from you."
+> **Annie:** "Ooh, a Sassy Single Moms Group! We should send Sean!"
+>
+> **Sean:** "I get enough sass from you."
