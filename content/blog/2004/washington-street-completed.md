@@ -17,4 +17,4 @@ I just realized that I never explained it, but this design is called Washington 
 
 Anyways, enough rambling. Time to play Fable.
 
-[View the "Washington Street" design in the archive](/site-archives/blog/v4/).
+[View the "Washington Street" design in the archive](https://archives.spaceninja.com/blog/v4/).

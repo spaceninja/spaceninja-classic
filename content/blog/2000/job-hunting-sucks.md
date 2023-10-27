@@ -19,6 +19,6 @@ Tomorrow I'm going job hunting. I really hate looking for jobs, especially when 
 
 I want a webcam.
 
-I'm really pleased with the site updates I've been making lately. Steve helped me improve [Obey Fojar](/site-archives/obey/v2/) by adding the power of FCS to it. Now each image has it's own comments journal that people can add to. Very cool.
+I'm really pleased with the site updates I've been making lately. Steve helped me improve [Obey Fojar](https://archives.spaceninja.com/obey/v2/) by adding the power of FCS to it. Now each image has it's own comments journal that people can add to. Very cool.
 
 I've also been experimenting with some new art styles that I've seen online and been very impressed with. Perhaps they will find their way into some new Y5 material. That site really needs updating.

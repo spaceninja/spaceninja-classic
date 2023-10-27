@@ -7,7 +7,7 @@ authors:
 
 Want some proof of how accurate our bombs are?
 
-http://www.instapundit.com/site-archives/008654.php
+http://www.instapundit.comhttps://archives.spaceninja.com/008654.php
 
 More of the satellite photos of baghdad.
 

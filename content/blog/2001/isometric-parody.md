@@ -13,4 +13,4 @@ authors:
 
 HA HA! FIRST BLOOD IS MINE.
 
-Go to [hammerspace](/site-archives/hammerspace/v2/) and check out my parody of [isometric](http://isometric.sixsided.org/).
+Go to [hammerspace](https://archives.spaceninja.com/hammerspace/v2/) and check out my parody of [isometric](http://isometric.sixsided.org/).

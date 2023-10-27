@@ -18,4 +18,4 @@ Anyway, I'm happy, and everything works except the stuff that hasn't worked the 
 
 Also, I downloaded a couple of alternate shells that I'm checking out. [Cloud9ine](http://www.cloud9ine.com/), a relatively new shell, and [litestep](http://www.litestep.net/), and old favorite, which seems less buggy than last time I goofed around with it.
 
-I'm going to do a restore from backup in a few minutes to get some of my graphics back, so I can do [hammerspace](/site-archives/hammerspace/v2/) again, and keep working on my redesign for Studio Fojar.
+I'm going to do a restore from backup in a few minutes to get some of my graphics back, so I can do [hammerspace](https://archives.spaceninja.com/hammerspace/v2/) again, and keep working on my redesign for Studio Fojar.

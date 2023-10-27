@@ -19,4 +19,4 @@ Still to fix:
 
 **Edit 10/26/2005:** The options page has been discontinued.
 
-[See the "hatelife" design in the archives](/site-archives/kmorg/skins/hatelife.html). [See the "kmorg green" design in the archives](/site-archives/kmorg/v4/). [See the "rustbucket" design in the archives](/site-archives/blog/v3/).
+[See the "hatelife" design in the archives](https://archives.spaceninja.com/kmorg/skins/hatelife.html). [See the "kmorg green" design in the archives](https://archives.spaceninja.com/kmorg/v4/). [See the "rustbucket" design in the archives](https://archives.spaceninja.com/blog/v3/).
