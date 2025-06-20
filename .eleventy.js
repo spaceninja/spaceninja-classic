@@ -1,8 +1,8 @@
-const { DateTime } = require('luxon');
-const { EleventyHtmlBasePlugin } = require('@11ty/eleventy');
-const pluginRss = require('@11ty/eleventy-plugin-rss');
-const pluginSyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
-const markdownIt = require('markdown-it');
+import { DateTime } from 'luxon';
+import { EleventyHtmlBasePlugin } from '@11ty/eleventy';
+import pluginRss from '@11ty/eleventy-plugin-rss';
+import pluginSyntaxHighlight from '@11ty/eleventy-plugin-syntaxhighlight';
+import markdownIt from 'markdown-it';
 
 const markdownOptions = {
   html: true,
@@ -17,7 +17,7 @@ const md = new markdownIt(markdownOptions);
  * Based on Eleventy Base Blog v8
  * @see https://github.com/11ty/eleventy-base-blog/tree/main
  */
-module.exports = function (eleventyConfig) {
+export default function (eleventyConfig) {
   // Copy over various static files
   eleventyConfig.addPassthroughCopy({
     './public/': '/',
@@ -146,4 +146,4 @@ module.exports = function (eleventyConfig) {
       output: 'dist',
     },
   };
-};
+}
