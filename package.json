@@ -23,7 +23,7 @@
     "@11ty/eleventy": "2.0.1",
     "@11ty/eleventy-plugin-rss": "1.2.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "5.0.1",
-    "luxon": "3.5.0",
+    "luxon": "3.6.1",
     "npm-run-all2": "8.0.4",
     "prettier": "3.5.3",
     "sass": "1.89.2",
