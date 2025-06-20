@@ -1,6 +1,5 @@
 import { DateTime } from 'luxon';
 import { EleventyHtmlBasePlugin } from '@11ty/eleventy';
-import pluginRss from '@11ty/eleventy-plugin-rss';
 import pluginSyntaxHighlight from '@11ty/eleventy-plugin-syntaxhighlight';
 import markdownIt from 'markdown-it';
 
@@ -33,7 +32,6 @@ export default function (eleventyConfig) {
   });
 
   // Official plugins
-  eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSyntaxHighlight, {
     preAttributes: { tabindex: 0 },
   });
