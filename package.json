@@ -4,6 +4,7 @@
   "description": "A collection of legacy posts from my old blog",
   "author": "Scott Vandehey",
   "license": "UNLICENSED",
+  "type": "module",
   "scripts": {
     "start": "yarn watch",
     "build": "run-p build:*",
