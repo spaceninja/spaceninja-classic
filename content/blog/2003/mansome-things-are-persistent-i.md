@@ -11,4 +11,4 @@ i went to reregister hatelife (which actually expired, oops), and have about 30 
 
 Hatelife.org   \[x\] Yes   \[ \] No
 Aceeventservices   \[x\] Yes   \[ \] No
-**_Uisce.org_**   \[ \] Yes   \[x\] No
+***Uisce.org***   \[ \] Yes   \[x\] No
