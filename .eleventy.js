@@ -1,4 +1,3 @@
-import { DateTime } from 'luxon';
 import { EleventyHtmlBasePlugin } from '@11ty/eleventy';
 import pluginSyntaxHighlight from '@11ty/eleventy-plugin-syntaxhighlight';
 import markdownIt from 'markdown-it';
@@ -69,9 +68,7 @@ export default function (eleventyConfig) {
     const posts = collectionApi.getFilteredByTag('blog').reverse();
     const months = {};
     for (let post of posts) {
-      let key = DateTime.fromJSDate(post.date, {
-        zone: 'utc',
-      }).toFormat('yyyy-LL'); // YYYY-MM
+      let key = post.date.toISOString().slice(0, 7); // YYYY-MM
       months[key] ??= [];
       months[key].push(post);
     }
@@ -91,17 +88,17 @@ export default function (eleventyConfig) {
   });
 
   // Date formatting (human readable)
-  // Formatting tokens for Luxon: https://moment.github.io/luxon/#/formatting?id=table-of-tokens
-  eleventyConfig.addFilter('readableDate', (dateObj, format, zone) => {
-    return DateTime.fromJSDate(dateObj, { zone: zone || 'utc' }).toFormat(
-      format || 'DDD',
-    );
+  eleventyConfig.addFilter('readableDate', (dateObj, zone) => {
+    return new Intl.DateTimeFormat('en', {
+      dateStyle: 'long',
+      timeZone: zone || 'UTC',
+    }).format(dateObj);
   });
 
   // Date formatting (machine readable)
   // dateObj input: https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
   eleventyConfig.addFilter('htmlDateString', (dateObj) => {
-    return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat('yyyy-LL-dd');
+    return dateObj.toISOString().slice(0, 10);
   });
 
   // Get the first `n` elements of a collection.

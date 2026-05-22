@@ -13,7 +13,7 @@
     </a>
     <small>
 		<time class="post-list__date" datetime="{{ post.date | htmlDateString }}">
-      {{ post.date | readableDate("DD") }}
+      {{ post.date | readableDate }}
     </time>
     {% if not hideAuthor %}
     <span class="post-list__author">
