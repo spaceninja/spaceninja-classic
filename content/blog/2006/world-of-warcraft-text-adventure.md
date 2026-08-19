@@ -5,15 +5,15 @@ authors:
   - scott
 ---
 
-> \> Click Complete Quest
+> $ Click Complete Quest
 >
 > The elf snorts and hands you a slimy, rusted, bent dagger with runes on it reading "Discount Shiv Warehouse — Bring us a lower price, we'll stab it."
 >
-> \> Look at dagger
+> $ Look at dagger
 >
 > It's a noxious, poorly-balanced piece of crap, but it's better than the weapon you have right now.
 >
-> \> What do I have now?
+> $ What do I have now?
 >
 > It's not clear from the decay, but you think it may have once been a whisk.
 >
